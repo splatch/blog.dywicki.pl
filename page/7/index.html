@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Splatch&#39;s devblog</title>
+
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/feed.xml">
+<link rel="alternate" type="application/json" href="https://blog.dywicki.pl/index.json">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Splatch&#39;s devblog">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Splatch&#39;s devblog">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Splatch's devblog",
+  "url": "https://blog.dywicki.pl/",
+  "description": "Pragmatyzm kontrolowany",
+  "logo": "https://blog.dywicki.pl/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Propel 2.0, co nowego
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Od jakiegoś czasu trwają prace nad drugą wersją propela. Do najważniejszych zmian należy przejście na PDO. Jest to fakt, który najbardziej mnie smuci. Koszt zwiazany z wykorzystaniem Creole był zbyt wysoki jak na ORM i autorzy przeszli na znacznie szybsze PDO. W tej chwili dla każdej bazy danych jest stworzony odpowiedni, prosty adapter. Ilość obsługiwanych baz danych nie wzrośnie. W dalszym ciągu będzie to MySQL, PostgreSQL, Oracle, Microsoft SQL Server (Sybase), SQLite. Niewątpliwą nowością jest cache, który będzie prawdopodobnie funkcjonował jako kolejny adapter. Mam nadzieję, że dodanie cache przyśpieszy nieco Propela, ponieważ część obiektów, mimo, że nie jest zmieniana (jest to fragment złączenia) zawsze jest pobierana i transformowana. Spore zmiany zajdą w Criterii. W drugiej wersji budowanie złożonych warunków stanie się banalne, a to za sprawą całkiem nowej implementacji. Doczekamy się w końcu obsługi idenity map, dzięki czemu klucz główny zawsze będzie wskazywał ten sam obiekt.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-09-10 20:22:54 +0000 +0000'>September 10, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Propel 2.0, co nowego" href="https://blog.dywicki.pl/2006/09/10/propel-20-co-nowego/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dlaczego konfiguracja w XML.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>W czasach kiedy najbardziej trendy jest YAML twierdzę, że jest on niczym w porównaniu do tego, co oferuje XML. DLaczego?
+Dlatego, że tworząc dowolny dokument XML mogę go w bardzo prosty sposób rozszeżyć. Jak? Poprzez XInclude. Jego obsługa jest nawet w PHP więc nie ma z tym jakichkolwiek problemów. Definiuję tylko odnośnik i mam dołączony ten XML [po wykonaniu $DOMDocument-&gt;xinclude();].
+Kolejna sprawa. Walidacja. Nie muszę tworzyć żadnego kodu w PHP by sprawdzić poprawność XMLa. Wystarczy, że stworzę dobry schemat w XSD i mam walidację załatwioną bez jakiegokolwiek warunku. Do tego dochodzą ograniczenia takie jak rekurencja. W PHP muszę to załatwiać poprzez wielokrotne wywołanie funkcji, które za każdym razem wydłuża czas. Normalnie załatwi mi to DOM XML, który jest napisany w C i będzie znacznie szybszy.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-09-07 20:39:15 +0000 +0000'>September 7, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Dlaczego konfiguracja w XML." href="https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Ajax i wiele domen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Jakiś czas temu w pracy dostałem troszkę inne zadanie. Mianowicie, poprawić konfigurację Apache. Konfiguracja jak konfiguracja, to nie był problem - schody zaczęły się z dodaniem virtual hostów. Zawsze miałem z tym problem, teraz do tego dochodziło skonfigurowanie tego wszystkiego z użyciem SSLa. Jak już sobie z tym poradziłem - doszło kolejne zadanie, czyli konfiguracja proxy! Problem polegał na tym, że nasza kontrolka webowa komunikuje się z serwerem, z tym, że serwer może stać na dowolnej maszynie. Przyznam, że po tym co przeszedłem z tym SSLem i vhostami miałem serdecznie dość wszystkiego co było z httpd.conf związane. ;)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-09-07 20:08:41 +0000 +0000'>September 7, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Ajax i wiele domen" href="https://blog.dywicki.pl/2006/09/07/ajax-i-wiele-domen/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mojavi 4. Dlaczego nie?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Od publikacji ostatniej noty parę osób proponowało mi podjęcie prac nad Mojavi 4. Chcę wyjaśnić, dlaczego Mojavi 4 nie będę się zajmował.
+1. Nie ma nikogo kto byłby w stanie pomóc mi przy projekcie. Obaj byli developerzy zakończyli swoją przygodę z PHP. Nie ma również żadnej społeczności, która jest w stanie zająć się forum, wyłapywaniem błędów - jednym słowem - to by było to samo co robiłem wcześniej przy własnym frameworku.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-08-30 21:14:57 +0000 +0000'>August 30, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Mojavi 4. Dlaczego nie?" href="https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pożegnanie.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiejszego dnia chciałem napisać coś o Creole by pokazać, że ten sterownik oferuje ciekawą funkcjonalność, ale nie będzie o tym.
+To co zmieniło moje zamiary to rozmowa z Tylerem Tomphinsem, osobą prowadzącą od dłuższego czasu projekt Mojavi.
+Kontakt z Tylerem jest ciężki, ponieważ on mieszka po drugiej stronie globu. Nasze rozmowy do tej pory wyglądały inaczej, niestety ta, którą zakończyłem przed chwilą zmienia wszystko.
+Dowiedziałem się, że Mojavi 4 zostaje zawieszone. Framework, w którym pokładałem ogromne nadzieje, który miał szanse zmienić nieco oblicze aplikacji pisanych w PHP umiera. Można powiedzieć, że historia się powtórzyła, jest to samo co z trójką (mike_mech wykrakał), która została zawieszona dawno, dawno temu. Ówczesny lider projektu - Sean Kerr zrezygnował z jego prowadzenia na rzecz Tylera..
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-08-27 21:14:42 +0000 +0000'>August 27, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Pożegnanie." href="https://blog.dywicki.pl/2006/08/27/pozegnanie/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exception? Just log it!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Zgodnie z tym, co napisałem na forum php.pl zapraszam do ocen, bądź w temacie bądź tu, w zależności od sympatii. ;)
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-31 21:19:18 +0000 +0000'>July 31, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Exception? Just log it!" href="https://blog.dywicki.pl/2006/07/31/exception-just-log-it/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">7 grzechów głównych PHP, XML
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Na początku odpowiedź na post, który napisał Zyx. Aktualnie każdy, kto chce napisać nowe rozszerzenie do PHP, musi tylko znać język C, znać cel swej pracy oraz przeczytać rozdział 46 dokumentacji PHP zatytułowany “Zend API: Hacking the Core of PHP” i poświęcony właśnie tworzeniu modułów.
+Zend API to nie wszystko. Moduły kompilowane nie są wyjściem super-uniwersalnym. Na co drugim serwerze nie ma opcji by dorzucić własne rozszerzenie. Wiele modułów z PECLa leży tam od lat, są one praktycznie nie rozwijane, także ich ilość niewiele może poświadczyć.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-17 22:21:10 +0000 +0000'>July 17, 2006</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to 7 grzechów głównych PHP, XML" href="https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">7 grzechów głównych PHP, inwokacja.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Postami w tej kategorii chcę pokazać jak dalekie PHP jest od ideału. Mam nadzieję, że większość z tego co piszę kiedyś zostanie poprawiona, nie mniej póki co, są to grzechy ciężkie, które pokazują słabości PHP.
+Zend Zend jest firmą, która bez wątpienia ma największy wpływ na PHP. To Zend tworzy najważniejszy element PHP jakim jest Zend Engine.
+To co mam do zarzucenia Zendowi to nieumiejętność wykorzystania swojej pozycji. Nie potrafi on wykorzystać swojej pozycji by ugrać coś na rzecz PHP. Być może dlatego, że jako firma jest zbyt mały by cokolwiek znaczyć. Od jakiegoś czasu Zend powoli produkuje papkę marketingową, którą wciska, że PHP jest enterprise podczas gdy samemu PHP jest do tego bardzo daleko. To, że został zmieniony silnik obsługujący obiekty, upodobniono składnię do Javy, wydano nową (piątą) wersję PHP nie czyni go enterprise.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-15 18:37:49 +0000 +0000'>July 15, 2006</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to 7 grzechów głównych PHP, inwokacja." href="https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Zend Framework-MVC dalekie jest mu
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Zaprawdę, zaprawdę powiadam Wam drodzy czytelnicy Zend Framework do pełnej implementacji MVC ma jeszcze bardzo duży kwał drogi.
+Dzisiejszego dnia postanowiłem poświęcić parę minut na bliższe spotkanie z ZF. Jak się szybko okazało nie był to czas spędzony bezowocnie. Utrwaliłem się w przekonaniu, że ZF to nie jest to czego szukam oraz znalazłem buga i to dość niewygodnego.. ;)
+Dlaczego moje uprzedzenie do ZF nie zmalało a tylko wzrosło? Dlatego, że to co w sumie zobaczyłem odbiega od znanego mi (z innych frameworków) MVC. Może potraktuję Was tutaj odrobiną kodu:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-12 21:23:41 +0000 +0000'>July 12, 2006</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Zend Framework-MVC dalekie jest mu" href="https://blog.dywicki.pl/2006/07/12/zend-framework-mvc-dalekie-jest-mu/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Magiczne namespace..
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I oto się stało. Pierwszy raz użyłem przestrzeni nazw w PHP! Nie do wiary? A jednak. Nie było jakichkolwiek problemów z samą instalacją, ponieważ do pobrania jest paczka (pod Win ;)), która zachowuje się jak wszystkie inne pobrane z php.net. Przykłady podane na necie działają, więc nie pozostaje nic innego jak zabrać się za używanie przestrzeni nazw. :)
+Oto listingi, które działają: [php]&lt; ?php
+import class a:::AFactory; import class a:::A;
+namespace a { class AFactory { public static function create() { return new A; } } private class A {} }
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-07-09 13:41:02 +0000 +0000'>July 9, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Magiczne namespace.." href="https://blog.dywicki.pl/2006/07/09/magiczne-namespace/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://blog.dywicki.pl/page/6/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://blog.dywicki.pl/page/8/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

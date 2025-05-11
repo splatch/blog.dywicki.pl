@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cxf on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/cxf/</link>
+    <description>Recent content in Cxf on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 03 Sep 2008 07:28:27 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/cxf/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budowanie klienta usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/09/03/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 03 Sep 2008 07:28:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/03/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;W nawiązaniu do &lt;a href=&#34;http://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/&#34;&gt;poprzedniej noty o CXFie&lt;/a&gt;, którą napisałem jakiś czas temu, gonię aby uzupełnić brak konfiguracji klienta. Sam proces jest bardzo zbliżony do tworzenia klienta w oparciu o XFire. Nie jest wymagana duża ilość kodu Javy, a w zasadzie tylko dwa pliki XML (client.xml, &lt;em&gt;myservice.xml&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Pierwszy z nich odpowiada za wczytanie wymaganych rozszerzeń CXFa oraz definicję bazowej konfiguracji fabryki z interceptorami. W interceptorach możemy skonfigurować logowanie, obsługę załączników czy standardów WS-Security etc. Wszystkie te ustawienia będą dziedziczone, a fabryki docelowych usług będą dodawać tylko adres, do odpytywania. Na koniec bean klienta będzie miał określony &lt;strong&gt;autowire&lt;/strong&gt; by nie przekazywać mu wszystkich własności.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 06:27:55 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

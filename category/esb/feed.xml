@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esb on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/esb/</link>
+    <description>Recent content in Esb on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 22 Jun 2008 18:23:35 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/esb/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache ServiceMix, Open Source ESB</title>
+      <link>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</link>
+      <pubDate>Sun, 22 Jun 2008 18:23:35 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</guid>
+      <description>Jakiś czas temu, jeszcze podczas pracy w poprzedniej firmie przypadło mi zadanie podpięcia się pod magistralę usług opartą o &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt; (SMX). Był to wówczas dla mnie temat zupełnie nowy, ba nawet nie wiedziałem z czym to się je. :) Koniec końców jednak podpięcie pod ESB (Enterprises Service Bus) nie było w ogóle trudne. Po jakimś czasie i drobnych przetasowaniach na płaszczyźnie zawodowej zająłem się SMX-em nie jako klient magistrali a osoba implementująca usługi na szynie a ten wpis jest drobną przeróbką prezentacji, którą przygotowałem w pracy.</description>
+    </item>
+  </channel>
+</rss>

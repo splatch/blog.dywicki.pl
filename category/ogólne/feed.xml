@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ogólne on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/og%C3%B3lne/</link>
+    <description>Recent content in Ogólne on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 27 Sep 2018 11:09:21 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/og%C3%B3lne/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 lat później</title>
+      <link>https://blog.dywicki.pl/2018/09/27/blog-7-lat-pozniej/</link>
+      <pubDate>Thu, 27 Sep 2018 11:09:21 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2018/09/27/blog-7-lat-pozniej/</guid>
+      <description>Ostatni wpis na tym blogu miał miejsce ponad 7 lat temu. W sumie nic dziwnego, ponieważ w poprzedniej notce pojawiła się informacja o jego przeniesieniu. Martwi mnie ilość linków dodanych nie tylko w postach, ale przede wszystkim w komentarzach, które są od bardzo dawna nieaktualne.</description>
+    </item>
+    <item>
+      <title>Praca, rutyna i walka z zawodową codziennością</title>
+      <link>https://blog.dywicki.pl/2007/05/04/praca-rutyna-i-walka-z-zawodowa-codziennoscia/</link>
+      <pubDate>Thu, 03 May 2007 22:28:12 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/05/04/praca-rutyna-i-walka-z-zawodowa-codziennoscia/</guid>
+      <description>Chciałbym dzisiaj poruszyć dość ważną kwestię, jaką bez wątpienia jest rutyna i frajda z pracy. Motorem dla mnie była głównie rozmowa, którą odbyłem dzisiaj z kolegami, gdy siedząc przy piwie dyskutowaliśmy na temat alternatyw i sposobów wzbudzania w sobie entuzjazmu.
+Może na początku kilka definicji zaciągniętych ze &lt;a href=&#34;http://sjp.pwn.pl&#34;&gt;słownik języka polskiego&lt;/a&gt; wydawnictwa PWN.</description>
+    </item>
+    <item>
+      <title>Testy jednostkowe</title>
+      <link>https://blog.dywicki.pl/2007/04/22/testy-jednostkowe/</link>
+      <pubDate>Sat, 21 Apr 2007 22:34:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/22/testy-jednostkowe/</guid>
+      <description>&lt;h2 id=&#34;praktyka&#34;&gt;Praktyka&lt;/h2&gt;
+&lt;p&gt;W tym miejscu bazuję na swoim bądź co bądź skromnym doświadczeniu, które nabyłem pracując w &lt;a href=&#34;http://autoguard.pl&#34;&gt;AGI&lt;/a&gt;. Była to pierwsza firma, w której spotkałem się z wykorzystaniem testów jednostkowych. Pamiętam do dzisiaj walki o 70% pokrycie kodu testami. :).
+Nie mniej, nie robiliśmy tego tylko po to by zobaczyć zielone słupki w raporcie wygenerowanym przez &lt;a href=&#34;http://phpunit.de&#34;&gt;PHP Unit&lt;/a&gt;. Takie pokrycie kodu testami gwarantuje znaczne ograniczenie błędów wychodzących z czasem, głównie dlatego, że znajduje się już podczas pisania testów.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pragmatyzm kontrolowany</title>
+      <link>https://blog.dywicki.pl/2007/04/16/pragmatyzm-kontrolowany/</link>
+      <pubDate>Mon, 16 Apr 2007 18:42:07 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/16/pragmatyzm-kontrolowany/</guid>
+      <description>Jakiś czas temu postanowiłem zmienić myśl przewodnią bloga. Zapewne nikt nie zauważył tego, że zniknął tekst &amp;ldquo;żubr powstaje z jęczmienia&amp;rdquo; na rzecz &amp;ldquo;Pragmatyzmu kontrolowanego&amp;rdquo;. Czym było to podyktowane? Ano tym by tą gromadę różnych not, nie zawsze łączących się ze sobą tematycznie, podeprzeć myślą, jaką jest poszerzanie horyzontów i dzielenie się zdobytymi z biegiem czasu doświadczeniami.</description>
+    </item>
+    <item>
+      <title>O abstrakcji klas i interfejsów</title>
+      <link>https://blog.dywicki.pl/2007/04/04/o-abstrakcji-klas-i-interfejsow/</link>
+      <pubDate>Tue, 03 Apr 2007 22:01:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/04/o-abstrakcji-klas-i-interfejsow/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu na &lt;a href=&#34;http://forum.php.pl/&#34;&gt;forum.php.pl&lt;/a&gt; spotykam się z różnymi zdaniami na temat interfejsów i klas abstrakcyjnych. Argumenty, które czasami się trafiają są chybione.&lt;/p&gt;
+&lt;p&gt;Zacznijmy od tego, że trzeba potrafić rozróżnić interfejs od klasy abstrakcyjnej, &lt;strong&gt;to nie to samo&lt;/strong&gt;!
+Interfejs jest najwyższym poziomem abstrakcji, który definiuje nowy, wolny od implementacji typ. Bez jakiejkolwiek linii kodu, tylko sygnatury metod publicznych.
+Klasa abstrakcyjna jest już początkiem konkretnej implementacji, zawiera kod ogólny i wymusza w klasach dziedziczących dorzucenie konkretnych metod, które są specyficzne, inne, różne. Mogą trafić się takie przypadki, że klasa abstrakcyjna zawiera 5 metod, a jej pochodne tylko jedną. Czy jest to uzasadnione? Oczywiście. Ta jedna metoda determinuje nowy typ, który jest jawną specjalizacją.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Singleton</title>
+      <link>https://blog.dywicki.pl/2007/02/01/singleton/</link>
+      <pubDate>Thu, 01 Feb 2007 00:35:33 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/02/01/singleton/</guid>
+      <description>&lt;p&gt;Singleton jest chyba pierwszym z &amp;ldquo;wzorców projektowych&amp;rdquo; jaki wszyscy poznaliśmy. Prosty w implementacji, jeszcze łatwiejszy w użyciu, ale pociągający za sobą stos negatywnych konsekwencji.&lt;/p&gt;
+&lt;p&gt;W poszukiwaniu informacji i zdań o singletonie w polskim internecie trafiłem na &lt;a href=&#34;http://pl.wikipedia.org/wiki/Wzorzec_singletonu&#34;&gt;Wikipedię&lt;/a&gt;, gdzie znalazłem zdanie, które podsumowało to czym jest tenże &amp;ldquo;wzorzec&amp;rdquo;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Singleton jest też uznawany za &lt;a href=&#34;http://pl.wikipedia.org/wiki/Antywzorzec&#34; title=&#34;Antywzorzec&#34;&gt;antywzorzec&lt;/a&gt;, gdyż często jest tylko eufemizmem dla &lt;a href=&#34;http://pl.wikipedia.org/wiki/Zmienna_globalna&#34; title=&#34;Zmienna globalna&#34;&gt;zmiennej globalnej&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;W książce &amp;quot; &lt;a href=&#34;http://helion.pl/ksiazki/refawp.htm&#34;&gt;Refaktoryzacja do wzorców projektowych&lt;/a&gt;&amp;quot; padają kolejne dwa ważne zdania:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zend Framework i inni</title>
+      <link>https://blog.dywicki.pl/2006/10/03/zend-framework-and-others/</link>
+      <pubDate>Tue, 03 Oct 2006 18:54:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/10/03/zend-framework-and-others/</guid>
+      <description>&lt;p&gt;Zend od jakiegoś czasu rozwija z powodzeniem swój framework. Szturmuje on rynek dzięki wsparciu firmy i dobrej dokumentacji. Zastanawia mnie jednak, dlaczego inni zaczęli kopiować to co w ZF jest. Rozumiem konwencję nazewniczą, ok - to może komuś się podobać, rozumiem strukturę katalogów, może ktoś uzna ją za logiczną.. Nie mniej nazewnictwo i struktura prawdę mówiąc nie różni się niczym od tego co było standardem w PEAR.&lt;/p&gt;
+&lt;p&gt;Co więcej, niektórzy po prostu przepisują spore fragmenty kodu, które są w ZF na swoje. Zapytam po co? Skoro jest coś podobnego w Zendzie to jaki sens jest w powielaniu praktycznie tego samego (Zend::loadClass, ZendRegistry, Zend_Router_Rewrite itp.)? Pomijam fakt, że &lt;a href=&#34;http://framework.zend.com/wiki/display/ZFDEV/Home&#34;&gt;Zend jest otwarty w tej chwili i na pomysły i na ludzi&lt;/a&gt; i zapytam, czy to ma jakiś sens?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gotowe rozwiązania</title>
+      <link>https://blog.dywicki.pl/2006/09/20/gotowe-rozwiazania/</link>
+      <pubDate>Tue, 19 Sep 2006 22:41:08 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/20/gotowe-rozwiazania/</guid>
+      <description>&lt;p&gt;Zapraszam do zapoznania się z tekstem &lt;a href=&#34;http://code-house.net/Frameworks&#34;&gt;odnośnie użycia frameworków&lt;/a&gt;, który opublikowałem wczoraj na wiki.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Polska, dziwny kraj</title>
+      <link>https://blog.dywicki.pl/2006/06/26/polska-dziwny-kraj/</link>
+      <pubDate>Mon, 26 Jun 2006 21:21:52 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/26/polska-dziwny-kraj/</guid>
+      <description>&lt;p&gt;Nie da się ukryć, że żyjemy w dziwnym kraju. Nie chcę już pić do tego kto nami rządzi bo to świadomy wybór tej większości, która przeważyła w wyborach, ale do tego jak wyglądają u nas zarobki.&lt;/p&gt;
+&lt;p&gt;Prawda jest taka, że jeśli chcesz pracować a masz pecha to pozostają 3 wyjścia:
+- pracujesz na umowę o dzieło i pracodawca ewentualnie płaci Twoją zaliczkę na podatek dochodowy
+- pracujesz po zaniżonych kosztach - to znaczy, masz umowę na 1/4 etatu, zarabiasz 700 zł a resztę otrzymujesz pod stołem.
+- pracujesz na czarno i modlisz się o to by nic Ci się nie stało oraz by stosunki z pracodawcą były zawsze jak najlepsze&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zmiany, oj zmiany!</title>
+      <link>https://blog.dywicki.pl/2005/12/08/zmiany-oj-zmiany/</link>
+      <pubDate>Thu, 08 Dec 2005 23:30:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/08/zmiany-oj-zmiany/</guid>
+      <description>&lt;p&gt;Planuję w końcu uporządkować swoje sprawy. Mam już dość spóźniania się do pracy – najpóźniejsza godzina, na którą powinienem się zjawić w pracy to dziesiąta i jeszcze zdarza mi się zaspać..&lt;/p&gt;
+&lt;p&gt;Dlatego postanawiam wszem i wobec, że od dzisiaj staram się walczyć o to by stać się punktualnym. Postaram się również przestawić swój zegar biologiczny w tryb normalny a nie nocny. Nie mam jeszcze dokładnej koncepcji jak zorganizować sobie popołudnie – to znaczy jak podzielić czas po godzinie siedemnastej.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nowe nabytki</title>
+      <link>https://blog.dywicki.pl/2005/12/08/nowe-nabytki/</link>
+      <pubDate>Thu, 08 Dec 2005 23:09:04 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/08/nowe-nabytki/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Projektowanie i analiza obiektowa&#34; loading=&#34;lazy&#34; src=&#34;http://splatch.php.org.pl/_img/anobie.jpg&#34;&gt;&lt;img alt=&#34;Architektura systemów zarządzania przedsiębiorstwem. Wzorce projektowe&#34; loading=&#34;lazy&#34; src=&#34;http://splatch.php.org.pl/_img/szabko.jpg&#34;&gt; W zeszłym tygodniu firma, w której pracuję nabyła za moją namową książkę – &amp;ldquo;Architektura systemów zarządzania przedsiębiorstwem. Wzorce projektowe&amp;rdquo;[ &lt;a href=&#34;#pnote-37-1&#34;&gt;1&lt;/a&gt;]. Tłumaczenie – przyznam nienajlepsze. Szczególnie rozbawiło mnie tłumaczenie słowa widgety na widżety – skojarzenia z bajką o podobnym tytule nasuwają się same.&lt;/p&gt;
+&lt;p&gt;Sama treść zapewne byłaby dzięki dobremu tłumaczeniu bardzo dobra, a tak jest tylko średnia. Na naganę zasługuje też polonizowanie diagramów, na których widnieją kwiatki typu getMiasto, getAdres są też Miksy takie jak nazwa tabeli po polsku (Album), po angielsku druga tabela (Track) i wszystkie kolumny łącznie z danymi. Słowem tłumaczenie, co najwyżej mierne. Drugą i trzecią książkę nabyłem samodzielnie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prosthesis Pattern / Wzorzec protezy</title>
+      <link>https://blog.dywicki.pl/2005/11/14/prosthesis-pattern-wzorzec-protezy/</link>
+      <pubDate>Mon, 14 Nov 2005 17:42:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/11/14/prosthesis-pattern-wzorzec-protezy/</guid>
+      <description>&lt;p&gt;W nieoficjalnych notkach GoF często przwija się wspomniana w tytule proteza, oto co udało mi się wywnioskować ze znalezionych materiałów w sieci:&lt;br&gt;
+_Zaawansowana technika programowania przeznaczona dla koneserów inżynierii oprogramowania polegająca na zachowaniu rozsądnej granicy pomiędzy warstwą implementacji a logiką biznesową tudzież warstą prezentacyjną. Stosowanie wzorca protezy owocuje znacznym skróceniem czasu implementacji oraz zwiększeniem stopnia powiązań przy jednoczesnym zachwianiu spójności projektu.&lt;br&gt;
+_
+&lt;em&gt;Proteza jest wzorcem wymagającym idealnego dopasowania do kontekstu. Przy złym zasosowaniu tego wzorca pojawiają się problemy z elastycznością i skalowalnością. Początkujący projektanci powinni unikać protezy ze względu na problemy z późniejszymi zmianami zaprowadzanymi w innych częściach aplikacji&amp;hellip;&amp;rsquo;&#39;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Była mała przerwa :)</title>
+      <link>https://blog.dywicki.pl/2005/10/27/bya-maa-przerwa/</link>
+      <pubDate>Thu, 27 Oct 2005 11:31:04 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/10/27/bya-maa-przerwa/</guid>
+      <description>&lt;p&gt;Oj tak, mała przerwa. Przez miniony tydzień praktycznie nic nie dopisałem do frameworka, naturalnie z braku czasu. Czasu miałem tylko tyle, żeby zacząć bawić się Strutsem (ebook &amp;ldquo;Struts in action&amp;rdquo;), ściągnąć Springa.. Struts spodobał mi się, na prawdę ciekawy. Zainspirował mnie do nowych przemyśleń.&lt;/p&gt;
+&lt;p&gt;Najprawdopodobniej w przyszłym tygodniu będę miał już internet w domu, więc nie będzie problemów z publikowaniem notek. Koszt instalacji i aktywacji to 200 zł, ale dochodzi jeszcze router i dodatkowe okablowanie (tak, będzie sieć domowa) + 200 zł. Mam nadzieje, że całość zamknie się w tych czterystu złotych. ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>return new Work;</title>
+      <link>https://blog.dywicki.pl/2005/10/06/return-new-work/</link>
+      <pubDate>Thu, 06 Oct 2005 11:12:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/10/06/return-new-work/</guid>
+      <description>&lt;p&gt;No.. siedzę właśnie w nowej pracy. Jest super. Ludzie spoko, szef w porządku - słowem pracować i nie odchodzić. Do nowego miejsca pracy mam nieco ponad 10 minut pieszo, więc odchodzi problem z autobusami (ostatnio tyle czasu potrzebowałem na dojście do przystanku). Pojawił się mały problem, bo straciłem hasło do kompa w domu i jak by nie patrzećjestem uziemiony. Prace nad PSF stoją, a ja kwitnę wieczorami przed telewizorem. Ale nie będzie źle &amp;hellip; po reinstalacji systemu pewnie będzie troszkę szybciej działać. W sumie, może w grudniu wezmę laptopa w raty &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Źródła do pobrania</title>
+      <link>https://blog.dywicki.pl/2005/09/29/roda-do-pobrania/</link>
+      <pubDate>Thu, 29 Sep 2005 13:56:58 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/09/29/roda-do-pobrania/</guid>
+      <description>&lt;p&gt;Źródła mojego frameworka do pobrania &lt;a href=&#34;http://splatch.php.org.pl/_img/pl.splatch.zip&#34;&gt;pobierz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Screen z daeronem &lt;a href=&#34;http://splatch.php.org.pl/_img/daeron.gif&#34;&gt;zobacz&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wrześniowa zawierucha</title>
+      <link>https://blog.dywicki.pl/2005/09/28/wrzeniowa-zawierucha/</link>
+      <pubDate>Wed, 28 Sep 2005 12:43:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/09/28/wrzeniowa-zawierucha/</guid>
+      <description>&lt;p&gt;Troszkę mało czasu mam, bo zmieniam pracę, ale za jakiś czas opiszę to i owo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Komentarz na helion.pl</title>
+      <link>https://blog.dywicki.pl/2005/09/09/komentarz-na-helionpl/</link>
+      <pubDate>Fri, 09 Sep 2005 08:04:53 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/09/09/komentarz-na-helionpl/</guid>
+      <description>Odnośnie książki prezentowanej niżej&amp;hellip; :)</description>
+    </item>
+    <item>
+      <title>Po prostu. XML</title>
+      <link>https://blog.dywicki.pl/2005/09/08/po-prostu-xml/</link>
+      <pubDate>Thu, 08 Sep 2005 09:46:53 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/09/08/po-prostu-xml/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Po prostu?&#34; loading=&#34;lazy&#34; src=&#34;http://helion.pl/okladki/181x236/ppxml.jpg&#34;&gt;Chciałem Was ostrzec przed nabywaniem czy nawet zbliżaniem się do tego tytułu. Książka zaczyna od omówienia XMLa, którego nie czytałem, bo jak XML wygląda to wiem. Pożyczając tą książkę chciałem lepiej poznać DTD oraz XSD. Pomimo szczerych chęci nie udało się.{{ double-space-with-newline }}
+Autorka tak pokrętnie wyjaśnia wszytko, że nie sposób to zrozumieć. Z wielkimi trudami przyswoiłem wiadomości o DTD, podobnie jak o XSL, ale XSD to męka.. nie wiem, może to zmęczenie po pracy działa na mnie tak otępiająco? Chyba nie, bo komentarze na helionie też nie są zbyt pochlebne. W każdym razie, czekam na kolejną pozycję o XMLu którą, będę miał pożyczoną - mianowicie “XML. Na poważnie”, która zapowiada się świetnie. Jutro to zweryfikuję. Tym czasem powracam do bojów z Propelem i PHPUnit.{{ double-space-with-newline }}
+// właśnie mam przed sobą XML na poważnie, za gruba to ona nie jest, ale zobaczymy co ciekawego piszą o XMLu :)&lt;/p&gt;
+&lt;p&gt;Linki do plików:{{ double-space-with-newline }}&lt;a href=&#34;http://splatch.php.org.pl/_img/config.xml&#34;&gt;config.xml&lt;/a&gt;{{ double-space-with-newline }}&lt;a href=&#34;http://splatch.php.org.pl/_img/test.dtd&#34;&gt;test.dtd&lt;/a&gt;{{ double-space-with-newline }}&lt;a href=&#34;http://splatch.php.org.pl/_img/test.xsl&#34;&gt;test.xsl&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Pomysł</title>
+      <link>https://blog.dywicki.pl/2005/08/23/pomys/</link>
+      <pubDate>Tue, 23 Aug 2005 18:12:58 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/08/23/pomys/</guid>
+      <description>&lt;p&gt;W głowie mej pojawił się nowy pomysł. :) W krótce więcej detali. Jak na razie powiem tyle, że chodzi o &amp;ldquo;coś&amp;rdquo; co załatwi problem walidacji danych i jednocześnie generowania formularzy. Nie jest to kolejna kopia PEAR::QuickForm, tylko coś innego, w sensie działającego w zgoła inny sposób..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zafascynowanie</title>
+      <link>https://blog.dywicki.pl/2005/08/22/zafascynowanie/</link>
+      <pubDate>Mon, 22 Aug 2005 16:23:20 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/08/22/zafascynowanie/</guid>
+      <description>&lt;p&gt;Znowu ponad dwutygodniowa przerwa w notach.. Nic dziwnego, że liczba odwiedzin od czerwca ma tendencję spadkową. Dla zainteresowanych (na oko) czerwiec 413, lipiec 387, sierpień 285. Ale wracając do spraw związanych z programowaniem i od razu na wstępie tłumacząc tytuł notki - zafascynowanie narzędziami z Javy. Moje szczególne uznanie zdobył Struts oraz Hibernate. Jedno i drugie ma swój odpowiednik w PHP - Studs oraz Propel. Co do pierwszego: nic ciekawego, bo pod PHP 4, odnośnie drugiego - dopiero poznaję. :] Z tego co widziałem w pracy Hibernate do niektórych zastosowań jest znakomity, jak wypadnie Propel - to się okaże. Jedno co mnie martwi to brak wsparcia dla PDO i brak konkretnej odpowiedzi czy w końcu się ono pojawi. Mam nadzieję, że w końcu zostanie to wymuszone.. Ze Strutsa najbardziej mi się widzi walidacja formularzy poprzez configi, stosunkowo łatwa internacjonalizacja oraz beany. Mam jakieś ebooki odnośnie budowania aplikacji w nim, ale mószę jeszcze raz wrócić do nauki Javy, ponieważ wcześniej czytałem tą książkę bez dostępu do komputera, a wiadomo każdy przykład trzeba sprawdzić. ;) Najgorsze jest to, że wcześniej przerabiając TiJ miałem pomysły/koncepcje rozwiązania niektórych zadań, a teraz mam w głowie same pytajniki - &amp;ldquo;o co tam chodziło???&amp;rdquo;. W pracy, można powiedzieć, zaaklimatyzowałem się, pojawiają się dyskusje odnośnie przeglądarek itp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nota zbiorcza</title>
+      <link>https://blog.dywicki.pl/2005/07/19/nota-zbiorcza/</link>
+      <pubDate>Tue, 19 Jul 2005 14:55:59 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/07/19/nota-zbiorcza/</guid>
+      <description>&lt;p&gt;Witam po sporej przerwie :).&lt;/p&gt;
+&lt;p&gt;Piszę to o 23:23, tuż po ustawieniu budzika na 6:20, wiadomo - kto rano wstaje temu Pan Bóg daje. Wstałem dzisiaj po 5 i jak przystało na rasowego programistę czytałem w autobusie &amp;ldquo;Thinking in Java&amp;rdquo; w wydaniu trzecim. Po kilku dniach spędzonych z tą książką czuję się zagubiony. Przykładów jest sporo, a nie miałem okazji ich nawet uruchomić. Jak na razie nie miałem trudów z przyswojeniem wiadomości, okaże się jak zrozumiałem treść kiedy zacznę robić ćwiczenia. Tak czy siak tak łatwo się nie poddam. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Praca</title>
+      <link>https://blog.dywicki.pl/2005/06/30/praca/</link>
+      <pubDate>Thu, 30 Jun 2005 09:05:23 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/30/praca/</guid>
+      <description>&lt;p&gt;Właśnie jestem w pracy. Jest ok, podoba mi się tutaj. Wczoraj pospacerowałem sobie po Bydgoszczy (od PKSu do Czyżówka), kto wie jaki to jest odcinek ten ma wyobrażenie jak bardzo się błąkałem. ;) Znalazłem pokój na poddaszu, normalnie super, prawie jak w domu. Niestety problem jest z netem, bo ulica przy której mieszkam to póki co gruntówka i nie ma jak podciągnąć kabla. Pozostaje mi chyba radiówka&amp;hellip; ale na to trzeba poczekać. Póki co mam internet na miejscu (czyt. w biurze).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Przerwa</title>
+      <link>https://blog.dywicki.pl/2005/06/26/przerwa/</link>
+      <pubDate>Sun, 26 Jun 2005 22:08:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/26/przerwa/</guid>
+      <description>&lt;p&gt;Jako, że od tego poniedziałku rozpoczynam pracę nie będę mógł tyle czasu poświęcać Thorowi. Dodatkowym utrudnieniem będzie brak kompa po pracy. To nie koniec trudności. Po zciągnięciu komputera do Bydgoszczy (gdzie znalazłem pracę) będę miał problem z internetem. Ogólnie trudno mi powiedzieć coś więcej niż to, że mam zacząć prace. Poważnie zapowiada się hardokorowy tydzień, nie tylko ze względu na to, że będę wstawać rano. ;)&lt;/p&gt;
+&lt;p&gt;Pierwsze wrażenia z biura pozytywne. Nie mogę się doczekać pierwszego zadania, słowem zżera mnie ciekawość&amp;hellip; o tym czy Bydgoszcz zmieni w moich wizerunek z brzydkiego miasta na gorszą lub milszą mieścinę będę pisał&amp;hellip; (za jakiś czas), o wrażeniach z pracy i o pierwszym zadaniu powiem tyle, ile będę mógł (test już miałem!).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thor, plany i rozterki</title>
+      <link>https://blog.dywicki.pl/2005/06/23/thor-plany-i-rozterki/</link>
+      <pubDate>Thu, 23 Jun 2005 00:17:51 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/23/thor-plany-i-rozterki/</guid>
+      <description>&lt;p&gt;Thor, szczegóły no.2&lt;/p&gt;
+&lt;p&gt;Z wpisów zamieszczanych tutaj można wywnioskować, że pracuję tylko nad Thorem. Nie zaprzeczam, że poświęcam mu dużo czasu, można powiedzieć, że aż za wiele.&lt;/p&gt;
+&lt;p&gt;Chciałem rzucić garścią informacji – co dodałem.&lt;/p&gt;
+&lt;p&gt;Zaaplikowane różne wersje językowe na poziomie wyjątków, czyli przy pojawieniu się jakiegoś problemu wystarczy użyć: &lt;code&gt;throw new Exception( LanguageContainer(‘Blad skladni’, ’JakisTamKominukat’) );&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Myślę nad dodaniem do komponentów źródeł danych, to znaczy – w kodzie dawałoby się tylko: &lt;code&gt;&amp;lt;thor:Komponent datasource=”tutaj_jakies_zrodlo” /&amp;gt;&lt;/code&gt; Dalsze pomysły związane z komponentami to możliwość ustawiania atrybutów HTML takich jak style, border, class aby maksymalnie uprościć ich budowę.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://blog.dywicki.pl/2005/06/05/postgresql/</link>
+      <pubDate>Sun, 05 Jun 2005 19:46:24 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/05/postgresql/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;PostgrSQL&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/postgresql.gif&#34;&gt;Wspominałem wcześniej o książce pod tytułem PostgreSQL, którą pożyczyłem od znajomego. Jak się okazało jej pełny tytuł brzmi &lt;strong&gt;PostgreSQL. Biblioteka problemów.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Po zagłębieniu sięw szczegóły doszedłem do wniosku, że to świetny system bazodanowy. Sam się zacząłem dziwić dlaczego tak mało ludzi. Postgres dostarcza wielu możliwości, które są imponujące. Np. obsługuje widoki, które MySQL dopiero wprowadza od wersji 5.1, ma transakcje, znowu MySQL dopiero to udostępnia w wersji 4.1.&lt;/p&gt;
+&lt;p&gt;Słowem świetna baza. Udało mi się stworzyć własny widok, ba nawet kursor! Postanowiłem – przyszłe aplikacje zaczynam przystosowywać do dobrych systemów bazodanowych. Koniec z prostymi zapytaniami SELECT i samymi złączeniami.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Robi się gorąco</title>
+      <link>https://blog.dywicki.pl/2005/05/29/robi-si-gorco/</link>
+      <pubDate>Sun, 29 May 2005 14:34:37 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/29/robi-si-gorco/</guid>
+      <description>&lt;p&gt;Jakiś czas temu na PHP.pl ukazał się news na temat techniki AJAX. Na forum zauważyłem temat w którym autor pytał o opinie na temat strony wykonanej w SAJAX-ie (zobacz temat[1], i stronę[2]).&lt;/p&gt;
+&lt;p&gt;Nie mniej zainteresował mnie bardziej JPSPAN, który umożliwia odwoływanie się do klas PHP. Jako, że ja mam zawsze spóźnioną reakcję dopiero w zeszłym tygodniu zacząłem się bawić.&lt;/p&gt;
+&lt;p&gt;Pierwsze co zrobiłem to alert tekstu zwróconego z klasy Hello. Następnie sprawdzenie jak wygląda tablica z serwera w przeglądarce. Okazało się, że identycznie.. jedyny problem jaki powstaje to wyjątki. Trzeba je zwracać poprzez specjalną klasę/funkcję.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Znowu razem :-)</title>
+      <link>https://blog.dywicki.pl/2005/05/18/znowu-razem/</link>
+      <pubDate>Wed, 18 May 2005 14:40:06 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/18/znowu-razem/</guid>
+      <description>&lt;p&gt;I kolejny powrót&amp;hellip; po kilkutygodniowej przerwie wracamy do sieci. Niestety, są straty.. w wyniku awarii poprzedniego serwera (na który już nie zamierzam wracać) straciłem wszystkie dane na nim zapisane, łącznie z wpisami z bazy danych. Tak więc część postów przestała istnieć, a ja znowu zaczynam &lt;a href=&#34;niemal&#34;&gt;niemal&lt;/a&gt; od zera. Przykra sprawa, ale cóż, nic sie nie poradzi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

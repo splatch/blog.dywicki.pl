@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mvc on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/mvc/</link>
+    <description>Recent content in Mvc on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 18 Mar 2007 21:57:05 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/mvc/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obiekty biznesowe w aplikacji.</title>
+      <link>https://blog.dywicki.pl/2007/03/18/obiekty-biznesowe-w-aplikacji/</link>
+      <pubDate>Sun, 18 Mar 2007 21:57:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/03/18/obiekty-biznesowe-w-aplikacji/</guid>
+      <description>&lt;h3 id=&#34;pierwsze-błędy&#34;&gt;Pierwsze błędy&lt;/h3&gt;
+&lt;p&gt;Pamiętam swoje pierwsze implementacje MVC, w czasach gdy słowo framework nie było jeszcze trendy a wiele osób, w tym i ja, nawet go nie używało. W owych pierwszych implementacjach MVC model był pewnego rodzaju fasadą, która zapewniała dostęp do danych.
+Problem polegał na tym, że kod np klasy User wyglądał następująco:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agavi, Output types</title>
+      <link>https://blog.dywicki.pl/2007/02/22/agavi-output-types/</link>
+      <pubDate>Thu, 22 Feb 2007 20:41:37 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/02/22/agavi-output-types/</guid>
+      <description>&lt;p&gt;Jedną z nowości jaką niesie Agavi w wersji &amp;gt; 0.10 jest mechanizm output types. Jest to bardzo proste rozwiązanie, które umożliwia uniknięcie gimnastyki z tworzeniem widoków w różnych technologiach, z którymi wiąże się różna logika. Banalny przykład. Te same dane prezentujemy w postaci HTML jak i PDF a do tego możemy je pobierać przez XmlHttpRequest. Dane są praktycznie identyczne, różny jest format wynikowy i proces jego tworzenia. Dla zwykłej strony wskazujemy szablon, dorzucamy dane i koniec, dla XmlHttp zwracamy JSONa. Stworzenie outputu w formacie PDF nie będzie tak proste jak pozostałych, ponieważ konieczne będzie stworzenie układu strony, dorzucenie fontów etc. Ogólnie w żaden sposób nie da się połączyć tych formatów w jednym widoku bez sporej ilości warunków i &amp;ldquo;protez&amp;rdquo;. By uniknąć zakopania się w tym wszystkim zwykle tworzy się dodatkową akcję, która w sporej części pokrywała się z pierwotną a różni się tylko widokiem i szablonami. Począwszy od Agavi 0.11 problem przestaje istnieć.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zend Framework-MVC dalekie jest mu</title>
+      <link>https://blog.dywicki.pl/2006/07/12/zend-framework-mvc-dalekie-jest-mu/</link>
+      <pubDate>Wed, 12 Jul 2006 21:23:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/12/zend-framework-mvc-dalekie-jest-mu/</guid>
+      <description>&lt;p&gt;Zaprawdę, zaprawdę powiadam Wam drodzy czytelnicy Zend Framework do pełnej implementacji MVC ma jeszcze bardzo duży kwał drogi.&lt;/p&gt;
+&lt;p&gt;Dzisiejszego dnia postanowiłem poświęcić parę minut na bliższe spotkanie z ZF. Jak się szybko okazało nie był to czas spędzony bezowocnie. Utrwaliłem się w przekonaniu, że ZF to nie jest to czego szukam oraz znalazłem buga i to dość niewygodnego.. ;)&lt;/p&gt;
+&lt;p&gt;Dlaczego moje uprzedzenie do ZF nie zmalało a tylko wzrosło? Dlatego, że to co w sumie zobaczyłem odbiega od znanego mi (z innych frameworków) MVC. Może potraktuję Was tutaj odrobiną kodu:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>View Layout i Agavi</title>
+      <link>https://blog.dywicki.pl/2006/05/05/view-layout-i-agavi/</link>
+      <pubDate>Fri, 05 May 2006 11:17:54 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/05/view-layout-i-agavi/</guid>
+      <description>Zainspirowany ideą Layotów w M4 postanowiłem stworzyć małą wtyczkę do agavi, która umożliwi mi korzystanie z tego rozwiązania. Jest ona bardzo prosta i ułatwia masową zmianę szablonu głównego oraz slotów (o slotach jeszcze będę pisał).</description>
+    </item>
+    <item>
+      <title>Mojavi 4, z bliska.</title>
+      <link>https://blog.dywicki.pl/2006/04/25/mojavi-4-z-bliska/</link>
+      <pubDate>Tue, 25 Apr 2006 21:22:08 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/25/mojavi-4-z-bliska/</guid>
+      <description>Tak jak obiecałem informacje na temat zmian w Mojavi 4.
+Mojavi jest jednym ze starszych frameworków dla PHP. Swoje korzenie ma jeszcze w PHP4 kiedy to powstała pierwsza (na chwilę obecną), ostatnia stabilna wersja – Mojavi 2.0. Po wejściu PHP5 okazało się, że M2 nie jest kompatybilne z nowym interpreterem. Zaczęło powstawać Mojavi 3. Istnieje również Yuma – Mojavi 2 zgodne z PHP5. W pewnym momencie grupa (a właściwie jedyna osoba) tworząca Mojavi zdecydowała, że projekt jest nienajlepszy. Mimo wszystko była to tylko kontynuacja M2, bez wykorzystania możliwości PHP5, oparta na klasach. M3 zostało wstrzymane a Sean Kerr (na forum illusina) zaczął tworzyć Mojavi 4. M3 utkęło w fazie DEV. Mimo wszystko framework jest bardzo stabilny, sam z niego korzystałem kilka razy i nie było problemów. Wszystko czego potrzeba było to tylko kilka komponentów, które można pobrać z sieci (między innymi SmartyView). Aby praca włożona w M3 nie poszła na daremne projekt przejął Tyler Tompkins. Tak powstało Agavi. Agavi oferuje dodatkową funkcjonalność, usuwa niektóre problemy z Mojavi (min. problem z nazwami klas), oferuje również wbudowane komponenty, których brakowało Mojavi:
+- SmartyView
+- XSLTView
+- CreoleDatabase
+- PropelDatabase
+- AdoDBDatabase
+- PDODatabase
+- ukończony mechanizm logowania
+- zaczątki modelu (na forum Agavi jest do pobrania ActiveRecord rodem z Cake/Rails)
+- ReturnArrayConfigHandler
+- ConsoleController
+- ConsoleRequest
+- HTTPSRequest
+- CreoleStorage
+- wsparcie dla Phinga – taski do tworzenia projektu, modulu, akcji, widoku, unit-testów).
+- bodajże DateValidator
+- FormPHPView (ma być w krótce usunięty).</description>
+    </item>
+    <item>
+      <title>Zend Manual.</title>
+      <link>https://blog.dywicki.pl/2006/04/24/zend-manual/</link>
+      <pubDate>Mon, 24 Apr 2006 05:51:09 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/24/zend-manual/</guid>
+      <description>&lt;p&gt;Manual do Zend Frameworka, zajrzałem tam dopiero dzisiaj, ale dobrze wiedzieć, że jest jakaś biblioteka do PDF, która ma dokumentacje na dobrym poziomie.
+Jeśli zend będzie prowadził dokumentacje w taki sposób ma spore szanse na to by pobić konkurencje.
+Manual znajdziecie pod adresem &lt;a href=&#34;http://framework.zend.com/manual&#34; title=&#34;ZF&#34;&gt;http://framework.zend.com/manual&lt;/a&gt;
+Dokumentacja do &lt;a href=&#34;http://framework.zend.com/manual/en/zend.pdf.html&#34; title=&#34;ZF_PDF&#34;&gt;Zend_PDF&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Troszkę &#34;Inne&#34; MVC</title>
+      <link>https://blog.dywicki.pl/2006/03/02/troszk-inne-mvc/</link>
+      <pubDate>Thu, 02 Mar 2006 01:08:36 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/02/troszk-inne-mvc/</guid>
+      <description>&lt;p&gt;Jakiś czas temu, gdy walczyłem ze swoimi pierwszymi servletami dzięki koledze zetknąłem się ze springiem. Wiedziałem, że ten framework istnieje, ale dopiero z jego pomocą stworzyłem pierwszą akcję. Idea jest bardzo prosta - na podstawie pliku beans.xml kontener IoC dopasowywuje klasę do adresu. Może być też tak, że mapowane są nazwy beanów do adresu - np. &lt;bean id=&#34;/foo.html&#34; /&gt;&amp;gt;.
+To co mnie oczarowało w springu to świetne rozwiązania. Bardzo spodobały mi się zróżnicowane akcje. To już nie jest Cake PHP, gdzie nazwa ApplicationController ma znaczenie bardziej symboliczne niż praktyczne czy Struts ze swoimi biernym akcjami. Przy potencjale jaki oferują kontrolery Springa wiele frameworków wymięka. Poniżej prezentuje diagram klas wykonany w programie Dia obrazujący powiązania kontrolerów we wcześniej zachwalanym frameworku.
+&lt;img alt=&#34;Diagram klas&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/Diagram1.dia.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why not Zend Framework?</title>
+      <link>https://blog.dywicki.pl/2006/02/23/why-not-zend-framework/</link>
+      <pubDate>Thu, 23 Feb 2006 00:40:14 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/23/why-not-zend-framework/</guid>
+      <description>&lt;p&gt;Patrząc na to co się dzieje wokół ZFa odnoszę bardzo negatywne wrażenie. Dlaczego? Dlatego, że jest to powielanie tego, co już powstało dla PHP. Nie widzę w tym, co proponuje Zend nowości, świerzości. Wiem, że trudno o to przy implementacji MVC, ale ZF nic nie wnosi do tematu, do tego bardzo skromne informacje jakie są na temat ZF nie napawają optymizmem.&lt;/p&gt;
+&lt;p&gt;Powody dla których Zend tworzy kolejnego frameworka:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;zachowanie konkurencyjności względem innych języków i platform .NET, J2EE, Ruby&lt;/li&gt;
+&lt;li&gt;brak prostego frameworka dla PHP&lt;/li&gt;
+&lt;li&gt;swobodne użycie dla zastosowań e-commerce&lt;/li&gt;
+&lt;li&gt;pełne wykorzystanie możliwości PHP5&lt;/li&gt;
+&lt;li&gt;wsparcie dla nowoczesnych technologii - Web Services, RSS, wsparcie dla AJAXa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Moje uwagi&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WACT żyje!</title>
+      <link>https://blog.dywicki.pl/2006/02/19/wact-yje/</link>
+      <pubDate>Sun, 19 Feb 2006 14:47:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/19/wact-yje/</guid>
+      <description>&lt;p&gt;Dzisiaj postanowiłem przyjrzeć się bliżej szablonom z WACTa. Pamiętam, że jakiś czas temu przyglądałem się kompilatorowi, ale.. było to kilka tygodni temu. Aby nie być w tyle postanowiłem zaciągnąć zmiany z CVSa. Jakież było moje zdziwienie kiedy zobaczyłem w kodzie interfejsy! Od razu powędrowałem do webloga. Byłem ogromnie zaskoczony tym, co się dzieje z WACTem, byłem święcie przekonany, że ten projekt jest martwy - tym bardziej, że są pliki i katalogi nie ruszane od 2 lat. Najnowsze zmiany jakie udało mi się znaleść są sprzed dwóch dni..
+WACT ze względu na świetne, komponentowe szablony to dla mnie obok Mojavi jeden z lepszych frameworków. Panowie, czyżby WACT miał odżyć? :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proste testy:</title>
+      <link>https://blog.dywicki.pl/2006/02/14/proste-testy/</link>
+      <pubDate>Tue, 14 Feb 2006 01:26:54 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/14/proste-testy/</guid>
+      <description>&lt;p&gt;Rozmawiałem wczoraj z Zyxem na temat testów czasowych i dowiedziałem się, że korzysta on do tego celu z apache benchmark - nie zwlekając również wykonałem testy&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Pomiary wykonane przy użyciu apache benchmark (apache 2.0.53, php 5.1.1) dla 500 requestów.
+Odczyt pliku 70 KB
+file+implode: 5.640589 s
+file_get_contents: 2.562484 s&lt;/p&gt;
+&lt;p&gt;Frameworki:
+CakePHP (z warrningiem dot. połączenia mysql): 76.421385 s
+Mojavi 3.0-dev (debug_mode = off): 63.155846 s
+Agavi 0.10-stable (debug_mode = off): 51.187172 s
+PSF: 46.390328 s (bez cache configa etc)
+Prado 2.0.1 (też Hangman): 169.14543 s
+Prado 3.0-alpha (Samples.Hangman.Home): 196.279994 s
+Odin: 28.499818 s
+Phiend: 11.359303 s (gołe hello world)
+Daeron: 1.156242 s
+Pinky: 53.843750 s&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

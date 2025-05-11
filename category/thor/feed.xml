@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thor on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/thor/</link>
+    <description>Recent content in Thor on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 02 Aug 2005 09:33:38 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/thor/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thor omówienie diagramu sekwencji</title>
+      <link>https://blog.dywicki.pl/2005/08/02/thor-omowienie-diagramu-sekwencji/</link>
+      <pubDate>Tue, 02 Aug 2005 09:33:38 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/08/02/thor-omowienie-diagramu-sekwencji/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Za jakość diagramu przepraszam :)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;kliknij aby powiększyć&#34; loading=&#34;lazy&#34; src=&#34;http://splatch.php.org.pl/_img/ds_m.jpg&#34;&gt;Na przedstawionym diagramie widać 4 węzły. Pierwszy to użytkownik, który będzie wywoływał zdarzenia. Myślę, że jego zadań nie trzeba opisywać ;). Celowo operuję na ogólnikach aby nie zawężać Wam jak i sobie pola widzenia.&lt;/p&gt;
+&lt;p&gt;Pierwszy element dostarczany przez Thora to komponent. Każdy komponent posiada obiekt JavaScript, który komunikuje się z obserwatorem. Komponent przekazuje informacje o rodzaju zdarzenia. Jako parametr jest przekazywana zdefiniowana wcześniej wartość. Np. OnClick=”KliknietoMnie();” zostaje przekształcone na OnClick=IDentyfikator.call( onClick, KliknietoMnie()) powoduje to, że do obserwatora wędruje OnClick oraz KliknietoMnie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thor - postępy</title>
+      <link>https://blog.dywicki.pl/2005/06/19/thor/</link>
+      <pubDate>Sun, 19 Jun 2005 10:19:53 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/19/thor/</guid>
+      <description>&lt;p&gt;Prace nad Thorem posunęły się do przodu. Mam teraz podstawowe klasy – TComponent, TParser (parser komponentów), ConfigParser i fabrykę do niego. Przy okazji chciałbym się pochwalić rozwiązaniem, jakie wymyśliłem.&lt;/p&gt;
+&lt;p&gt;Podobnie jak w Prado każdy komponent to klasa, która ma określone metody i atrybuty. W We wcześniej wymienionym frameworku w pliku konfiguracyjnym komponentu definiuje się metody do pobierania/ustawiania atrybutów poprzez wpisanie w pliku specyfikacji danego komponentu. U mnie wygląda to nieco inaczej – klasa TComponent, z której dziedziczą wszystkie pozostałe komponenty ma zaaplikowaną metodę __call(), która umożliwia tworzenie ‘wirtualnych metod’. Tzn. metod, które nie istnieją w klasie macierzystej.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thor, bóstwo w powijkach</title>
+      <link>https://blog.dywicki.pl/2005/06/15/thor-bostwo-w-powijkach/</link>
+      <pubDate>Wed, 15 Jun 2005 21:27:54 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/15/thor-bostwo-w-powijkach/</guid>
+      <description>&lt;p&gt;Projekt, o którym wspomianłem wcześniej został nazwany. Inspiracją nazwy był Odin beli. Sięgnąłem do historii o wikingach i znalazłem tam inne bóstwo - Thora. Silniki swoich poprzednich aplikacji nazywałem imieniem Sachmet - egipskiego bóstwa wojny i płodności. Thor w mitologii nordyckiej jest bogiem burz błyskawic jak również rolnictwa. Thor patronował ognisku domowemu i małżeństwu. [ &lt;a href=&#34;#pnote-15-1&#34;&gt;1&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Projekt postaram się tworzyć przy wykorzystaniu tego, co przeczytałem w książce o wzorcach projektowych. Podstawą będzie ogólny schemat, który pozwoli przejść &lt;strong&gt;od ogółu do szczegółu&lt;/strong&gt;. Na pewno postaram się przed napisaniem czegokolwiek stworzyć diagram UML. &lt;img alt=&#34;kliknij aby powiększyć&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/Class_Diagram2_m.png&#34;&gt;Zacząłem pisać, następnie stworzyłem diagram. Dyskutując o zapisanym rozwiązaniu znalazłem w nim nieścisłość. Obiekt LanguageContainter będzie zawierał poszczególne języki (może zajść potrzeba odwołania się do domyślnego języka - np. z angielskiego do polskiego). Całość oparta jest na statycznej tablicy languages. Przy próbie użycia języka trzeba się odwołać do kontenera - LanguageContainer::getLanguage(&amp;lsquo;PL&amp;rsquo;,&amp;lsquo;Main&amp;rsquo;) i następnie operować na zwróconym obiekcie. Gdzie zatem nieścisłość? Po wywołaniu wcześniejszego kodu kontener przy wywołaniu LanguageContainer::getLanguage(&amp;lsquo;PL&amp;rsquo;,&amp;lsquo;User&amp;rsquo;) zwróci obiekt, który utworzył wcześniej, ponieważ w tablicy languages jest już indeks PL. Rozwiązanie te dyskryminuje też nieco jego obszerność.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Plany na najbliższy miesiąc</title>
+      <link>https://blog.dywicki.pl/2005/06/08/plany-na-najbliszy-miesic/</link>
+      <pubDate>Wed, 08 Jun 2005 22:44:44 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/08/plany-na-najbliszy-miesic/</guid>
+      <description>&lt;p&gt;Jako, że skończyłem szkołę, zdałem egzamin dyplmowy czeka mnie przekroczenie progu dorosłości i wejście na rynek pracy. Już pojawiła się oferta odbycia stażu absolwenckiego (za śmieszne pieniądze), ale nie rezygnuję i szukam dalej. Być może, ktoś (czyt. jakaś firma) zainwestuje we mnie i rozwój moich zdolności?&lt;/p&gt;
+&lt;p&gt;W międzyczasie postaram się zająć planowaniem swojego frameworka (wszycy mają je, mam i ja!), bo CMS skończony/zawieszony. Przyglądałem się bliżej kilku aplikacjom. Moje zainteresowanie wzbudziło Prado. Gdy spojrzałem na przykład loginClicked od razu mi się skojarzyło delphi. Przyglądając się dalej kontrolkom doszedłem do wniosku, że to miks z ASP. Wpływ na mnie zaczyna też wywierać książka o wzorcach. Zaczynam patrzeć na obiekty nie jak na reprezentację klas tylko jak na określone instnienia/byty, które wiedzą co mają zrobić (w jednym rozdziale padło pojęcie &amp;lsquo;inteligentne dane, które mi się bardzo spodobało).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

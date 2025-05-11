@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Php | Splatch&#39;s devblog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/category/php/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/category/php/feed.xml">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/category/php/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/category/php/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Php">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Php">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://blog.dywicki.pl/">Home</a>&nbsp;»&nbsp;<a href="https://blog.dywicki.pl/category/">Category</a></div>
+  <h1>
+    Php
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dylematy.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Tak to już jest, że coraz większość problemów pojawia się przy detalach… Również i w przypadku tego, co piszę obecnie pojawiła się garść problemów.
+Pierwszy problem to zrezygnowanie z buforowania plików konfiguracyjnych. Do operowania na XMLu wykorzystuję XPatha, a ten jest dostępny poprzez DOM bądź SimpleXML. Podejrzewam, że tak czy owak SimpleXML przerzuca swój obiekt do obiektu DOM, żeby wykonać xpath_eval, ale nie jestem w stanie tego udowodnić. Jak wielkie spowolnienie z tego wyniknie? Nie jestem w stanie powiedzieć. Bez buforu konfiguracji jedno żądanie zajmuje około 0.05s. Gdy tworzona jest mapa klas czas ten wzrasta ponad dziesięciokrotnie.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-14 11:09:09 +0000 +0000'>September 14, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Dylematy." href="https://blog.dywicki.pl/2005/09/14/dylematy/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Garść informacji ;)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Planowałem to zrobić wcześniej, ale dopiero świadectwo Beli mnie ostatecznie zmotywowało :). Byłem pozytywnie zakoczony tym, że jeszcze ktoś mnie odwiedza…
+Obok prezentuję struktóre katalogów. Myślę, że jest ona dośćprzejrzysta, można powiedzieć zapożyczona z Mojavi.
+Troszkę może Was dziwić tak wielkie rozbicie konfiguracji, ale jest to zamierzone, moim zdaniem łatwiej się pracuje w takim rozdrobnieniu, ponieważ każdy moduł posiada oddzielnąkonfigurację i może mieć zgoła inne parametry. W kataloguWebApp znajdują się ustawienia globalne takie jak dostęp do bazy danych oraz zdefiniowane moduły &#43; pluginy, czyli klasy które można zastąpić (rozwiązanie Beli z Odina).
+WebApp/Config.php zawiera definicje ścieżek.
+WebApp/Modules/Default/config.xml to definicja akcji, jakie znajdują się w module oraz obsługę błędów (404,403,500);
+WebApp/Modules/Config/ActionName.xml zawiera szczegółowe dane takie jak używane filtry i akcje odpalane w stosie (można to nazwać blokami). Zastanawiam się czy implementować coś takiego jak Bela – fallbacki, dla tych akcji które zwróciły fałsz.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-01 11:34:40 +0000 +0000'>September 1, 2005</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Garść informacji ;)" href="https://blog.dywicki.pl/2005/09/01/gar-informacji/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Wzorce projektowe i UML
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Cóż za piękny dzień dziecka! Pada od rana, z małymi przerwami, żeby wiatr mógł sobie pohulać bez slalomu pomiędzy kroplami.
+W taki właśnie dzień wybrałem się w przymusowe odwiedziny do siostry. Oddałem jej tablice matematyczne, które pożyczyła od koleżanki na moją maturę. Podróż nic miłego, ponad 90 minut w autobusie, w którym nie można wygodnie usiąść (mam za długie nogi?). Jako, że siostra udawała się zaraz na wykłady to nie gościłem zbyt długo u niej. 20 minut i kolejny autobus, w którym spędziłem kolejne 90 minut. Szczęście, że nie było tak ciepło jak w piątek, bo bym wyparował z niego. ;)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-06-01 22:24:05 +0000 +0000'>June 1, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Wzorce projektowe i UML" href="https://blog.dywicki.pl/2005/06/01/wzorce-projektowe-i-uml/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Wyrażenia regularne
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Od niechcenia spojrzałem dzisiaj na forum. I co widzę? Temat (php) Problem - regexy. Jako, że mam jako-takie pojęcie na temat regexpów to zobaczyłem o co chodzi. Okazało się, że to nic wielkiego, problem ze zmianą [[link]] na wersję zdatną do klikania. Jedynym problemem było to, że drugi parametr jest opcjonalny. Zacząłem myśleć, już po chwili miałem gotowy wzór, który pasował do [[link]] oraz [[link|opis]]. Zastanawiało mnie jedno - czy da się wykorzystać w preg_replace; ten wzór.. Niestety nie udało mi się do tego dojść mimo lektury bardzo dobrego poradnika na temat wyrażeń. Udało mi się w końcu zrodzić drugi wzór, znacznie bardziej skomplikowany, na zasadzie pod-wyrażeń warunkowych.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-03-16 14:30:27 +0000 +0000'>March 16, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Wyrażenia regularne" href="https://blog.dywicki.pl/2005/03/16/first-post/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://blog.dywicki.pl/category/php/page/5/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Śmieci on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/%C5%9Bmieci/</link>
+    <description>Recent content in Śmieci on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 19 Nov 2008 09:22:43 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/%C5%9Bmieci/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeśli coś nie jest komercyjne nie jest też profesjonalne</title>
+      <link>https://blog.dywicki.pl/2008/11/19/jesli-cos-nie-jest-komercyjne-nie-jest-tez-profesjonalne/</link>
+      <pubDate>Wed, 19 Nov 2008 09:22:43 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/19/jesli-cos-nie-jest-komercyjne-nie-jest-tez-profesjonalne/</guid>
+      <description>&lt;p&gt;Ostatnimi czasy odbyłem kilka spotkań w większych i mniejszych firmach. To co mnie zastanowiło po jednej z ostatniej rozmów to zdanie:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Korzystamy z profesjonalnych narzędzi takich jak &lt;a href=&#34;http://www.tibco.com/&#34;&gt;Tibco&lt;/a&gt;, &lt;a href=&#34;http://www.softwareag.com/Corporate/products/wm/default.asp&#34;&gt;WebMethods&lt;/a&gt;, czasami &lt;a href=&#34;http://www.bea.com/framework.jsp?CNT=index.htm&amp;amp;FP=/content/products/aqualogic/service_bus/&#34;&gt;Bea&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Co łączy wymienione produkty? Otóż wszystkie są rozwiązaniami z klasy EAI i &amp;hellip; są płatne. Zdanie to usłyszałem w odniesieniu do &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt;, którym się interesuję. Wniosek z tej wypowiedzi jaki udało mi się wysnuć od razu stał się tematem tej noty, czyli jeśli coś nie jest komercyjne nie jest też profesjonalne. Tak jakby OSS był gorszym rozwiązaniem od kupienia licencji na pudełkowe rozwiązanie od jakiegoś producenta.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Aktualizacja sterowników dla kart ATI</title>
+      <link>https://blog.dywicki.pl/2008/02/02/aktualizacja-sterownikow-dla-kart-ati/</link>
+      <pubDate>Sat, 02 Feb 2008 20:34:20 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/02/02/aktualizacja-sterownikow-dla-kart-ati/</guid>
+      <description>Jakiś czas temu nieszczęśliwym zbiegiem okoliczności straciłem możliwość uruchomienia swojego systemu (XP). Winny całej sytuacji był partition magick, który nie poradził sobie z przeskalowaniem partycji. Koniec końców spod suse zrobiłem backup danych i postanowiłem zainstalować XP raz jeszcze. Niestety płytka, na której był nagrany (wersja z MSDNAA), nie podnosiła się. Byłem zmuszony do skorzystania z instalki Visty. Kosztowała mnie ona 30 zł i to w cale nie na, zamkniętym już wtedy, stadionie dziesięciolecia! Asus organizował coś takiego jak Visa upgrade i rozdawał płytki za darmo. Swoją dostałem w maju.
+Koniec końców nowe dziecko MS wylądowało na moim twardym dysku. Kolorki kolorkami, zasoby zasobami, ale najgorsze było to, że straciłem możliwość grania w Enemy Territory. Ta stara gra chodziła mi na XP bardzo płynnie, niestety na Viście nie osiągałem więcej niż 30 fps. Zrozpaczony tym zrezygnowałem z pogrywania. Jakiś czas później naszła mnie chęć na aktualizację sterowników do karty graficznej, ponieważ wszystko co było oparte o OpenGL chodziło tak jak by chciało a nie mogło. Udałem się na stronę &lt;a href=&#34;http://ati.amd.com/&#34;&gt;ATI&lt;/a&gt; by pobrać sterowniki. Jakież było moje zdziwienie, gdy producent oznajmił, że do kart OEM sterowniki powinni zapewnić ich producenci. W tym momencie praktycznie wszystkie układy zbudowane w oparciu o kości Radeon montowane w laptopach zatrzymują się na wersji sprzed roku, jeśli nie starszej.
+Zaintrygowany tym zacząłem szperać i znalazłem rozwiązanie. :)</description>
+    </item>
+    <item>
+      <title>Czy ktoś mówił, że istnieją środowiska idealne?</title>
+      <link>https://blog.dywicki.pl/2007/10/25/czy-ktos-mowil-ze-istnieja-srodowiska-idealne/</link>
+      <pubDate>Thu, 25 Oct 2007 06:32:58 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/25/czy-ktos-mowil-ze-istnieja-srodowiska-idealne/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Internal error^2&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/10/internal-internal.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pomyłki i ja.</title>
+      <link>https://blog.dywicki.pl/2006/09/11/pomylki-i-ja/</link>
+      <pubDate>Sun, 10 Sep 2006 22:05:24 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/11/pomylki-i-ja/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu zastanawiam się nad tym, czy rzeczywiście mam rację. Chodzi mi o moje przekonania. Ostatnio, druzgodzący upadek Mojavi 4 dał mi sporo do myślenia.&lt;/p&gt;
+&lt;p&gt;Mam taki sposób bycia, że gdy się do czegoś przekonam staram się to poznać jak najlepiej oraz.. promuję? Nie wiem jak to dokładnie nazwać.
+Czasami angażuję się w dyskusje, które przeradzają się w typowe walki. Nie chcę mówić, że narzucam swoje zdanie, bo staram się by nigdy tego nie robić.
+Udało mi się kilka osób przekonać do Propela/Mojavi, ale czy zrobiłem to słusznie? Mam na myśli to, czy moje podejście jest &amp;ldquo;w porządku&amp;rdquo;? Czy w swym przekonaniu o nieomylności w stosunku do pewnych rzeczy nie przekraczam granic?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nowe miasto, nowa praca.</title>
+      <link>https://blog.dywicki.pl/2006/06/11/nowe-miasto-nowa-praca/</link>
+      <pubDate>Sat, 10 Jun 2006 22:21:26 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/11/nowe-miasto-nowa-praca/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Nowe miasto.&lt;/strong&gt;
+Po 11 miesiącach w Bydgoszczy przeprowadzka. W Bydgoszczy bądź co bądź zostaje prawie rok mojego życia. Wiele nowych osób, wiele nowych rzeczy. Przyznam, że ciężko było rezygnować z wszystkiego by zaczynać znowu od zera. Same miasto nie było złe, poza niektórymi rejonami dało się w nim żyć. Owszem, nie było tam gromady studentów tak jak w Toruniu, nie było porządku jak w moim rodzimym mieście, ale byli mili ludzie. Nikt na ulicy nie oklepał mi twarzy, nie zostałem napadnięty ani okradziony, zatem, bilans jak najbardziej dodatni. Poznałem w Bydgoszczy wiele nowych osób, nie mówiąc już o nowych miejscach. Zanim przeprowadziłem się do Bydgoszczy słyszałem o tym mieście wiele złego, nigdy nie usłyszałem zdania pozytywnego. Tak, ktokolwiek mówił o nim, mówił: szare, brudne, niemiłe. Nie przeczę - takie jest każde większe miasto, ale nie wszędzie, nie całe.
+Dzielnica w której mieszkałem a później i pracowałem była czysta i zadbana, nie spotykałem się tam z żadnymi problemami.
+Dość nostalgii. Teraz pora na Warszawę.
+&lt;strong&gt;Nowa praca.&lt;/strong&gt;
+W Bydgoszczy były dwie firmy z którymi współpracowałem - IRTI oraz Front Studios. Obie wspominam miło, chociaż zmiany żadnej nie żałuję, ponieważ w każdej zmianie jest coś dobrego. Obie firmy zajmowały się PHP. W pierwszej był to głównie hosting + wykonywanie zleceń w drugiej gry + erp + zlecenia.
+Nowa praca, nowe możliwości. Cytat ze strony mojego obecnego pracodawcy:
+&lt;em&gt;&lt;strong&gt;System AutoControl©&lt;/strong&gt; umożliwia ciągłą analizę i optymalizację wykorzystania taboru transportowego w dowolnym przedsiębiorstwie przewozowym. Użytkownik ma zapewniony dostęp do danych z dowolnego miejsca korzystając z internetowego systemu AutoControl©.&lt;/em&gt;
+&lt;em&gt;Inteligentna aplikacja dostarcza użytkownikowi zdefiniowane przez niego raporty o charakterystyce pracy poszczególnych pojazdów, pozwalając optymalizować wykorzystanie taboru. Zasięg działania systemu AutoControl© obejmuje całą Europę.&lt;/em&gt;
+Życzcie mi powodzenia. W krótce więcej o PHP Unit 3. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>forum.mojavi.org</title>
+      <link>https://blog.dywicki.pl/2006/05/19/forummojaviorg/</link>
+      <pubDate>Fri, 19 May 2006 07:27:36 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/19/forummojaviorg/</guid>
+      <description>&lt;p&gt;Halo, jeśli korzystasz z IE, wystrzegaj się for opartych na Invision Power Board. Dzisiaj padło na forum Mojavi. W każdej chwili możesz trafić na malware. Śmieć ten powoduje poważne problemy.. chyba pora zmienić przeglądarkę na lepszą? ;]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wolne</title>
+      <link>https://blog.dywicki.pl/2006/04/30/wolne/</link>
+      <pubDate>Sun, 30 Apr 2006 00:06:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/30/wolne/</guid>
+      <description>&lt;p&gt;Skorzystałem z nadzarzającej się okazji i wziąłem trzydniowy urlop. W wyniku poświęcenia tychże 3 dni mam cały tydzień wolny. Czyż to nie cudownie? :)&lt;/p&gt;
+&lt;p&gt;Z planów na urlop: recenzja  &lt;a href=&#34;http://helion.pl/ksiazki/jv2te2.htm&#34;&gt;Java 2. Techniki zaawansowane&lt;/a&gt;, komponent walidacji do Mojavi 4, zrobienie pewnego systemu, który winien być zrobiony dawno temu.&lt;/p&gt;
+&lt;p&gt;Co byście powiedzieli na omówienie poszczególnych elementów/paczek Mojavi 4?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wracam.</title>
+      <link>https://blog.dywicki.pl/2006/04/23/wracam/</link>
+      <pubDate>Sun, 23 Apr 2006 20:19:14 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/23/wracam/</guid>
+      <description>&lt;p&gt;Sporo czasu minęło od ostatniej notki typowo technicznej.. mam nadzieję, że zmiana designu na troszkę lżejszy Wam się spodoba. :)
+Moja nieobecność wynikła poniekąd sama z siebie, blog przez dłuższy czas zszedł na dalszy plan. Nie robiłem również nic wielkiego także nie miałem nawet o czym zbytnio pisać.
+W najbliższym tygodniu postaram się opublikować sporą notkę na temat Mojavi 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>.</title>
+      <link>https://blog.dywicki.pl/2006/04/06/57/</link>
+      <pubDate>Thu, 06 Apr 2006 00:57:06 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/06/57/</guid>
+      <description>&lt;p&gt;Zmieniając siebie na lepsze możemy zmienić świat. Ideał, słowo klucz. Czyż nie jest miłe dążenie do ideałów?
+Czyż nie jest miła świadomość tego, że możemy kształtować oraz decydować o swoim życiu? Będąc śwadomym tego, że są ideały można się cieszyć miłoścą, wiarą, wiedzą, czy po prostu życiem, po prostu tym, co się ma.
+Bądź kowalem swojego losu. Bądź sobą.
+A nawet jeśli nie uda mi się zmienić samego siebie na lepsze to czy nie będze miłe ostatnie z uczuć - spełnienie tym, że walczyłem jak tylko mogłem i jak tylko potrafiłem? Owszem będzie, będzie bardzo miłe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co sie w tym kraju dzieje?</title>
+      <link>https://blog.dywicki.pl/2006/03/17/co-sie-w-tym-kraju-dzieje/</link>
+      <pubDate>Fri, 17 Mar 2006 00:35:52 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/17/co-sie-w-tym-kraju-dzieje/</guid>
+      <description>&lt;p&gt;Trudno mi opisać to, co czuję, ale postaram się. Nie podoba mi się to. Nie podoba mi się sytuacja na polskiej scenie politycznej. Obserwując to, co serwuje mi czasami odbiornik telewizyjny mam wrażenie, że ten kraj zmierza do nikąd, a jeśli nie w tą stronę, to w inną, ale tak samo niebezpieczną - w stronę radykalizmu, ksenofobii czy też szowinizmu. Wiem, że w dużej mierze powtarzam, to co jest faktem, ale chyba mam do tego prawo? Mam prawo do niezadowolenia z tego, że rządzi tym krajem partia, na która nie głosowałem, która robi to źle i kosztem społeczeństwa.
+W tej chwili jestem już wrogiem mniej więcej 50% polaków. Jak stworzyć sobie taką potęgę (wszak o wielkości człowieka świadczy wielkość jego wrogów, ale ich liczba również ma ogromne znaczenie)? Po prostu - sprzeciwić się woli PiSu. Znowu powtarzam utarty schemat, który wykreowały media.. notabene część układu, ale czyż tak nie jest? Czy PiS na jakąś krytykę zareagował inaczej niźli agresją?
+Nie podoba mi się to, że dla nich wszędzie jest układ. Układy są - i mniejsze, lokalne i większe jak słoneczny. Ale nie ma ich wszędzie. Nie ma ich pod moim łóżkiem, nie ma ich w mojej pracy, nie spotkałem się też z nimi w urzędach, które odwiedzałem (mimo wieku kilka już odwiedziłem). Czyż nie jest to wystarczający dowód, że miejsca bez skaz są?
+Dla wielkich, chociaż w zasadzie małych, braci to jest za mało. Uczciwi są Ci, któzy wierzą w to co oni, wyznają zasady te co oni, zgadzają się z tym co mówią tylko oni. A zatem nie jestem ucziwy, ponieważ nie wierzę w to co oni, ani w IV RP, ani w to, że oni zmienią nas na lepsze swoimi spodobami. Nie wyznaję ich zasad. Dla mnie, jeśli ktoś ma inne zdanie nie jest kłamcą, jeśli jest homoseksualistą ma prawo żyć, jest pacyfistą - ma prawo w to wierzyć. W przeciwieństwie do kaczyńskich mogę się mylić w swych przekonaniach. Jestem tego świadom i się tego nie boję. Dobrze mi z tym, ponieważ mam do tego pełne prawo. Wyznaję inne zasady - zasadę równouprawnienia bez względu na wiarę czy jej brak, przekonania polityczne, preferencje seksualne i inne. Wyznaję pluralizm, są inne partie, z którymi się zgadzam, one również powinny mieć udział w parlamencie. Nie jestem również ucziwy ponieważ nie zgadzam się z tym co mówią (to udowadniam pisząc ten tekst).
+Kiedy kaczyńscy &amp;ldquo;wyzwalali&amp;rdquo; sami Polskę, a reszta na nich tylko donosiła bądź się zajmowała czymś mniej poeważnym niż oni nie było mnie na świecie. Niewiele pamiętam z tego co się działo przed 89. Wiem, że kiedyś stałem z mamą w kolejce przed sklepem, gdzie sprzedawano AGD po lodówkę. Pamiętam, że tata pracował w PBRol-ach. Nie pamiętam jak mi się żyło w tedy, ale nie narzekam. O wiele więcej mogę powiedzieć o czasach, kiedy to już byliśmy wyzwoleni. W bogactwie nie żyłem i nie żyję. Nie dlatego, że nie jestem częścią żadnego układu, a dlatego, że moi rodzice pochodzili z biednych rodzin i musieli ciężko pracować na to co teraz mają. Mimo wszystko nie wierzę w to, że bogaci to tylko złodzieje i układy. Wiem, że można dorobić się nie tylko na konszachtach i oszustwach.
+Nie mam recepty na naprawę tego co się dzieje. Nie ma jej prawdopodobnie większość społeczeństwa. Nie mniej, nie chcę by wyznacznikiem tego, czy mam się z kimś spotykać jest jego stosunek do PiSu, tego czy mogę czytać jakieś czasopismo jest jego stosunek do PiSu, a przede wszystkim nie chcę by o wartości i uczciwości człowieka świadczył jego stosunek do PiSu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

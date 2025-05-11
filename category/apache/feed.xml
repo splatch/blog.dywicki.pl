@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apache on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/apache/</link>
+    <description>Recent content in Apache on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 21 Feb 2006 13:26:56 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/apache/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mod_rewrite plus zmienne z GET</title>
+      <link>https://blog.dywicki.pl/2006/02/21/mod_rewrite-plus-zmienne-z-get/</link>
+      <pubDate>Tue, 21 Feb 2006 13:26:56 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/21/mod_rewrite-plus-zmienne-z-get/</guid>
+      <description>&lt;p&gt;Dzisiaj miałem nietypowy problem - chciałem stworzyć sobie obsługę mod_rewrite ale nie babrać się z wyciąganiem zmiennych które był w żądanym adresie, dlatego też udałem się do google.pl w poszukiwaniu dodatkowych flag, które można ustawiać. Znalazłem bardzo fajną stronkę z kartą podręczną do mod_rewrite - &lt;a href=&#34;http://www.ilovejackdaniels.com/cheat-sheets/mod&#34;&gt;http://www.ilovejackdaniels.com/cheat-sheets/mod&lt;/a&gt;_rewrite-cheat-sheet/ jest ich tam więcej - css, php, javascript, html, mysql. A moje rozwiązanie wygląda w następujący sposób:
+&lt;code&gt;RewriteEngine  On&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;RewriteBase /z-tego-adresu/
+RewriteCond %{REQUEST_URI} !^.*\.(css|png|gif|jpe?g|php|js)$
+RewriteRule ^.*$ /z-tego-adresu/index.php?%{REQUEST_URI} [QSA,L]
+Oczywiście wymaga dotarcia i obsługi w kodzie, ale GET jest bez zmian.. i to najważniejsze :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

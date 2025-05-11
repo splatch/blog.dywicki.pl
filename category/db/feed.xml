@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Db on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/db/</link>
+    <description>Recent content in Db on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 29 Nov 2007 23:21:25 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/db/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nowa wersje db4o</title>
+      <link>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</link>
+      <pubDate>Wed, 14 Nov 2007 23:07:48 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</guid>
+      <description>Wczoraj do mojej skrzynki trafił newsletter z db4o, w którym trafiłem na dwie informacje. Pierwsza głosi, że db4o w wersji 6.4 jest gotowe do zastosowań produkcyjnych. Druga, że dostępna jest beta wersji 7.0 z nowym mechanizmem o nazwie &amp;rsquo;transparent activation&amp;rsquo;. Postanowiłem &lt;a href=&#34;http://developer.db4o.com/blogs/product_news/archive/2007/11/12/the-7th-dimension.aspx&#34;&gt;zajrzeć do szczegółów&lt;/a&gt;, które tyczą się najnowszej wersji. Wynikiem czego jest to dosyć luźne tłumaczenie.</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - konfiguracja generatora</title>
+      <link>https://blog.dywicki.pl/2006/09/24/propel-12-konfiguracja-generatora/</link>
+      <pubDate>Sat, 23 Sep 2006 22:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/24/propel-12-konfiguracja-generatora/</guid>
+      <description>&lt;p&gt;Dzisiaj &lt;a href=&#34;http://code-house.net/Propel12GeneratorConfiguration&#34;&gt;na wiki opisałem&lt;/a&gt; wszystkie znane &lt;a href=&#34;http://propel.phpdb.org/trac/browser/branches/1.2/generator/default.properties&#34;&gt;dyrektywy konfiguracyjne generatora&lt;/a&gt; dla Propela 1.2 (wygląda na to, że &lt;a href=&#34;http://propel.phpdb.org/trac/browser/trunk/generator/default.properties&#34;&gt;pokrywają się one&lt;/a&gt; w dużej mierze z dyrektywami Propela 2.0). W najbliższym czasie opis &lt;a href=&#34;http://code-house.net/Propel12ProjectConfiguration&#34;&gt;konfiguracji projektu&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - przyśpieszamy</title>
+      <link>https://blog.dywicki.pl/2006/09/23/propel-12-przyspieszamy/</link>
+      <pubDate>Fri, 22 Sep 2006 22:38:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/23/propel-12-przyspieszamy/</guid>
+      <description>&lt;p&gt;Zachęcony &lt;a href=&#34;https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/#comment-1094&#34;&gt;komentarzem&lt;/a&gt; do &lt;a href=&#34;https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy&#34;&gt;poprzedniego posta&lt;/a&gt; postanowiłem zoptymalizować cały builder dla Propela. Zasada działania jest taka sama jak wcześniej - usunięcie zbędnych iteracji. Kod generowany przez moje poprawki nie należy do najszybszych, ale z &lt;a href=&#34;http://www.phpfi.com/155990&#34;&gt;moich testów&lt;/a&gt; wynika jednoznacznie - jest szybszy.
+Szybki sposób instalacji &lt;a href=&#34;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&#34;&gt;FasterPHP5ComplexPeerBuilder.php&lt;/a&gt;:
+pobrać plik &lt;a href=&#34;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&#34;&gt;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&lt;/a&gt;
+skopiować do folderu propel/engine/builder/om/php5.
+w build.properties dla projektu ustawić dyrektywę:
+[code]propel.builder.peer.class = propel.engine.builder.om.php5.FasterPHP5ComplexPeerBuilder[/code]
+Wskazuje ona na nazwę klasy której obiekt będzie odpowiedzialny za wygenerowanie kodu dla klasy tabeli (*Peer).
+Po tym wszystkim odpalamy generator z targetem om poleceniem:
+[code]propel-gen katlog-projektu om[/code]
+bądź
+[code]phing -Dproject=nazwa -Dtarget=om[/code].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - przyśpiesz go nawet do 2 razy!</title>
+      <link>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</link>
+      <pubDate>Thu, 21 Sep 2006 18:16:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</guid>
+      <description>&lt;p&gt;Jak wiadomo szybkość nie jest domeną Propela. Dzisiejszego popołudnia na oficjalnym kanale Propela odbyłem rozmowę z osobą która twierdziła, że można przyśpieszyć propela o 3 razy (a przymajmniej metodę doSelectJoinAll). Nie zdziwcie się - miała ona rację! :)&lt;/p&gt;
+&lt;p&gt;Problem w doSelectJoinAll polega na tym, że są wykonywane zbędne iteracje mające na celu sprawdzenie czy element zawiera obiekt dołączanej encji. Można je z powodzeniem zastąpić odpowiednią mapą, która zawiera identyfikatory tych encji, które już są dodane do obiektu. Osoba, która to twierdziła miała odpowiedni kod, który zgadnijcie - zadziałał.
+Aby zamiana była uniwersalna - zmieniłem co trzeba w generatorze. Sama metoda działa dwa i pół raza szybciej! Dla zainteresowanych - plik zmieniony przeze mnie - &lt;a href=&#34;http://delta.dywicki.pl/propel/PHP5ComplexPeerBuilder.php&#34;&gt;PHP5ComplexPeerBuilder.php&lt;/a&gt;. Sprawdź czy Twoje doSelectJoinAll przyśpieszy. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kilka słów na temat Creole</title>
+      <link>https://blog.dywicki.pl/2006/09/17/kilka-slow-na-temat-creole/</link>
+      <pubDate>Sat, 16 Sep 2006 22:57:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/17/kilka-slow-na-temat-creole/</guid>
+      <description>&lt;p&gt;Dzisiejszego popołudnia udało mi się napisać kilka zdań na temat Creole. Zaintereoswanych zapraszam do odpowiedniej kategorii na moim &lt;a href=&#34;http://code-house.net/CreoleCategory&#34;&gt;prywatnym wiki&lt;/a&gt;. Komentarze proszę umieszczać pod tym postem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL i PostgreSQL - testy wydajności</title>
+      <link>https://blog.dywicki.pl/2006/06/27/mysql-i-postgresql-testy-wydajnosci/</link>
+      <pubDate>Tue, 27 Jun 2006 15:16:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/27/mysql-i-postgresql-testy-wydajnosci/</guid>
+      <description>&lt;p&gt;Witam, jakiś czas temu w pracy staneliśmy przed dylematem - którą bazę danych użyć? Dyskusja była długa, w końcu postanowiliśmy przetestować wydajność każdego rozwiązania. Niestety testy niejasności tylko jeszcze bardziej naświetliły.&lt;/p&gt;
+&lt;p&gt;Pierwszy test, jaki przeprowadziliśmy polegał na wstawieniu 3 milionów rekordów do tabeli, która składała się z 5 kolumn.&lt;/p&gt;
+&lt;p&gt;[sql] &amp;ndash; pgsql
+CREATE TABLE users
+(
+user_id serial NOT NULL,
+user_name varchar(45),
+user_password varchar(32),
+user_first_name varchar(15),
+user_last_name varchar(15),
+CONSTRAINT users_pkey PRIMARY KEY (user_id)
+) [/sql]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oracle XE</title>
+      <link>https://blog.dywicki.pl/2006/06/25/oracle-xe/</link>
+      <pubDate>Sun, 25 Jun 2006 08:08:50 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/25/oracle-xe/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Oracle #4&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2006/06/ora4.thumbnail.JPG&#34;&gt;Niedawno postanowiłem zaryzykować i ściągnąć Oracle XE. Samo ściągnięcie nie trwało dość długo (w międzyczasie sobie jadłem kolację), w końcu to tylko 150 MB. Zapewne niektórym w tym miejscu trudno uwierzyć, że tylko tyle. Tak tylko tyle! ;) Fakt, w porównaniu z MySQL/PgSQL to naprawdę wiele, ale nie w porównaniu do pełnego pakietu Oracle, który waży znacznie więcej. Tak więc w mych rękach wylądowała wersja express Oracle 10, która była gotowa do instalacji. Procesu instalacji nie opisywałbym gdyby nie to, że minimalna ilość pamięci to ponad 256 MB. Zatem niestety, albo i stety nie mogłem zainstalować bazy na laptopie. Nie mniej, podczas pobytu w domu z powodzeniem instalację udało mi się zakończyć. Co mnie zaskoczyło – nie zmuliło mi od razu systemu, jak to ongi bywało. Pamiętam, że gdy pierwszy raz instalowałem Oracle (rozmiar ~500 MB) to system dosłownie stawał w miejscu. Dlaczego? Ponieważ przy normalnej instalacji Oracle używa kilku i więcej procesów pomocniczych, także nie jest to tak jak w przypadku MySQL jeden proces. Dzięki temu baza o wiele lepiej sprawuje się na maszynach wieloprocesorowych.
+Podstawowe procesy pomocnicze to:
+- dbw – proces zapisujący do plików danych – procesów tych może być do 9 (dbwr0.. dbwr9)
+- pmon – monitor procesów
+- smon – monitor systemu
+- lgwr – proces zapisujący do plików dziennika powtórzeń
+- ckpt – proces punktu kontrolnego
+- reco – odtwarzacz
+- arc0 – archiwizacja danych
+&lt;img alt=&#34;Oracle #3&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2006/06/ora3.thumbnail.JPG&#34;&gt;W przypadku wersji express tych procesów nie ma, jest jeden główny, który sobie spokojnie radzi ze wszystkim. Nie mam pojęcia jak to jest realizowane, ale na systemie XP, który ma ponad pół roku, gdzie dysk naprawdę jest zawalony po brzegi i gdyby nie zakładki na tychże to by się z niego wylewało baza działała szybko a co najważniejsze nie destabilizowała systemu jak i pracy innych aplikacji. Dla mnie bomba, proces nie zżerał całej dostępnej pamięci, tak że spokojnie mogłem przy 768 MB pamięci pracować jeszcze na Eclipse. Nie do wiary? A jednak, dało radę. W tym przypadku śmiem twierdzić, że gadanie &amp;ldquo;Oracle zmula&amp;rdquo; są mocno nieaktualne. Nie zmula! Oczywiście wciąż mówimy cały czas o wersji express, która w sam raz nadaje się do testów a nie o instalacji w pełni funkcjonalnej.
+&lt;img alt=&#34;Oracle #2&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2006/06/ora2.thumbnail.JPG&#34;&gt;Cóż takiego ciekawego jest w tym oprogramowaniu?
+1. Po pierwsze, dlaczego powstają książki rozmiarowo przewyższające encyklopedie na jego temat.
+2. Po drugie czy nie jest to wodolejstwo.
+3. Po trzecie czy możliwości są adekwatne do ceny.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>db4o in Action!</title>
+      <link>https://blog.dywicki.pl/2006/03/08/db4o-in-action/</link>
+      <pubDate>Wed, 08 Mar 2006 00:04:59 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/08/db4o-in-action/</guid>
+      <description>&lt;p&gt;Dzisiaj zainspirowany rozmową na ircu i ciekawym zapytaniem postanowiłem zaintersować się db4o. Muszę przyznać, że całość jest dość prosta, właściwie banalna. Wykorzystanie db4o sprowadza się do zaimportowania kilku klas.. i gotowe. Koniec męczenia się z SQLem, z korzystaniem z ORMów i tak dalej.. koniec! :) Wrzucasz obiekt, dostajesz z powrotem obiekt. Jestem zachwycony możliwościami db4o, chociaż odkryłem dopiero ich nieznaczną część.. zachęcam do spojrzenia &lt;a href=&#34;http://jacekolszak.blogspot.com/2005/09/odbms-vs-rdbms-czyli-wydajno-i-wygoda.html&#34;&gt;na notkę z innego bloga&lt;/a&gt;.
+Dla przykładu załączam źródła: &lt;a href=&#34;http://img.dywicki.pl/db4o.zip&#34;&gt;db4o.test&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

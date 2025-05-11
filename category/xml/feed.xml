@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xml on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/xml/</link>
+    <description>Recent content in Xml on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 23 Jul 2008 06:27:55 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/xml/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 06:27:55 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Apache ServiceMix, Open Source ESB</title>
+      <link>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</link>
+      <pubDate>Sun, 22 Jun 2008 18:23:35 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</guid>
+      <description>Jakiś czas temu, jeszcze podczas pracy w poprzedniej firmie przypadło mi zadanie podpięcia się pod magistralę usług opartą o &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt; (SMX). Był to wówczas dla mnie temat zupełnie nowy, ba nawet nie wiedziałem z czym to się je. :) Koniec końców jednak podpięcie pod ESB (Enterprises Service Bus) nie było w ogóle trudne. Po jakimś czasie i drobnych przetasowaniach na płaszczyźnie zawodowej zająłem się SMX-em nie jako klient magistrali a osoba implementująca usługi na szynie a ten wpis jest drobną przeróbką prezentacji, którą przygotowałem w pracy.</description>
+    </item>
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rozszerzanie JAXB</title>
+      <link>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</link>
+      <pubDate>Wed, 28 Nov 2007 14:12:33 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</guid>
+      <description>Z ostatnich not zebrało mi się kilka obietnic. Jedną z nich było omówienie pluginów w wydaniu JAXB. Jako, że dzisiaj urządziłem sobie wolny dzień postanowiłem wywiązać się przynajmniej z części obowiązków z tym i z tych blogowych.</description>
+    </item>
+    <item>
+      <title>Weź do Javy to co chcesz z PHP!</title>
+      <link>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</link>
+      <pubDate>Thu, 08 Nov 2007 23:52:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</guid>
+      <description>Integracja między językami czy też platformami to kwestia poruszana nie od dzisiaj. Na poziomie platform funkcjonuje od dłuższego czasu CORBA i Web Services z trio SOAP + WSDL + XML Schema na czele. Integracja systemów napisanych w tym samym języku sprowadza się zwykle do wykorzystania serializacji, która jest najszybsza i najwygodniejsza. Gorzej jeśli idzie o połączenie dwóch języków - w moim przypadku PHP i Javy.
+Zend ma swój mostek, który umożliwia na zintegrowanie Javy i PHP, jest też dodatkowe rozszerzenie do PHP, które pozwala na wykorzystanie Javy w PHP, jednakże moje oczekiwania nie był aż tak wielkie. Potrzebowałem po prostu odczytać dane specyficzne dla PHP - powiedzmy informacje o jakiejś klasie. Standardowo taka operacja wymagała stworzenia parsera, co jest zadaniem powiedzmy, nie na moje siły i umiejętności.. stąd też postanowiłem sobie nieco uprościć pracę. :)</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JAXB 2, Wprowadzenie</title>
+      <link>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</link>
+      <pubDate>Sun, 14 Oct 2007 17:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</guid>
+      <description>W ramach &lt;a href=&#34;http://groups.google.com/group/warszawa-jug/web/warsjava&#34;&gt;WarsJava&lt;/a&gt;, konferencji/warsztatów organizowanych przez &lt;a href=&#34;http://warszawa.jug.pl/&#34;&gt;Warszawski JUG&lt;/a&gt;, będę miał szansę przedstawić publiczności &lt;a href=&#34;https://jaxb.dev.java.net/&#34;&gt;Java Architecture for XML Binding&lt;/a&gt; w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</description>
+    </item>
+    <item>
+      <title>Wygodny edytor do konfiguracji XML</title>
+      <link>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</link>
+      <pubDate>Thu, 02 Aug 2007 21:46:17 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.PNG&#34; title=&#34;Zdefiniowany katalog ze schematami XML&#34;&gt;&lt;img alt=&#34;Zdefiniowany katalog ze schematami XML&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.thumbnail.PNG&#34;&gt;&lt;/a&gt; Konfiguracja w XMLu ma swoje plusy jak i minusy. Nie jest tak banalna w obsłudze jak zapisana w PHP czy w .ini, ale daje dość spore możliwości. Troszkę dywagacji na ten temat było jakiś czas temu w poście pod tytułem &amp;quot; &lt;a href=&#34;http://blog.dywicki.pl/?p=101&#34;&gt;Dlaczego konfiguracja w XML&lt;/a&gt;&amp;quot;.</description>
+    </item>
+    <item>
+      <title>Dlaczego konfiguracja w XML.</title>
+      <link>https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/</link>
+      <pubDate>Thu, 07 Sep 2006 20:39:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/</guid>
+      <description>&lt;p&gt;W czasach kiedy najbardziej trendy jest YAML twierdzę, że jest on niczym w porównaniu do tego, co oferuje XML. DLaczego?&lt;/p&gt;
+&lt;p&gt;Dlatego, że tworząc dowolny dokument XML mogę go w bardzo prosty sposób rozszeżyć. Jak? Poprzez XInclude. Jego obsługa jest nawet w PHP więc nie ma z tym jakichkolwiek problemów. Definiuję tylko odnośnik  i mam dołączony ten XML [po wykonaniu $DOMDocument-&amp;gt;xinclude();].&lt;/p&gt;
+&lt;p&gt;Kolejna sprawa. Walidacja. Nie muszę tworzyć żadnego kodu w PHP by sprawdzić poprawność XMLa. Wystarczy, że stworzę dobry schemat w XSD i mam walidację załatwioną bez jakiegokolwiek warunku. Do tego dochodzą ograniczenia takie jak rekurencja. W PHP  muszę to załatwiać poprzez wielokrotne wywołanie funkcji, które za każdym razem wydłuża czas. Normalnie załatwi mi to DOM XML, który jest napisany w C i będzie znacznie szybszy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 grzechów głównych PHP, XML</title>
+      <link>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</link>
+      <pubDate>Mon, 17 Jul 2006 22:21:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Na początku odpowiedź na post, który napisał &lt;a href=&#34;http://www.zyxist.com/pokaz.php/7_grzechow_php_komentarz&#34;&gt;Zyx&lt;/a&gt;.&lt;/strong&gt; &lt;em&gt;Aktualnie każdy, kto chce napisać nowe rozszerzenie do PHP, musi tylko znać język C, znać cel swej pracy oraz przeczytać rozdział 46 dokumentacji PHP zatytułowany &amp;ldquo;Zend API: Hacking the Core of PHP&amp;rdquo; i poświęcony właśnie tworzeniu modułów.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Zend API to nie wszystko. Moduły kompilowane nie są wyjściem super-uniwersalnym. Na co drugim serwerze nie ma opcji by dorzucić własne rozszerzenie. Wiele modułów z PECLa leży tam od lat, są one praktycznie nie rozwijane, także ich ilość niewiele może poświadczyć.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

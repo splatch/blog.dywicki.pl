@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>7-Grzechów on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/7-grzech%C3%B3w/</link>
+    <description>Recent content in 7-Grzechów on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 17 Jul 2006 22:21:10 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/7-grzech%C3%B3w/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 grzechów głównych PHP, XML</title>
+      <link>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</link>
+      <pubDate>Mon, 17 Jul 2006 22:21:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Na początku odpowiedź na post, który napisał &lt;a href=&#34;http://www.zyxist.com/pokaz.php/7_grzechow_php_komentarz&#34;&gt;Zyx&lt;/a&gt;.&lt;/strong&gt; &lt;em&gt;Aktualnie każdy, kto chce napisać nowe rozszerzenie do PHP, musi tylko znać język C, znać cel swej pracy oraz przeczytać rozdział 46 dokumentacji PHP zatytułowany &amp;ldquo;Zend API: Hacking the Core of PHP&amp;rdquo; i poświęcony właśnie tworzeniu modułów.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Zend API to nie wszystko. Moduły kompilowane nie są wyjściem super-uniwersalnym. Na co drugim serwerze nie ma opcji by dorzucić własne rozszerzenie. Wiele modułów z PECLa leży tam od lat, są one praktycznie nie rozwijane, także ich ilość niewiele może poświadczyć.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 grzechów głównych PHP, inwokacja.</title>
+      <link>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</link>
+      <pubDate>Sat, 15 Jul 2006 18:37:49 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</guid>
+      <description>&lt;p&gt;Postami w tej kategorii chcę pokazać jak dalekie PHP jest od ideału. Mam nadzieję, że większość z tego co piszę kiedyś zostanie poprawiona, nie mniej póki co, są to grzechy ciężkie, które pokazują słabości PHP.&lt;/p&gt;
+&lt;h3 id=&#34;zend&#34;&gt;Zend&lt;/h3&gt;
+&lt;p&gt;Zend jest firmą, która bez wątpienia ma największy wpływ na PHP. To Zend tworzy najważniejszy element PHP jakim jest Zend Engine.&lt;/p&gt;
+&lt;p&gt;To co mam do zarzucenia Zendowi to nieumiejętność wykorzystania swojej pozycji. Nie potrafi on wykorzystać swojej pozycji by ugrać coś na rzecz PHP. Być może dlatego, że jako firma jest zbyt mały by cokolwiek znaczyć. Od jakiegoś czasu Zend powoli produkuje papkę marketingową, którą wciska, że PHP jest enterprise podczas gdy samemu PHP jest do tego bardzo daleko. To, że został zmieniony silnik obsługujący obiekty, upodobniono składnię do Javy, wydano nową (piątą) wersję PHP nie czyni go enterprise.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

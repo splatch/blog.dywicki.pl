@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agavi on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/agavi/</link>
+    <description>Recent content in Agavi on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Dec 2007 23:54:39 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/agavi/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agavi IDE, prace trwają</title>
+      <link>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</link>
+      <pubDate>Sat, 01 Dec 2007 23:54:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.PNG&#34; title=&#34;Stored agavi project :)&#34;&gt;&lt;img alt=&#34;Stored agavi project :)&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.thumbnail.PNG&#34;&gt;&lt;/a&gt; Cały dzisiejszy dzień poświęciłem na zbudowanie szkieletu modelu pod Agavi IDE. W trakcie dnia zaszło kilka nagłych zwrotów akcji na miarę dobrego filmu sensacyjnego ;). Początkowo pragnąłem wykorzystać &lt;a href=&#34;http://www.eclipse.org/modeling/&#34;&gt;Eclipse Modeling Framework&lt;/a&gt; do zarządzania obiektami. Wszystko szło gładko, dopóki nie spróbowałem wygenerować kodu wolnego od zależności EMF. Koniec końców dowiedziałem się, że z EMF nie da się wygenerować zwykłych Java Beanów. Niestety, ale zarządzanie wszystkim poprzez otoczkę EMF niezbyt mi się uśmiechało. Model trzymany w pamięci nie potrzebuje wodotrysków, mogą to być zwykle &lt;a href=&#34;http://en.wikipedia.org/wiki/POJO&#34;&gt;POJO&lt;/a&gt;.
+Przepisałem więc cały kod sam, na nowo. Diagram, który początkowo ilustrował całą strukturę, troszkę się zmienił, nie mniej wersję bazową załączam na obrazku.</description>
+    </item>
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wygodny edytor do konfiguracji XML</title>
+      <link>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</link>
+      <pubDate>Thu, 02 Aug 2007 21:46:17 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.PNG&#34; title=&#34;Zdefiniowany katalog ze schematami XML&#34;&gt;&lt;img alt=&#34;Zdefiniowany katalog ze schematami XML&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.thumbnail.PNG&#34;&gt;&lt;/a&gt; Konfiguracja w XMLu ma swoje plusy jak i minusy. Nie jest tak banalna w obsłudze jak zapisana w PHP czy w .ini, ale daje dość spore możliwości. Troszkę dywagacji na ten temat było jakiś czas temu w poście pod tytułem &amp;quot; &lt;a href=&#34;http://blog.dywicki.pl/?p=101&#34;&gt;Dlaczego konfiguracja w XML&lt;/a&gt;&amp;quot;.</description>
+    </item>
+    <item>
+      <title>Agavi 0.11 RC5</title>
+      <link>https://blog.dywicki.pl/2007/06/18/agavi-011-rc5/</link>
+      <pubDate>Mon, 18 Jun 2007 21:41:11 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/18/agavi-011-rc5/</guid>
+      <description>Dzisiaj rano światło dzienne ukazało się Agavi 0.11 RC5, oprócz poprawek błędów z wersji RC4 doszło parę nowości:</description>
+    </item>
+    <item>
+      <title>Agavi 0.11 RC3, flow</title>
+      <link>https://blog.dywicki.pl/2007/02/24/agavi-011-rc3-flow/</link>
+      <pubDate>Fri, 23 Feb 2007 22:48:53 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/02/24/agavi-011-rc3-flow/</guid>
+      <description>&lt;p&gt;Mam niebywałą przyjemność oznajmić, że dnia &lt;a href=&#34;http://trac.agavi.org/log/tags/0.11.0RC3&#34;&gt;23 lutego&lt;/a&gt; zostało wydane, jak sam tytuł posta wskazuje, Agavi 0.11 RC3. Do pierwszej, w pełni stabilnej wersji jest już coraz bliżej.
+Zgodnie z rozkładem jazdy został otwarty &lt;a href=&#34;http://trac.agavi.org/ticket/340&#34;&gt;jeden ticket&lt;/a&gt;, którego realizacja została odsunięta na sam koniec. Mianowicie, opis migracji z wersji 0.10 do 0.11. Ogrom zmian, które przetaczały się przez trunk repozytorium mógł przyprawić o zawrót głowy. Zmiany z rewizji na rewizję potrafiły w jednym momencie zniszczyć skrzętnie budowane narzędzia, które opierały się na zmieniających się wciąż mechanizmach.
+Co zyskało Agavi o wersji 0.10? Przede wszystkim developerzy uwolnili projekt od niezręcznej i nieporęcznej konfiguracji w plikach INI, która poza łatwością odczytu nastręczała przede wszystkim problemów&amp;hellip; a to brak hierarchiczności, brak możliwości łączenia konfiguracji, w końcu brak narzędzia do walidacji zapisanych danych. W poście &amp;quot; &lt;a href=&#34;https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/&#34;&gt;Dlaczego konfiguracja w XML&lt;/a&gt;&amp;quot; porównywałem XML również do YAMLa.
+Sporą zmianą, naturalnie, na lepsze było zrezygnowanie z tradycyjnego flowu Mojavi 3. Do tej pory wyglądało to w ten sposób, że każda akcja miała metodę getRequestMethods, która zwracała informacje o tym w jaki sposób dostępna jest akcja. Czy to GET, POST, bądź cokolwiek (odpowiednie stałę w klasie Request - GET, POST, NONE). Teraz o sposób dostępu do akcji determinuje nazw akcji. Akcja o nazwie executeRead będzie wykonana w chwili żądania typu GET. Metoda o nazwie executeWrite będzie wykonana w chwili gdy otrzymamy formularz via POST. Metoda execute będzie wykonywana zawsze (o ile walidacja przebiegnie bez zakłuceń). Zysk z tego jest taki, że implementacja różnych kontrolerów nie wpływa na kształt akcji. W chwili gdy wiązały się z tym stałe GET/POST implementacja wywołań z poziomu konsoli była ciężka. W zapowiedziach pojawia się ConsoleRequest, ponieważ z Agavi 0.11 wyleciały kontrolery zależne od kontekstu. Jest jeden &lt;a href=&#34;http://trac.agavi.org/browser/tags/0.11.0RC3/src/controller/AgaviController.class.php&#34;&gt;Controller&lt;/a&gt;, różne są implementacje requestu vide &lt;a href=&#34;http://trac.agavi.org/browser/tags/0.11.0RC3/src/request/AgaviConsoleRequest.class.php&#34;&gt;ConsoleRequest&lt;/a&gt; (jeszcze niegotowy, będzie w 1.0), &lt;a href=&#34;http://trac.agavi.org/browser/tags/0.11.0RC3/src/request/AgaviWebRequest.class.php&#34;&gt;WebRequest&lt;/a&gt; oraz &lt;a href=&#34;http://trac.agavi.org/browser/tags/0.11.0RC3/src/request/AgaviSecureWebRequest.class.php&#34;&gt;SecureWebRequest&lt;/a&gt;.
+W międzyczasie pożegnaliśmy również stałe View::SUCCESS, ERROR, INPUT, ALERT, a metoda &lt;a href=&#34;http://trac.agavi.org/browser/tags/0.11.0RC3/samples/app/modules/Default/actions/IndexAction.class.php#L69&#34;&gt;getDefaultViewName&lt;/a&gt; każdej akcji zwraca po prostu suffix do nazwy widoku (np. metoda akcji &amp;ldquo;Cart&amp;rdquo; zwraca wartość &amp;ldquo;Product&amp;rdquo;, stąd klasa widoku to CartProductView).
+Co więcej w połączeniu z innym mechanizmem &lt;a href=&#34;https://blog.dywicki.pl/2007/02/22/agavi-output-types/&#34;&gt;Agavi, Output types&lt;/a&gt;, zmiany formatu widoku oraz języka nie wiążą się z implementacją bądź powielaniem logiki biznesowej. Implementujemy tylko logikę związaną z widokiem.
+Warto również wspomnieć, że od tej chwili &lt;strong&gt;metoda Controller::forward(module, action) jak i samo używanie powiązanych akcji jest odradzane&lt;/strong&gt;, jako źródło potencjalnych problemów (dlaczego widok nie jest uruchamiany) tym bardziej, że tworzenie widoków i akcji załatwia samo Agavi przez taski dla &lt;a href=&#34;http://phing.info&#34;&gt;Phinga&lt;/a&gt;. W chwili, gdy chcemy użyć innego widoku, spoza tych, które dostarcza sama akca po prostu zwracamy array(module, view name, parameters). Zniknęła również możliwości zrobienia forwarda z widoku (ogólnie problemy z request methods, to co było post-only nie szło przy fowardzie przy żądaniu otrzymanym via get), co wydaje się jak najbardziej uzasadnione.
+Widok nie jest organem decyzyjnym, który powinien wskazywać na wykonanie logiki biznesowej. Nie mniej jest możliwość przekierowania do widoku innej akcji.. poprzez redirect bądź poprzez zwrócenie array(module, view name, parameters).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agavi, Output types</title>
+      <link>https://blog.dywicki.pl/2007/02/22/agavi-output-types/</link>
+      <pubDate>Thu, 22 Feb 2007 20:41:37 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/02/22/agavi-output-types/</guid>
+      <description>&lt;p&gt;Jedną z nowości jaką niesie Agavi w wersji &amp;gt; 0.10 jest mechanizm output types. Jest to bardzo proste rozwiązanie, które umożliwia uniknięcie gimnastyki z tworzeniem widoków w różnych technologiach, z którymi wiąże się różna logika. Banalny przykład. Te same dane prezentujemy w postaci HTML jak i PDF a do tego możemy je pobierać przez XmlHttpRequest. Dane są praktycznie identyczne, różny jest format wynikowy i proces jego tworzenia. Dla zwykłej strony wskazujemy szablon, dorzucamy dane i koniec, dla XmlHttp zwracamy JSONa. Stworzenie outputu w formacie PDF nie będzie tak proste jak pozostałych, ponieważ konieczne będzie stworzenie układu strony, dorzucenie fontów etc. Ogólnie w żaden sposób nie da się połączyć tych formatów w jednym widoku bez sporej ilości warunków i &amp;ldquo;protez&amp;rdquo;. By uniknąć zakopania się w tym wszystkim zwykle tworzy się dodatkową akcję, która w sporej części pokrywała się z pierwotną a różni się tylko widokiem i szablonami. Począwszy od Agavi 0.11 problem przestaje istnieć.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mojavi 4. Dlaczego nie?</title>
+      <link>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</link>
+      <pubDate>Wed, 30 Aug 2006 21:14:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</guid>
+      <description>&lt;p&gt;Od publikacji ostatniej noty parę osób proponowało mi podjęcie prac nad Mojavi 4. Chcę wyjaśnić, dlaczego Mojavi 4 nie będę się zajmował.&lt;/p&gt;
+&lt;p&gt;1. Nie ma nikogo kto byłby w stanie pomóc mi przy projekcie. Obaj byli developerzy zakończyli swoją przygodę z PHP. Nie ma również żadnej społeczności, która jest w stanie zająć się forum, wyłapywaniem błędów - jednym słowem - to by było to samo co robiłem wcześniej przy własnym frameworku.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>View Layout i Agavi</title>
+      <link>https://blog.dywicki.pl/2006/05/05/view-layout-i-agavi/</link>
+      <pubDate>Fri, 05 May 2006 11:17:54 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/05/view-layout-i-agavi/</guid>
+      <description>Zainspirowany ideą Layotów w M4 postanowiłem stworzyć małą wtyczkę do agavi, która umożliwi mi korzystanie z tego rozwiązania. Jest ona bardzo prosta i ułatwia masową zmianę szablonu głównego oraz slotów (o slotach jeszcze będę pisał).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Php6 on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/php6/</link>
+    <description>Recent content in Php6 on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 15 Jul 2006 18:37:49 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/php6/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 grzechów głównych PHP, inwokacja.</title>
+      <link>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</link>
+      <pubDate>Sat, 15 Jul 2006 18:37:49 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</guid>
+      <description>&lt;p&gt;Postami w tej kategorii chcę pokazać jak dalekie PHP jest od ideału. Mam nadzieję, że większość z tego co piszę kiedyś zostanie poprawiona, nie mniej póki co, są to grzechy ciężkie, które pokazują słabości PHP.&lt;/p&gt;
+&lt;h3 id=&#34;zend&#34;&gt;Zend&lt;/h3&gt;
+&lt;p&gt;Zend jest firmą, która bez wątpienia ma największy wpływ na PHP. To Zend tworzy najważniejszy element PHP jakim jest Zend Engine.&lt;/p&gt;
+&lt;p&gt;To co mam do zarzucenia Zendowi to nieumiejętność wykorzystania swojej pozycji. Nie potrafi on wykorzystać swojej pozycji by ugrać coś na rzecz PHP. Być może dlatego, że jako firma jest zbyt mały by cokolwiek znaczyć. Od jakiegoś czasu Zend powoli produkuje papkę marketingową, którą wciska, że PHP jest enterprise podczas gdy samemu PHP jest do tego bardzo daleko. To, że został zmieniony silnik obsługujący obiekty, upodobniono składnię do Javy, wydano nową (piątą) wersję PHP nie czyni go enterprise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magiczne namespace..</title>
+      <link>https://blog.dywicki.pl/2006/07/09/magiczne-namespace/</link>
+      <pubDate>Sun, 09 Jul 2006 13:41:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/09/magiczne-namespace/</guid>
+      <description>&lt;p&gt;I oto się stało. Pierwszy raz użyłem przestrzeni nazw w PHP! Nie do wiary? A jednak. Nie było jakichkolwiek problemów z samą instalacją, ponieważ do pobrania jest paczka (pod Win ;)), która zachowuje się jak wszystkie inne pobrane z &lt;a href=&#34;http://php.net&#34;&gt;php.net&lt;/a&gt;. Przykłady podane na necie działają, więc nie pozostaje nic innego jak zabrać się za używanie przestrzeni nazw. :)&lt;/p&gt;
+&lt;p&gt;Oto listingi, które działają:
+[php]&amp;lt; ?php&lt;/p&gt;
+&lt;p&gt;import class a:::AFactory;
+import class a:::A;&lt;/p&gt;
+&lt;p&gt;namespace a {
+class AFactory {
+public static function create() {
+return new A;
+}
+}
+private class A {}
+}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP6 bo miały być wielkie zmiany ...</title>
+      <link>https://blog.dywicki.pl/2005/12/20/php6-bo-mialy-byc-wielkie-zmiany/</link>
+      <pubDate>Tue, 20 Dec 2005 00:38:07 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/20/php6-bo-mialy-byc-wielkie-zmiany/</guid>
+      <description>Oto co zrozumiałem z &lt;a href=&#34;http://www.php.net/~derick/meeting-notes.html&#34;&gt;http://www.php.net/~derick/meeting-notes.html&lt;/a&gt;. Nie jest to tłumaczenie a moja interpretacja, a jako, że znam angielski gorzej niż źle błędów może być bardzo wiele. W sumie bardzo nawet bym tego chciał, bo z tego co przeczytałem zmian jest na prawde mniej niż można by było się spodziewać.</description>
+    </item>
+    <item>
+      <title>PHP6 - krok 1</title>
+      <link>https://blog.dywicki.pl/2005/12/13/php6-krok-1/</link>
+      <pubDate>Tue, 13 Dec 2005 22:31:11 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/13/php6-krok-1/</guid>
+      <description>&lt;p&gt;No&amp;hellip; rozpoczynamy testowanie &amp;hellip;.&lt;br&gt;
+&lt;img alt=&#34;PHP 6.0&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/php-6.0.gif&#34;&gt; &amp;hellip; i kończymy, bo namespace {} powoduje parse error&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

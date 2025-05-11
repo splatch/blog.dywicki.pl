@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mojavi4 on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/mojavi4/</link>
+    <description>Recent content in Mojavi4 on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 30 Aug 2006 21:14:57 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/mojavi4/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mojavi 4. Dlaczego nie?</title>
+      <link>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</link>
+      <pubDate>Wed, 30 Aug 2006 21:14:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</guid>
+      <description>&lt;p&gt;Od publikacji ostatniej noty parę osób proponowało mi podjęcie prac nad Mojavi 4. Chcę wyjaśnić, dlaczego Mojavi 4 nie będę się zajmował.&lt;/p&gt;
+&lt;p&gt;1. Nie ma nikogo kto byłby w stanie pomóc mi przy projekcie. Obaj byli developerzy zakończyli swoją przygodę z PHP. Nie ma również żadnej społeczności, która jest w stanie zająć się forum, wyłapywaniem błędów - jednym słowem - to by było to samo co robiłem wcześniej przy własnym frameworku.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pożegnanie.</title>
+      <link>https://blog.dywicki.pl/2006/08/27/pozegnanie/</link>
+      <pubDate>Sun, 27 Aug 2006 21:14:42 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/08/27/pozegnanie/</guid>
+      <description>&lt;p&gt;Dzisiejszego dnia chciałem napisać coś o Creole by pokazać, że ten sterownik oferuje ciekawą funkcjonalność, ale nie będzie o tym.&lt;/p&gt;
+&lt;p&gt;To co zmieniło moje zamiary to rozmowa z Tylerem Tomphinsem, osobą prowadzącą od dłuższego czasu projekt Mojavi.&lt;/p&gt;
+&lt;p&gt;Kontakt z Tylerem jest ciężki, ponieważ on mieszka po drugiej stronie globu. Nasze rozmowy do tej pory wyglądały inaczej, niestety ta, którą zakończyłem przed chwilą zmienia wszystko.&lt;/p&gt;
+&lt;p&gt;Dowiedziałem się, że Mojavi 4 zostaje zawieszone. Framework, w którym pokładałem ogromne nadzieje, który miał szanse zmienić nieco oblicze aplikacji pisanych w PHP umiera. Można powiedzieć, że historia się powtórzyła, jest to samo co z trójką (mike_mech wykrakał), która została zawieszona dawno, dawno temu. Ówczesny lider projektu - Sean Kerr zrezygnował z jego prowadzenia na rzecz Tylera..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pierwsze kroki z Mojavi 4</title>
+      <link>https://blog.dywicki.pl/2006/05/07/pierwsze-kroki-z-mojavi-4/</link>
+      <pubDate>Sun, 07 May 2006 21:49:14 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/07/pierwsze-kroki-z-mojavi-4/</guid>
+      <description>&lt;h3 id=&#34;pierwsze-kroki-z-mojavi-4&#34;&gt;Pierwsze kroki z Mojavi 4&lt;/h3&gt;
+&lt;p&gt;Tradycyjnie już Mojavi jest dość trudnym frameworkiem do opanowania dla początkujących. Wiele razy, podczas rozwiązywania zawiłych problemów które pojawiają się na samym początku padają przekleństwa. By tego uniknąć powstał ten oto artykuł który zakłada, że znasz MVC oraz podstawy Mojavi (wiesz czym jest web framework).&lt;/p&gt;
+&lt;h3 id=&#34;wchodzimy-wprowadzenie&#34;&gt;Wchodzimy, wprowadzenie&lt;/h3&gt;
+&lt;p&gt;By zacząć pisać aplikacje przy użyciu Mojavi 4 będziesz potrzebował komputer z zainstalowanym &lt;a href=&#34;http://httpd.apache.org/&#34;&gt;serverem http&lt;/a&gt; oraz &lt;a href=&#34;http://php.net/&#34;&gt;PHP5&lt;/a&gt;. Jeśli masz już działający serwer, będziesz potrzebował &lt;a href=&#34;http://subversion.tigris.org/&#34;&gt;subversion&lt;/a&gt;, by pobrać przy jego pomocy kopię Mojavi na swój serwer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Osiągi i marzenia</title>
+      <link>https://blog.dywicki.pl/2006/05/06/osiagi-i-marzenia/</link>
+      <pubDate>Sat, 06 May 2006 00:44:08 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/06/osiagi-i-marzenia/</guid>
+      <description>&lt;p&gt;Mojavi 4 przeszło długą drogę - od &lt;a href=&#34;http://forum.mojavi.org/index.php?showtopic=1236&#34;&gt;początkowych diagramów uml&lt;/a&gt;. Obecnie oferuje pełną oraz elastyczną konfigurację XML, modularną architekturę, komponenty, buforowanie, obsługę datasource&amp;rsquo;ów, wstrzykiwanie zależności, walidację oraz wiele, wiele innych. Wszystko to przechodzi na końcu przez lekkie &lt;a href=&#34;http://www.lastcraft.com/simple_test.php&#34;&gt;TDD (test driven design)&lt;/a&gt; testy sprawdzające. Wsród innych zamiarów bądź zaimplementowanych możliwości/podstawowych aspektów Mojavi 4 jest:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/MVC&#34;&gt;Model View Controller&lt;/a&gt; - Najważniejsza część architektury, podstawa poprzednich frameworków Mojavi.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Mutliproject&#34;&gt;Multi-project support&lt;/a&gt; - Posiadanie różnych projektów działających na tym samym kodzie bazowym.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/EndUserFilters&#34;&gt;End-user controlled filters&lt;/a&gt; - Zawiera konfigurowalną obsługę wyjątków.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/GlobalAndForwardFilters&#34;&gt;Global and Forward Filters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/ApplicationControllers&#34;&gt;Application Controllers&lt;/a&gt; - Używane do obsługi wielu następujących po sobie stron do skomplikowanych formularzy bądź wizzardów &lt;em&gt;(kreatorów)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Autoloader&#34;&gt;Sophisticated autoload support&lt;/a&gt; - bardzo, bardzo przydatny mechanizm do automatczynego dołączania klas/interfejsów, również z Twoich własnych bibliotek!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Validators&#34;&gt;Easy Validation?&lt;/a&gt; - Walidacja zawsze jest trudnym elementem do wprowadzenia w aplikacji. Myślimy, że mamy za sobą pracę, która sprawia, że ten częsty i niemiły element staje się łatwy do oprogramowania.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Helpers&#34;&gt;Helpers&lt;/a&gt; - Pomocnicy są zbiorem szybkich bibliotek do użytku w całym frameworku (częston ich użycie oczyszcza logikę aplikacji).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Renderers&#34;&gt;Renderers?&lt;/a&gt; - Wspólny interfejs dla silników szablonów. Renderery umożliwiają zmiany pomiędzy silnikami w prosty sposób.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Logging&#34;&gt;Logger?&lt;/a&gt; - Tak jak wszystko, aplikacje w Mojavi potrzebują logowania!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Datastructures&#34;&gt;Datastructures?&lt;/a&gt; - Średniej wielkości zbiór klas, które dostarczają implementacji wspólnych wzorców struktór danych, takich jak stack &lt;em&gt;stos&lt;/em&gt;, queue &lt;em&gt;kolejka&lt;/em&gt; lub &lt;em&gt;chain&lt;/em&gt; łańcuch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/ServiceLocator&#34;&gt;Service Locator&lt;/a&gt; - Wstrzykiwanie zależności jest gorącym tematem. W skrócie, domyślny Service Locator z Mojavi 4 jest stworzony na bazie wstrzykiwania zależności. Można z niego korzystać w całej aplikacji bez żadnych zobowiązań w kodzie.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Containers&#34;&gt;Containers&lt;/a&gt; - Wszyscy potrzebujemy kontenerów. &lt;em&gt;;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Module&#34;&gt;Modules?&lt;/a&gt; - the Module series classes provide a programmic way to interface with the various pieces of your application. &lt;em&gt;tego nie jestem w stanie przetłumaczyć.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Layouts&#34;&gt;Easy Layouts?&lt;/a&gt; - layouty umożliwiają stworzenie wspólnego wyglądu i wykorzystanie go na wielu stronach &lt;em&gt;w wielu widokach&lt;/em&gt; bez kopiowania kodu.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/i18n&#34;&gt;Internationalization&lt;/a&gt; - Internationalization, otherwise known as i18n, or l10n, is a term used to refer to a process revolving around the end goal of creating an application which can be easily ported to a new audience in terms of content language and data formatting. &lt;em&gt;tego również nie jestem w stanie przetłumaczyć.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Oryginał &lt;a href=&#34;http://trac.mojavi.org/wiki/&#34;&gt;http://trac.mojavi.org/wiki/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Czym będzie Mojavi 4</title>
+      <link>https://blog.dywicki.pl/2006/05/06/czy-bedzie-mojavi-4/</link>
+      <pubDate>Fri, 05 May 2006 23:23:45 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/06/czy-bedzie-mojavi-4/</guid>
+      <description>&lt;p&gt;Mojavi 4 jest najnowszą generacją tego projektu, wiodącego frameworka MVC w PHP przez wiele lat. Wydanie te następuje po długiej histori frameworków pisanych wyłącznie przez &lt;a href=&#34;http://trac.mojavi.org/wiki/People/SeanKerr&#34;&gt;Seana Kerra&lt;/a&gt;. Pod koniec 2005 Sean zrezygnował z prowadzenia Mojavi przekazując swoją dotychczasową funkcję &lt;a href=&#34;http://trac.mojavi.org/wiki/People/TylerTompkins&#34;&gt;Tylerowi Tompkinsowi&lt;/a&gt;, który został głównym architektem Mojavi 4.&lt;/p&gt;
+&lt;p&gt;Mojavi 4 jest bardzo ambitnym projektem, który ma na celu stworzenie dla PHP odpowiednika tego czym jest jądro linuksa przy tworzeniu systemów operacyjnych. Maksymlna elastyczność, zastosowania lekkie bądź ciężke, delikatne oraz trwałe dzięki zastosowanemu frameworkowi. Domyślnie Mojavi 4 powinno być spójnym frameworkiem który nie zawiera warstwy dostępu do danych (data access layer) , chociaż oczywiście będzie obsługiwać rzeczy takie jak połączenia z bazą, ftp i tym podobne. &lt;em&gt;Czyt&lt;/em&gt;
+&lt;em&gt;aj - twórcy Mojavi nie zamierzają tworzyć kolejnego Ado DB tudzież Creole.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mojavi 4, z bliska.</title>
+      <link>https://blog.dywicki.pl/2006/04/25/mojavi-4-z-bliska/</link>
+      <pubDate>Tue, 25 Apr 2006 21:22:08 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/25/mojavi-4-z-bliska/</guid>
+      <description>Tak jak obiecałem informacje na temat zmian w Mojavi 4.
+Mojavi jest jednym ze starszych frameworków dla PHP. Swoje korzenie ma jeszcze w PHP4 kiedy to powstała pierwsza (na chwilę obecną), ostatnia stabilna wersja – Mojavi 2.0. Po wejściu PHP5 okazało się, że M2 nie jest kompatybilne z nowym interpreterem. Zaczęło powstawać Mojavi 3. Istnieje również Yuma – Mojavi 2 zgodne z PHP5. W pewnym momencie grupa (a właściwie jedyna osoba) tworząca Mojavi zdecydowała, że projekt jest nienajlepszy. Mimo wszystko była to tylko kontynuacja M2, bez wykorzystania możliwości PHP5, oparta na klasach. M3 zostało wstrzymane a Sean Kerr (na forum illusina) zaczął tworzyć Mojavi 4. M3 utkęło w fazie DEV. Mimo wszystko framework jest bardzo stabilny, sam z niego korzystałem kilka razy i nie było problemów. Wszystko czego potrzeba było to tylko kilka komponentów, które można pobrać z sieci (między innymi SmartyView). Aby praca włożona w M3 nie poszła na daremne projekt przejął Tyler Tompkins. Tak powstało Agavi. Agavi oferuje dodatkową funkcjonalność, usuwa niektóre problemy z Mojavi (min. problem z nazwami klas), oferuje również wbudowane komponenty, których brakowało Mojavi:
+- SmartyView
+- XSLTView
+- CreoleDatabase
+- PropelDatabase
+- AdoDBDatabase
+- PDODatabase
+- ukończony mechanizm logowania
+- zaczątki modelu (na forum Agavi jest do pobrania ActiveRecord rodem z Cake/Rails)
+- ReturnArrayConfigHandler
+- ConsoleController
+- ConsoleRequest
+- HTTPSRequest
+- CreoleStorage
+- wsparcie dla Phinga – taski do tworzenia projektu, modulu, akcji, widoku, unit-testów).
+- bodajże DateValidator
+- FormPHPView (ma być w krótce usunięty).</description>
+    </item>
+  </channel>
+</rss>

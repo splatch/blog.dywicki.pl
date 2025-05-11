@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wiadomości on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/wiadomo%C5%9Bci/</link>
+    <description>Recent content in Wiadomości on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Jun 2011 14:30:55 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/wiadomo%C5%9Bci/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Przeprowadzka</title>
+      <link>https://blog.dywicki.pl/2011/06/10/przeprowadzka/</link>
+      <pubDate>Fri, 10 Jun 2011 14:30:55 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2011/06/10/przeprowadzka/</guid>
+      <description>&lt;p&gt;Po dłuższym czasie braku aktywności na tym blogu - postanowiłem przenieść część z postów, które zostały na nim opublikowane do nowego blogu, który tyczy się kwestii java, middleware itd. pod adresem &lt;a href=&#34;http://dywicki.pl&#34;&gt;dywicki.pl&lt;/a&gt;. Być może zawitają tam inne języki :), kto wie może i PHP? Wszystkie pozostałe posty są i nadal będą dostępne. Przy okazji zwijania tego bloga raz jeszcze chciałbym podziękować wszystkim tym, którzy dorzucili się do odzyskania zrzutu bazy danych z OVH w &lt;a href=&#34;https://blog.dywicki.pl/2006/11/22/powrot/&#34;&gt;2006 roku&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parę słów o tym co się dzieje</title>
+      <link>https://blog.dywicki.pl/2009/06/05/pare-slow-o-tym-co-sie-dzieje/</link>
+      <pubDate>Fri, 05 Jun 2009 06:00:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2009/06/05/pare-slow-o-tym-co-sie-dzieje/</guid>
+      <description>Bardzo dużo czasu minęło od ostatniej noty, tym czasem ja w dalszym ciągu nie mam kiedy publikować not technicznych a tym bardziej &amp;ldquo;prywatnych&amp;rdquo;. Wynika to między innymi z tego, że rozpocząłem działalność gospodarczą. Moja firma nazywa się &lt;a href=&#34;http://code-house.org/&#34;&gt;Code-House&lt;/a&gt; i zajmuje się doradztwem, szkoleniami jak i wytwarzaniem oprogramowania. Szczegóły oferty znajdziecie na stronie firmowej jeśli zostanie w końcu uruchomiona. ;) No a tak na co dzień jestem pracownikiem kontraktowym.</description>
+    </item>
+    <item>
+      <title>Java Servlet API 3.0</title>
+      <link>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</link>
+      <pubDate>Mon, 22 Dec 2008 10:35:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</guid>
+      <description>Dnia wczorajszego na &lt;a href=&#34;http://infoq.com&#34;&gt;InfoQ&lt;/a&gt; o tym, że został udostępniony &lt;a href=&#34;http://www.infoq.com/news/2008/12/servlet3_debate&#34;&gt;szkic specyfikacji&lt;/a&gt; Servlet API 3.0. Największe nowości to&amp;hellip; adnotacje, które będą mogły być użyte w miejsce interfejsów i dziedziczenia.</description>
+    </item>
+    <item>
+      <title>Agavi IDE, prace trwają</title>
+      <link>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</link>
+      <pubDate>Sat, 01 Dec 2007 23:54:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.PNG&#34; title=&#34;Stored agavi project :)&#34;&gt;&lt;img alt=&#34;Stored agavi project :)&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.thumbnail.PNG&#34;&gt;&lt;/a&gt; Cały dzisiejszy dzień poświęciłem na zbudowanie szkieletu modelu pod Agavi IDE. W trakcie dnia zaszło kilka nagłych zwrotów akcji na miarę dobrego filmu sensacyjnego ;). Początkowo pragnąłem wykorzystać &lt;a href=&#34;http://www.eclipse.org/modeling/&#34;&gt;Eclipse Modeling Framework&lt;/a&gt; do zarządzania obiektami. Wszystko szło gładko, dopóki nie spróbowałem wygenerować kodu wolnego od zależności EMF. Koniec końców dowiedziałem się, że z EMF nie da się wygenerować zwykłych Java Beanów. Niestety, ale zarządzanie wszystkim poprzez otoczkę EMF niezbyt mi się uśmiechało. Model trzymany w pamięci nie potrzebuje wodotrysków, mogą to być zwykle &lt;a href=&#34;http://en.wikipedia.org/wiki/POJO&#34;&gt;POJO&lt;/a&gt;.
+Przepisałem więc cały kod sam, na nowo. Diagram, który początkowo ilustrował całą strukturę, troszkę się zmienił, nie mniej wersję bazową załączam na obrazku.</description>
+    </item>
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WarsJava</title>
+      <link>https://blog.dywicki.pl/2007/11/20/warsjava/</link>
+      <pubDate>Mon, 19 Nov 2007 23:16:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/20/warsjava/</guid>
+      <description>W sobotę 17 listopada odbyła się &lt;a href=&#34;http://warsjava.pl&#34;&gt;WarsJava&lt;/a&gt;. Seria warsztatów realizowana przez &lt;a href=&#34;http://groups.google.com/group/warszawa-jug&#34;&gt;Warszawski JUG&lt;/a&gt;, a dokładniej przez dwie osoby (kolejność losowa) Jacka Laskowskiego i Łukasza Świerczyńskiego.</description>
+    </item>
+    <item>
+      <title>Nowa wersje db4o</title>
+      <link>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</link>
+      <pubDate>Wed, 14 Nov 2007 23:07:48 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</guid>
+      <description>Wczoraj do mojej skrzynki trafił newsletter z db4o, w którym trafiłem na dwie informacje. Pierwsza głosi, że db4o w wersji 6.4 jest gotowe do zastosowań produkcyjnych. Druga, że dostępna jest beta wersji 7.0 z nowym mechanizmem o nazwie &amp;rsquo;transparent activation&amp;rsquo;. Postanowiłem &lt;a href=&#34;http://developer.db4o.com/blogs/product_news/archive/2007/11/12/the-7th-dimension.aspx&#34;&gt;zajrzeć do szczegółów&lt;/a&gt;, które tyczą się najnowszej wersji. Wynikiem czego jest to dosyć luźne tłumaczenie.</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Używanie JDT</title>
+      <link>https://blog.dywicki.pl/2007/10/06/uzywanie-jdt/</link>
+      <pubDate>Sat, 06 Oct 2007 19:57:45 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/06/uzywanie-jdt/</guid>
+      <description>&lt;p&gt;Dla osób, które chciały by przejrzeć opcje JDT jak również utrwalić jakieś ciekawsze skróty klawiaturowe zachęcam do odwiedzenia &lt;a href=&#34;http://www.vogella.de/articles/Eclipse/article.html&#34;&gt;Using Eclipse Europa - A Tutorial&lt;/a&gt; [źródło &lt;a href=&#34;http://www.dzone.com/rsslinks/using_eclipse_as_java_ide_tutorial.html&#34;&gt;dzone&lt;/a&gt;] :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prezentacja - Eclipse GMF</title>
+      <link>https://blog.dywicki.pl/2007/09/17/prezentacja-eclipse-gmf/</link>
+      <pubDate>Mon, 17 Sep 2007 20:45:29 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/09/17/prezentacja-eclipse-gmf/</guid>
+      <description>&lt;p&gt;Jak stworzyć edytor diagramów z użyciem tandemu technologi &lt;a href=&#34;http://www.eclipse.org/emf/&#34;&gt;EMF&lt;/a&gt; + &lt;a href=&#34;http://www.eclipse.org/gmf/&#34;&gt;GMF&lt;/a&gt;? Otóż bardzo prosto - jak pokazuje prezentacja, którą znalazłem w jednym z kanałów RSS, prowadzącym do &lt;a href=&#34;http://eclipser-blog.blogspot.com/2007/09/nice-gmf-video-for-newcomers.html&#34;&gt;eclipser-blog&lt;/a&gt;. Szkoda, że nie wszystko w praktyce bywa takie proste jak na prezentacjach! ;)
+Bezpośredni &lt;a href=&#34;http://mirrors.ibiblio.org/pub/mirrors/eclipse/technology/phoenix/demos/gmf-orgchart/&#34;&gt;link do prezentacji&lt;/a&gt; (długo się wczytuje).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Ganymede</title>
+      <link>https://blog.dywicki.pl/2007/08/17/eclipse-ganymede/</link>
+      <pubDate>Thu, 16 Aug 2007 22:04:12 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/08/17/eclipse-ganymede/</guid>
+      <description>&lt;p&gt;Znamy już nazwę przyszłej dystrybucji Eclipse, będzie nią &lt;a href=&#34;http://pl.wikipedia.org/wiki/Ganimedes_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Ganimedes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wiadomo, że ten release wyjdzie, podobnie jak Europa, 29 czerwca. Pojawiły się &lt;a href=&#34;http://download.eclipse.org/eclipse/downloads/drops/S-3.4M1-200708091105/eclipse-news-M1.html&#34;&gt;pierwsze zmiany&lt;/a&gt;, które wejdą w skład nowej dystrybucji. Na tą chwilę jeszcze nie wiadomo ile projektów będzie obejmować Ganimedes, póki co &lt;a href=&#34;http://wiki.eclipse.org/index.php/Ganymede_Simultaneous_Release&#34;&gt;jest ich kilka&lt;/a&gt;, miejmy nadzieję, że przynajmniej tyle co Europa!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Europa, krótki przegląd</title>
+      <link>https://blog.dywicki.pl/2007/07/30/eclipse-europa-review/</link>
+      <pubDate>Mon, 30 Jul 2007 19:53:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/07/30/eclipse-europa-review/</guid>
+      <description>&lt;h2 id=&#34;odyseja-kosmiczna-2007&#34;&gt;Odyseja kosmiczna 2007&lt;/h2&gt;
+&lt;p&gt;Zastanawiałem się kiedyś skąd twórcy Eclipse biorą nazwy dla kolejnych wydań. O ile samo &lt;a href=&#34;http://www.eclipse.org/callisto/&#34;&gt;Callisto&lt;/a&gt; ma wiele znaczeń ( &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28mythology%29&#34;&gt;mitologiczna kochanka Zeusa&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28Xena%29&#34;&gt;postać filmowa&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28moon%29&#34;&gt;księżyc Jowisza&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28comics%29&#34;&gt;komiks&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Cadillac_Allant%C3%A9&#34;&gt;model samochodu&lt;/a&gt; czy też &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28band%29&#34;&gt;kapela&lt;/a&gt;) o tyle w parze z &lt;a href=&#34;http://www.eclipse.org/europa/&#34;&gt;Europą&lt;/a&gt;, najnowszym wydaniem kwestia staje się jasna. Bez wątpienia chodzi tu o &lt;a href=&#34;http://pl.wikipedia.org/wiki/Galileuszowe_ksi%C4%99%C5%BCyce_Jowisza&#34;&gt;księżyce Jowisza&lt;/a&gt;. Troszkę zadziwiający jest fakt, że dobór nazw nie zbiega się z kolejnością księżyców (największy jest &lt;a href=&#34;http://pl.wikipedia.org/wiki/Ganimedes_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Ganimedes&lt;/a&gt;, następnie &lt;a href=&#34;http://pl.wikipedia.org/wiki/Kallisto_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Callisto&lt;/a&gt;, &lt;a href=&#34;http://pl.wikipedia.org/wiki/Io_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Io&lt;/a&gt; i na samym końcu &lt;a href=&#34;http://pl.wikipedia.org/wiki/Europa_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Europa&lt;/a&gt;). No, może dywagacje na temat nazw i pochodzenia pozostawimy, chociaż &amp;ldquo;astronomiczny&amp;rdquo; akcent Eclipse nas na długo nie opuści, bowiem w notce tej zamierzam przedstawić wcześniej wymienione, najświeższe, wydanie - Europę.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mała rocznica.</title>
+      <link>https://blog.dywicki.pl/2007/06/26/mala-rocznica/</link>
+      <pubDate>Tue, 26 Jun 2007 20:17:45 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/26/mala-rocznica/</guid>
+      <description>Ze względu na to, że za parę dni mija drugi rok mojej pracy zawodowej postanowiłem się pokusić o małe podsumowanie tego co przez ten czas się działo na blogu.
+Obecnie najstarsza nota pochodzi z &lt;a href=&#34;http://blog.dywicki.pl/?m=200503&#34;&gt;Marca 2005&lt;/a&gt;, chociaż nie jest to ogólnie pierwsza nota jaką napisałem. Pierwszy &amp;ldquo;deblog&amp;rdquo; jak i backupy przepadły podczas jednego z padów serwera. Jak widać perypetie z utratą danych powtarzają się co jakiś czas (ostatni taki problem odnotowaliśmy w minionym listopadzie). Tematem dominującym na blogu do tej pory było PHP (aż &lt;a href=&#34;http://blog.dywicki.pl/?cat=4&#34;&gt;50 wpisów&lt;/a&gt;!), chociaż w przyszłości będzie pojawiać się stopniowo coraz więcej Javy (do tej pory tylko &lt;a href=&#34;http://blog.dywicki.pl/?cat=12&#34;&gt;12 wpisów&lt;/a&gt;).</description>
+    </item>
+    <item>
+      <title>Agavi 0.11 RC5</title>
+      <link>https://blog.dywicki.pl/2007/06/18/agavi-011-rc5/</link>
+      <pubDate>Mon, 18 Jun 2007 21:41:11 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/18/agavi-011-rc5/</guid>
+      <description>Dzisiaj rano światło dzienne ukazało się Agavi 0.11 RC5, oprócz poprawek błędów z wersji RC4 doszło parę nowości:</description>
+    </item>
+    <item>
+      <title>Eclipse Persistence Services Project</title>
+      <link>https://blog.dywicki.pl/2007/06/13/eclipse-persistence-services-project/</link>
+      <pubDate>Tue, 12 Jun 2007 23:11:19 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/13/eclipse-persistence-services-project/</guid>
+      <description>Dzisiaj (w zasadzie wczoraj) w otchłani skrzynki odbiorczej &lt;a href=&#34;http://rssowl.org/&#34;&gt;RSSOwl&lt;/a&gt; znalazłem &lt;a href=&#34;http://www.eclipse.org/proposals/eclipselink/&#34;&gt;link do propozycji&lt;/a&gt; wspomnianego projektu.</description>
+    </item>
+    <item>
+      <title>Europa nadchodzi..</title>
+      <link>https://blog.dywicki.pl/2007/06/09/europa-nadchodzi/</link>
+      <pubDate>Sat, 09 Jun 2007 08:22:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/09/europa-nadchodzi/</guid>
+      <description>Od jakiegoś czasu &lt;a href=&#34;http://eclipse.org&#34;&gt;na stronie Eclipse&lt;/a&gt; możemy spotkać bardzo miły button sygnalizujący nadejście nowego zbiorczego wydania Eclipse i narzędzi zależnych. &lt;a href=&#34;http://www.eclipse.org/europa/&#34;&gt;Europa&lt;/a&gt; to potomek &lt;a href=&#34;http://www.eclipse.org/callisto/&#34;&gt;Callisto&lt;/a&gt;, z jedną drobną różnicą.. Europa obejmuje 21 projektów podczas gdy Callisto obejmowało ich 10.</description>
+    </item>
+    <item>
+      <title>Pragmatyzm kontrolowany</title>
+      <link>https://blog.dywicki.pl/2007/04/16/pragmatyzm-kontrolowany/</link>
+      <pubDate>Mon, 16 Apr 2007 18:42:07 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/16/pragmatyzm-kontrolowany/</guid>
+      <description>Jakiś czas temu postanowiłem zmienić myśl przewodnią bloga. Zapewne nikt nie zauważył tego, że zniknął tekst &amp;ldquo;żubr powstaje z jęczmienia&amp;rdquo; na rzecz &amp;ldquo;Pragmatyzmu kontrolowanego&amp;rdquo;. Czym było to podyktowane? Ano tym by tą gromadę różnych not, nie zawsze łączących się ze sobą tematycznie, podeprzeć myślą, jaką jest poszerzanie horyzontów i dzielenie się zdobytymi z biegiem czasu doświadczeniami.</description>
+    </item>
+    <item>
+      <title>Powrót</title>
+      <link>https://blog.dywicki.pl/2006/11/22/powrot/</link>
+      <pubDate>Wed, 22 Nov 2006 16:26:26 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/11/22/powrot/</guid>
+      <description>&lt;p&gt;No.. kolejny powrót. :) Dzięki serdeczne wszystkim za pomoc w odzyskaniu backupu, mam nadzieję, że to był ostatni raz, kiedy doszło do takiej sytuacji.
+Na deser kawałek kodu, który kiedyś wyprodukowałem mylnie przekonany, że będzie szybszy niż explode&amp;hellip;
+[php]&amp;lt; ?php
+/\&lt;em&gt;\&lt;/em&gt;
+\* Funkcja zwracajaca prawa i lewa strone ciagu z kropka
+\*
+\* @param string $string ciag z kropka
+\* @return array lewa strona, prawa strona kropki
+\* @author Lukasz Dywicki
+**/
+function explodedot($string) {
+$dotpos = strpos($string, &amp;lsquo;.&amp;rsquo;);
+if($dotpos !== false) {
+return array(
+substr($string, 0, $dotpos),
+substr($string, $dotpos+1)
+);
+}
+return array($string, $string);
+}
+?&amp;gt;[/php]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP Unit 3 i Mock Objects</title>
+      <link>https://blog.dywicki.pl/2006/09/27/php-unit-3-i-mock-objects-2/</link>
+      <pubDate>Wed, 27 Sep 2006 21:05:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/27/php-unit-3-i-mock-objects-2/</guid>
+      <description>&lt;p&gt;Dzisiejszego dnia skończyłem opisywać implementację techniki &lt;a href=&#34;http://en.wikipedia.org/wiki/Mock_object&#34;&gt;Mock Objects&lt;/a&gt; przy użyciu &lt;a href=&#34;http://phpunit.de&#34;&gt;PHP Unit&lt;/a&gt;. Zapraszam do zapoznania się z &lt;a href=&#34;http://code-house.net/PHPUnit3MockObjects&#34;&gt;tekstem&lt;/a&gt; i wyrażania opinii na jego temat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - konfiguracja generatora</title>
+      <link>https://blog.dywicki.pl/2006/09/24/propel-12-konfiguracja-generatora/</link>
+      <pubDate>Sat, 23 Sep 2006 22:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/24/propel-12-konfiguracja-generatora/</guid>
+      <description>&lt;p&gt;Dzisiaj &lt;a href=&#34;http://code-house.net/Propel12GeneratorConfiguration&#34;&gt;na wiki opisałem&lt;/a&gt; wszystkie znane &lt;a href=&#34;http://propel.phpdb.org/trac/browser/branches/1.2/generator/default.properties&#34;&gt;dyrektywy konfiguracyjne generatora&lt;/a&gt; dla Propela 1.2 (wygląda na to, że &lt;a href=&#34;http://propel.phpdb.org/trac/browser/trunk/generator/default.properties&#34;&gt;pokrywają się one&lt;/a&gt; w dużej mierze z dyrektywami Propela 2.0). W najbliższym czasie opis &lt;a href=&#34;http://code-house.net/Propel12ProjectConfiguration&#34;&gt;konfiguracji projektu&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache w Smarty</title>
+      <link>https://blog.dywicki.pl/2006/09/24/cache-w-smarty/</link>
+      <pubDate>Sat, 23 Sep 2006 22:01:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/24/cache-w-smarty/</guid>
+      <description>&lt;p&gt;Wiem, że Smarty ma równie wielu przeciwników co zwolenników, ale odcinając się od dyskusji postanowiłem polecić zarówno tym pierwszym jak i drugim artykuł na temat obsługi &lt;a href=&#34;http://www.mao.pl/art-cache-smarty.php&#34;&gt;cache w Smarty&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - przyśpiesz go nawet do 2 razy!</title>
+      <link>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</link>
+      <pubDate>Thu, 21 Sep 2006 18:16:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</guid>
+      <description>&lt;p&gt;Jak wiadomo szybkość nie jest domeną Propela. Dzisiejszego popołudnia na oficjalnym kanale Propela odbyłem rozmowę z osobą która twierdziła, że można przyśpieszyć propela o 3 razy (a przymajmniej metodę doSelectJoinAll). Nie zdziwcie się - miała ona rację! :)&lt;/p&gt;
+&lt;p&gt;Problem w doSelectJoinAll polega na tym, że są wykonywane zbędne iteracje mające na celu sprawdzenie czy element zawiera obiekt dołączanej encji. Można je z powodzeniem zastąpić odpowiednią mapą, która zawiera identyfikatory tych encji, które już są dodane do obiektu. Osoba, która to twierdziła miała odpowiedni kod, który zgadnijcie - zadziałał.
+Aby zamiana była uniwersalna - zmieniłem co trzeba w generatorze. Sama metoda działa dwa i pół raza szybciej! Dla zainteresowanych - plik zmieniony przeze mnie - &lt;a href=&#34;http://delta.dywicki.pl/propel/PHP5ComplexPeerBuilder.php&#34;&gt;PHP5ComplexPeerBuilder.php&lt;/a&gt;. Sprawdź czy Twoje doSelectJoinAll przyśpieszy. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kilka słów na temat Creole</title>
+      <link>https://blog.dywicki.pl/2006/09/17/kilka-slow-na-temat-creole/</link>
+      <pubDate>Sat, 16 Sep 2006 22:57:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/17/kilka-slow-na-temat-creole/</guid>
+      <description>&lt;p&gt;Dzisiejszego popołudnia udało mi się napisać kilka zdań na temat Creole. Zaintereoswanych zapraszam do odpowiedniej kategorii na moim &lt;a href=&#34;http://code-house.net/CreoleCategory&#34;&gt;prywatnym wiki&lt;/a&gt;. Komentarze proszę umieszczać pod tym postem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 2.0, co nowego</title>
+      <link>https://blog.dywicki.pl/2006/09/10/propel-20-co-nowego/</link>
+      <pubDate>Sun, 10 Sep 2006 20:22:54 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/10/propel-20-co-nowego/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu &lt;a href=&#34;http://propel.phpdb.org/trac/milestone/2.0&#34;&gt;trwają prace&lt;/a&gt; nad drugą wersją propela. Do najważniejszych zmian należy przejście na PDO. Jest to fakt, który najbardziej mnie smuci. Koszt zwiazany z wykorzystaniem Creole był zbyt wysoki jak na ORM i autorzy przeszli na znacznie szybsze PDO. W tej chwili dla każdej bazy danych jest stworzony odpowiedni, prosty adapter. Ilość obsługiwanych baz danych nie wzrośnie. W dalszym ciągu będzie to MySQL, PostgreSQL, Oracle, Microsoft SQL Server (Sybase), SQLite.
+Niewątpliwą nowością jest cache, który będzie prawdopodobnie funkcjonował jako kolejny adapter. Mam nadzieję, że dodanie cache przyśpieszy nieco Propela, ponieważ część obiektów, mimo, że nie jest zmieniana (jest to fragment złączenia) zawsze jest pobierana i transformowana.
+Spore zmiany zajdą w Criterii. W drugiej wersji budowanie złożonych warunków &lt;a href=&#34;http://propel.phpdb.org/trac/wiki/Development/Criteria&#34;&gt;stanie się banalne&lt;/a&gt;, a to za sprawą całkiem nowej implementacji. Doczekamy się w końcu obsługi &lt;a href=&#34;http://www.martinfowler.com/eaaCatalog/identityMap.html&#34;&gt;idenity map&lt;/a&gt;, dzięki czemu klucz główny zawsze będzie wskazywał ten sam obiekt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dlaczego konfiguracja w XML.</title>
+      <link>https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/</link>
+      <pubDate>Thu, 07 Sep 2006 20:39:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/07/dlaczego-konfiguracja-w-xml/</guid>
+      <description>&lt;p&gt;W czasach kiedy najbardziej trendy jest YAML twierdzę, że jest on niczym w porównaniu do tego, co oferuje XML. DLaczego?&lt;/p&gt;
+&lt;p&gt;Dlatego, że tworząc dowolny dokument XML mogę go w bardzo prosty sposób rozszeżyć. Jak? Poprzez XInclude. Jego obsługa jest nawet w PHP więc nie ma z tym jakichkolwiek problemów. Definiuję tylko odnośnik  i mam dołączony ten XML [po wykonaniu $DOMDocument-&amp;gt;xinclude();].&lt;/p&gt;
+&lt;p&gt;Kolejna sprawa. Walidacja. Nie muszę tworzyć żadnego kodu w PHP by sprawdzić poprawność XMLa. Wystarczy, że stworzę dobry schemat w XSD i mam walidację załatwioną bez jakiegokolwiek warunku. Do tego dochodzą ograniczenia takie jak rekurencja. W PHP  muszę to załatwiać poprzez wielokrotne wywołanie funkcji, które za każdym razem wydłuża czas. Normalnie załatwi mi to DOM XML, który jest napisany w C i będzie znacznie szybszy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ajax i wiele domen</title>
+      <link>https://blog.dywicki.pl/2006/09/07/ajax-i-wiele-domen/</link>
+      <pubDate>Thu, 07 Sep 2006 20:08:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/07/ajax-i-wiele-domen/</guid>
+      <description>&lt;p&gt;Jakiś czas temu w pracy dostałem troszkę inne zadanie. Mianowicie, poprawić konfigurację Apache. Konfiguracja jak konfiguracja, to nie był problem - schody zaczęły się z dodaniem virtual hostów. Zawsze miałem z tym problem, teraz do tego dochodziło skonfigurowanie tego wszystkiego z użyciem SSLa. Jak już sobie z tym poradziłem - doszło kolejne zadanie, czyli konfiguracja proxy! Problem polegał na tym, że nasza kontrolka webowa komunikuje się z serwerem, z tym, że serwer może stać na dowolnej maszynie.
+Przyznam, że po tym co przeszedłem z tym SSLem i vhostami miałem serdecznie dość wszystkiego co było z httpd.conf związane. ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mojavi 4. Dlaczego nie?</title>
+      <link>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</link>
+      <pubDate>Wed, 30 Aug 2006 21:14:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/</guid>
+      <description>&lt;p&gt;Od publikacji ostatniej noty parę osób proponowało mi podjęcie prac nad Mojavi 4. Chcę wyjaśnić, dlaczego Mojavi 4 nie będę się zajmował.&lt;/p&gt;
+&lt;p&gt;1. Nie ma nikogo kto byłby w stanie pomóc mi przy projekcie. Obaj byli developerzy zakończyli swoją przygodę z PHP. Nie ma również żadnej społeczności, która jest w stanie zająć się forum, wyłapywaniem błędów - jednym słowem - to by było to samo co robiłem wcześniej przy własnym frameworku.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pożegnanie.</title>
+      <link>https://blog.dywicki.pl/2006/08/27/pozegnanie/</link>
+      <pubDate>Sun, 27 Aug 2006 21:14:42 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/08/27/pozegnanie/</guid>
+      <description>&lt;p&gt;Dzisiejszego dnia chciałem napisać coś o Creole by pokazać, że ten sterownik oferuje ciekawą funkcjonalność, ale nie będzie o tym.&lt;/p&gt;
+&lt;p&gt;To co zmieniło moje zamiary to rozmowa z Tylerem Tomphinsem, osobą prowadzącą od dłuższego czasu projekt Mojavi.&lt;/p&gt;
+&lt;p&gt;Kontakt z Tylerem jest ciężki, ponieważ on mieszka po drugiej stronie globu. Nasze rozmowy do tej pory wyglądały inaczej, niestety ta, którą zakończyłem przed chwilą zmienia wszystko.&lt;/p&gt;
+&lt;p&gt;Dowiedziałem się, że Mojavi 4 zostaje zawieszone. Framework, w którym pokładałem ogromne nadzieje, który miał szanse zmienić nieco oblicze aplikacji pisanych w PHP umiera. Można powiedzieć, że historia się powtórzyła, jest to samo co z trójką (mike_mech wykrakał), która została zawieszona dawno, dawno temu. Ówczesny lider projektu - Sean Kerr zrezygnował z jego prowadzenia na rzecz Tylera..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exception? Just log it!</title>
+      <link>https://blog.dywicki.pl/2006/07/31/exception-just-log-it/</link>
+      <pubDate>Mon, 31 Jul 2006 21:19:18 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/31/exception-just-log-it/</guid>
+      <description>&lt;p&gt;Zgodnie z tym, co &lt;a href=&#34;http://forum.php.pl/index.php?showtopic=50887&#34;&gt;napisałem na forum php.pl&lt;/a&gt; zapraszam do ocen, bądź w temacie bądź tu, w zależności od sympatii. ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 grzechów głównych PHP, XML</title>
+      <link>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</link>
+      <pubDate>Mon, 17 Jul 2006 22:21:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/18/7-grzechow-glownych-php-xml/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Na początku odpowiedź na post, który napisał &lt;a href=&#34;http://www.zyxist.com/pokaz.php/7_grzechow_php_komentarz&#34;&gt;Zyx&lt;/a&gt;.&lt;/strong&gt; &lt;em&gt;Aktualnie każdy, kto chce napisać nowe rozszerzenie do PHP, musi tylko znać język C, znać cel swej pracy oraz przeczytać rozdział 46 dokumentacji PHP zatytułowany &amp;ldquo;Zend API: Hacking the Core of PHP&amp;rdquo; i poświęcony właśnie tworzeniu modułów.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Zend API to nie wszystko. Moduły kompilowane nie są wyjściem super-uniwersalnym. Na co drugim serwerze nie ma opcji by dorzucić własne rozszerzenie. Wiele modułów z PECLa leży tam od lat, są one praktycznie nie rozwijane, także ich ilość niewiele może poświadczyć.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 grzechów głównych PHP, inwokacja.</title>
+      <link>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</link>
+      <pubDate>Sat, 15 Jul 2006 18:37:49 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/15/7-grzechow-glownych-php-inwokacja/</guid>
+      <description>&lt;p&gt;Postami w tej kategorii chcę pokazać jak dalekie PHP jest od ideału. Mam nadzieję, że większość z tego co piszę kiedyś zostanie poprawiona, nie mniej póki co, są to grzechy ciężkie, które pokazują słabości PHP.&lt;/p&gt;
+&lt;h3 id=&#34;zend&#34;&gt;Zend&lt;/h3&gt;
+&lt;p&gt;Zend jest firmą, która bez wątpienia ma największy wpływ na PHP. To Zend tworzy najważniejszy element PHP jakim jest Zend Engine.&lt;/p&gt;
+&lt;p&gt;To co mam do zarzucenia Zendowi to nieumiejętność wykorzystania swojej pozycji. Nie potrafi on wykorzystać swojej pozycji by ugrać coś na rzecz PHP. Być może dlatego, że jako firma jest zbyt mały by cokolwiek znaczyć. Od jakiegoś czasu Zend powoli produkuje papkę marketingową, którą wciska, że PHP jest enterprise podczas gdy samemu PHP jest do tego bardzo daleko. To, że został zmieniony silnik obsługujący obiekty, upodobniono składnię do Javy, wydano nową (piątą) wersję PHP nie czyni go enterprise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magiczne namespace..</title>
+      <link>https://blog.dywicki.pl/2006/07/09/magiczne-namespace/</link>
+      <pubDate>Sun, 09 Jul 2006 13:41:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/09/magiczne-namespace/</guid>
+      <description>&lt;p&gt;I oto się stało. Pierwszy raz użyłem przestrzeni nazw w PHP! Nie do wiary? A jednak. Nie było jakichkolwiek problemów z samą instalacją, ponieważ do pobrania jest paczka (pod Win ;)), która zachowuje się jak wszystkie inne pobrane z &lt;a href=&#34;http://php.net&#34;&gt;php.net&lt;/a&gt;. Przykłady podane na necie działają, więc nie pozostaje nic innego jak zabrać się za używanie przestrzeni nazw. :)&lt;/p&gt;
+&lt;p&gt;Oto listingi, które działają:
+[php]&amp;lt; ?php&lt;/p&gt;
+&lt;p&gt;import class a:::AFactory;
+import class a:::A;&lt;/p&gt;
+&lt;p&gt;namespace a {
+class AFactory {
+public static function create() {
+return new A;
+}
+}
+private class A {}
+}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Patterns For PHP</title>
+      <link>https://blog.dywicki.pl/2006/07/06/patterns-for-php/</link>
+      <pubDate>Thu, 06 Jul 2006 20:11:32 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/06/patterns-for-php/</guid>
+      <description>&lt;p&gt;Przedruk z devzone - wiki z przykładowymi implementacjami wzorców projektowych w PHP.
+&lt;a href=&#34;http://patterns.quantum-star.com/index.php/Main_Page&#34;&gt;http://patterns.quantum-star.com/index.php/Main_Page&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pobieranie różnych wartości z tablicy bez pętli</title>
+      <link>https://blog.dywicki.pl/2006/07/03/pobieranie-roznych-wartosci-z-tablicy-bez-petli/</link>
+      <pubDate>Mon, 03 Jul 2006 16:47:52 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/03/pobieranie-roznych-wartosci-z-tablicy-bez-petli/</guid>
+      <description>&lt;p&gt;Zwykle, kiedy potrzebujemy zmienną ilość wartości, które są w tablicy używamy pętli. Da się jednak obejść. Dzisiejszego dnia trafiłem na zadanie, które polegało na pobraniu fragmentu tablicy. Tablica była wierszem z bazy danych, który był wynikiem złączenia kilku tabel a ja chciałem pobrać wartości tylko dla określonej tabeli. Informacje o tym, jakie klucze mnie interesują miałem zapisane w obiektach metadanych, potrzebowałem tylko odpowiednio okroić wiersz do potrzebnych mi rozmiarów.&lt;/p&gt;
+&lt;p&gt;Problem rozwiązałem przy użyciu 4 funkcji, w tym 3 funkcji wbudowanych w PHP. Potrzebne były &lt;a href=&#34;http://pl.php.net/array_uintersect_uassoc&#34;&gt;array_uintersect_uassoc&lt;/a&gt;, &lt;a href=&#34;http://pl.php.net/array_flip&#34;&gt;array_flip&lt;/a&gt;, &lt;a href=&#34;http://pl.php.net/strcasecmp&#34;&gt;strcasecmp&lt;/a&gt;. Dodatkowo musiałem zdefiniować 1 funkcje, która dla 2 argumentów zawsze zwraca zero. Musi ona być zgodna z wymaganiami stawianymi przez &amp;ldquo;comparatory&amp;rdquo;. Zero musi być zwracane by nie porównywać wartości (wg porównywaczy zero oznacza, że obie wartości są sobie równe).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podpowiadanie typów prostych w PHP5</title>
+      <link>https://blog.dywicki.pl/2006/06/29/podpowiadanie-typow-prostych-w-php5/</link>
+      <pubDate>Thu, 29 Jun 2006 07:40:19 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/29/podpowiadanie-typow-prostych-w-php5/</guid>
+      <description>&lt;p&gt;Oto wpis, wykopany przez kolegę z pracy, na blogu pewnego programisty. Autor piesze, że stworzył łatkę do PHP która pozwala korzystać z podpowiadania dla typów prostych. Więcej :
+&lt;a href=&#34;http://www.derickrethans.nl/typehints_for_scalar_types.php&#34; title=&#34;Typehints for scalar types&#34;&gt;http://www.derickrethans.nl/typehints_for_scalar_types.php&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Link</title>
+      <link>https://blog.dywicki.pl/2006/06/06/link/</link>
+      <pubDate>Tue, 06 Jun 2006 07:15:17 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/06/link/</guid>
+      <description>&lt;p&gt;Jeśli używasz dużo Java Scriptu w swoich projektach - zapamiętaj adres:
+&lt;a href=&#34;http://www.getelementsby.com/&#34;&gt;http://www.getelementsby.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Za czas jakiś wracam do pisania..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zlot #PHP.PL</title>
+      <link>https://blog.dywicki.pl/2006/05/14/zlot-phppl/</link>
+      <pubDate>Sun, 14 May 2006 18:06:56 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/14/zlot-phppl/</guid>
+      <description>&lt;p&gt;I odbył się z dawna oczekiwany przez stołeczne miasto (Warszawę) oraz jego obywatelki zjazd markowany logiem #PHP.PL a organizowany przez FanFataLa. Pragnę podać tutaj link do drugiej galerii wykonywanej przy pomocy aparatu vipa, którego to nie ma u Anakina.&lt;/p&gt;
+&lt;p&gt;[komentarze zablokowane z powodu spamu]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://chimera.one.pl/gallery/main.php?g2_itemId=7837&#34;&gt;http://chimera.one.pl/gallery/main.php?g2_itemId=7837&lt;/a&gt; &lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2006/05/100_4177,2.jpg&#34; title=&#34;Eskapada po plastik.&#34;&gt;&lt;img alt=&#34;Eskapada po plastik.&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2006/05/100_4177,2.thumbnail.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rapid application development for PHP</title>
+      <link>https://blog.dywicki.pl/2006/05/08/rapid-application-development-for-php/</link>
+      <pubDate>Sun, 07 May 2006 22:19:21 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/08/rapid-application-development-for-php/</guid>
+      <description>&lt;p&gt;Dzisiaj, przed chwilą, całkiem przypadkowo zajrzałem na devzone (chyba najwyższa pora zacząć subskrybować rss) - a tam, na stronie bardzo ciekawy tekst, który tylko przejrzałem, a pod którym rozgorzała dyskusja. Dziewięć komentarzy na devzone to rzadkość tak samo jak na tym blogu ;).&lt;/p&gt;
+&lt;p&gt;Oto rzecz, która sprowokowała dyskusję:
+&lt;a href=&#34;http://devzone.zend.com/node/view/id/216&#34;&gt;Dipping a toe into rapid application development for PHP&lt;/a&gt;
+a tyczy się ona prezentacji możliwości pewnego programu:
+&lt;a href=&#34;http://devzone.zend.com/content/samples/editor/phpblox2/phpblox2.html&#34;&gt;PHP Blox demo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zend Framework i Propel</title>
+      <link>https://blog.dywicki.pl/2006/04/27/zend-framework-i-propel-2/</link>
+      <pubDate>Thu, 27 Apr 2006 19:08:42 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/27/zend-framework-i-propel-2/</guid>
+      <description>&lt;p&gt;Zend nabiera tempa. Po wpinaniu do ZF smarty przyszła kolej i na Propela. Artykuł o tym znajdziecie na &lt;a href=&#34;http://devzone.zend.com/node/view/id/184&#34;&gt;Zend Developer Zone&lt;/a&gt;. Zainteresowani zapewne się znajdą. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zend Manual.</title>
+      <link>https://blog.dywicki.pl/2006/04/24/zend-manual/</link>
+      <pubDate>Mon, 24 Apr 2006 05:51:09 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/04/24/zend-manual/</guid>
+      <description>&lt;p&gt;Manual do Zend Frameworka, zajrzałem tam dopiero dzisiaj, ale dobrze wiedzieć, że jest jakaś biblioteka do PDF, która ma dokumentacje na dobrym poziomie.
+Jeśli zend będzie prowadził dokumentacje w taki sposób ma spore szanse na to by pobić konkurencje.
+Manual znajdziecie pod adresem &lt;a href=&#34;http://framework.zend.com/manual&#34; title=&#34;ZF&#34;&gt;http://framework.zend.com/manual&lt;/a&gt;
+Dokumentacja do &lt;a href=&#34;http://framework.zend.com/manual/en/zend.pdf.html&#34; title=&#34;ZF_PDF&#34;&gt;Zend_PDF&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse PHP IDE, bez udzialu PHP Eclipse</title>
+      <link>https://blog.dywicki.pl/2006/03/10/eclipse-php-ide-bez-udzialu-php-eclipse/</link>
+      <pubDate>Fri, 10 Mar 2006 23:18:59 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/10/eclipse-php-ide-bez-udzialu-php-eclipse/</guid>
+      <description>&lt;p&gt;Przeczytałem właśnie, że Zend nie dogadał się ze społecznością tworzącą PHP Eclipse i cały projekt będzie rozwijany od nowa. Jak napisał Lester Caine:
+Jedynym powodem dla ktorego PHP Eclipse nie moze stac sie podstawa jest fakt, ze nie mamy czasu ani zasobow by zaglebiac sie w dokumentacje.
+Nie zdołalismy przekonać społeczności PHPEclipse że podejście Zenda bylo lepsze. Powiedzieli, że powinniśmy się dołączyć do ich projektu. Wygląda to bardziej na zagarnięcie niż konstruktywne programowanie.
+Dziękuję Tasmanowi za pomoc w tłumaczeniu. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse PHP IDE</title>
+      <link>https://blog.dywicki.pl/2006/03/09/eclipse-php-ide/</link>
+      <pubDate>Thu, 09 Mar 2006 13:32:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/09/eclipse-php-ide/</guid>
+      <description>&lt;p&gt;Warto zaznaczyć, że projekt jest już zatwierdzony, i chyba będzie tworzony w ramach IDE, które miało powstać dla ZF. &lt;strong&gt;Jak niosą wieści&lt;/strong&gt;:
+Jest idea stworzenia open-source&amp;rsquo;owego IDE dla PHP opartego na platformie Eclipse Tools.
+Dalej - PHP zaczęto rozwijać 10 lat temu jako projekt open-source. W ciągu 10 lat PHP zyskało popularność. Obecnie ponad 23 miliony domen korzysta z PHP. Prostota PHP oraz fakt iż jest bezpłatne sprzyja jego adaptowaniu.
+Projekt powinien być rozwijany jako wstępny plugin. Z czasem powinny powstawać kolejne pluginy wykorzystujące API Eclipse by rozszerzać funkcjonalność IDE. Projekt powinien być wpięty w rozszerzenia, docelowa funkcjonalność to tworzenie (developing), rozwijanie (deploying), dokumentowanie, debugging oraz testowanie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why not Zend Framework?</title>
+      <link>https://blog.dywicki.pl/2006/02/23/why-not-zend-framework/</link>
+      <pubDate>Thu, 23 Feb 2006 00:40:14 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/23/why-not-zend-framework/</guid>
+      <description>&lt;p&gt;Patrząc na to co się dzieje wokół ZFa odnoszę bardzo negatywne wrażenie. Dlaczego? Dlatego, że jest to powielanie tego, co już powstało dla PHP. Nie widzę w tym, co proponuje Zend nowości, świerzości. Wiem, że trudno o to przy implementacji MVC, ale ZF nic nie wnosi do tematu, do tego bardzo skromne informacje jakie są na temat ZF nie napawają optymizmem.&lt;/p&gt;
+&lt;p&gt;Powody dla których Zend tworzy kolejnego frameworka:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;zachowanie konkurencyjności względem innych języków i platform .NET, J2EE, Ruby&lt;/li&gt;
+&lt;li&gt;brak prostego frameworka dla PHP&lt;/li&gt;
+&lt;li&gt;swobodne użycie dla zastosowań e-commerce&lt;/li&gt;
+&lt;li&gt;pełne wykorzystanie możliwości PHP5&lt;/li&gt;
+&lt;li&gt;wsparcie dla nowoczesnych technologii - Web Services, RSS, wsparcie dla AJAXa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Moje uwagi&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WACT żyje!</title>
+      <link>https://blog.dywicki.pl/2006/02/19/wact-yje/</link>
+      <pubDate>Sun, 19 Feb 2006 14:47:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/19/wact-yje/</guid>
+      <description>&lt;p&gt;Dzisiaj postanowiłem przyjrzeć się bliżej szablonom z WACTa. Pamiętam, że jakiś czas temu przyglądałem się kompilatorowi, ale.. było to kilka tygodni temu. Aby nie być w tyle postanowiłem zaciągnąć zmiany z CVSa. Jakież było moje zdziwienie kiedy zobaczyłem w kodzie interfejsy! Od razu powędrowałem do webloga. Byłem ogromnie zaskoczony tym, co się dzieje z WACTem, byłem święcie przekonany, że ten projekt jest martwy - tym bardziej, że są pliki i katalogi nie ruszane od 2 lat. Najnowsze zmiany jakie udało mi się znaleść są sprzed dwóch dni..
+WACT ze względu na świetne, komponentowe szablony to dla mnie obok Mojavi jeden z lepszych frameworków. Panowie, czyżby WACT miał odżyć? :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP6 bo miały być wielkie zmiany ...</title>
+      <link>https://blog.dywicki.pl/2005/12/20/php6-bo-mialy-byc-wielkie-zmiany/</link>
+      <pubDate>Tue, 20 Dec 2005 00:38:07 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/20/php6-bo-mialy-byc-wielkie-zmiany/</guid>
+      <description>Oto co zrozumiałem z &lt;a href=&#34;http://www.php.net/~derick/meeting-notes.html&#34;&gt;http://www.php.net/~derick/meeting-notes.html&lt;/a&gt;. Nie jest to tłumaczenie a moja interpretacja, a jako, że znam angielski gorzej niż źle błędów może być bardzo wiele. W sumie bardzo nawet bym tego chciał, bo z tego co przeczytałem zmian jest na prawde mniej niż można by było się spodziewać.</description>
+    </item>
+    <item>
+      <title>PHP6 - krok 1</title>
+      <link>https://blog.dywicki.pl/2005/12/13/php6-krok-1/</link>
+      <pubDate>Tue, 13 Dec 2005 22:31:11 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/13/php6-krok-1/</guid>
+      <description>&lt;p&gt;No&amp;hellip; rozpoczynamy testowanie &amp;hellip;.&lt;br&gt;
+&lt;img alt=&#34;PHP 6.0&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/php-6.0.gif&#34;&gt; &amp;hellip; i kończymy, bo namespace {} powoduje parse error&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

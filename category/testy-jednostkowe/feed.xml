@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Testy-Jednostkowe on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/testy-jednostkowe/</link>
+    <description>Recent content in Testy-Jednostkowe on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 03 Dec 2008 16:06:42 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/testy-jednostkowe/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EasyMock i IAnswer, recepta na zachowanie metod</title>
+      <link>https://blog.dywicki.pl/2008/12/03/easymock-inaswer-as-method-behaviour-recipe/</link>
+      <pubDate>Wed, 03 Dec 2008 16:06:42 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/03/easymock-inaswer-as-method-behaviour-recipe/</guid>
+      <description>Złym zwyczajem jest modyfikowanie argumentów zamiast zwracania nowej wartości, jakkolwiek trafiają się sytuacje gdy testowany kod powinien weryfikować takie wywołania. W EasyMock mamy do dyspozycji w takim przypadku interfejs IAnswer. Jego użycie jest w miarę proste - dobieramy się do tablicy argumentów i robimy z nią co potrzeba.</description>
+    </item>
+    <item>
+      <title>Testowanie tablic argumentów z EasyMock</title>
+      <link>https://blog.dywicki.pl/2008/11/26/testing-array-parameters-with-easymock/</link>
+      <pubDate>Wed, 26 Nov 2008 06:00:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/26/testing-array-parameters-with-easymock/</guid>
+      <description>Często zdarza się że metody, które piszemy i później testujemy mają argumenty w postaci tablic. EasyMock wówczas potrafi zgłosić wyjątek, że przekazana tablica jest różna od oczekiwanej mimo, że zawartość tablic jest identyczna.</description>
+    </item>
+    <item>
+      <title>JUnit. Pragmatyczne testy jednostkowe w Javie</title>
+      <link>https://blog.dywicki.pl/2008/09/02/junit-pragmatyczne-testy-jednostkowe-w-javie/</link>
+      <pubDate>Tue, 02 Sep 2008 16:51:50 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/02/junit-pragmatyczne-testy-jednostkowe-w-javie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2008/09/junit.jpg&#34;&gt;&lt;img alt=&#34;Okładka książki&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2008/09/junit-209x300.jpg&#34;&gt;&lt;/a&gt;
+Temat testów jednostkowych nie pojawiał się na tym blogu tak często jak &lt;a href=&#34;http://blog.dywicki.pl/category/php&#34;&gt;PHP&lt;/a&gt; czy &lt;a href=&#34;http://blog.dywicki.pl/category/jaxb&#34;&gt;JAXB&lt;/a&gt;, jakkolwiek temat ten poruszałem w 2 notach - &lt;a href=&#34;http://blog.dywicki.pl/2007/04/22/testy-jednostkowe/&#34;&gt;o testach&lt;/a&gt; oraz &lt;a href=&#34;http://blog.dywicki.pl/2007/02/01/singleton/&#34;&gt;o singletonie&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tych, którzy chcieliby dowiedzieć się więcej o testach na przykładzie &lt;a href=&#34;http://junit.org&#34;&gt;JUnit&lt;/a&gt; i Javy zapraszam się do zapoznania z bardzo dobrą pozycją na temat testów jednostkowych, z którą miałem przyjemność się zetknąć.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Testy jednostkowe</title>
+      <link>https://blog.dywicki.pl/2007/04/22/testy-jednostkowe/</link>
+      <pubDate>Sat, 21 Apr 2007 22:34:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/22/testy-jednostkowe/</guid>
+      <description>&lt;h2 id=&#34;praktyka&#34;&gt;Praktyka&lt;/h2&gt;
+&lt;p&gt;W tym miejscu bazuję na swoim bądź co bądź skromnym doświadczeniu, które nabyłem pracując w &lt;a href=&#34;http://autoguard.pl&#34;&gt;AGI&lt;/a&gt;. Była to pierwsza firma, w której spotkałem się z wykorzystaniem testów jednostkowych. Pamiętam do dzisiaj walki o 70% pokrycie kodu testami. :).
+Nie mniej, nie robiliśmy tego tylko po to by zobaczyć zielone słupki w raporcie wygenerowanym przez &lt;a href=&#34;http://phpunit.de&#34;&gt;PHP Unit&lt;/a&gt;. Takie pokrycie kodu testami gwarantuje znaczne ograniczenie błędów wychodzących z czasem, głównie dlatego, że znajduje się już podczas pisania testów.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

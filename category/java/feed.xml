@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/java/</link>
+    <description>Recent content in Java on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Dec 2008 10:35:47 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/java/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Servlet API 3.0</title>
+      <link>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</link>
+      <pubDate>Mon, 22 Dec 2008 10:35:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</guid>
+      <description>Dnia wczorajszego na &lt;a href=&#34;http://infoq.com&#34;&gt;InfoQ&lt;/a&gt; o tym, że został udostępniony &lt;a href=&#34;http://www.infoq.com/news/2008/12/servlet3_debate&#34;&gt;szkic specyfikacji&lt;/a&gt; Servlet API 3.0. Największe nowości to&amp;hellip; adnotacje, które będą mogły być użyte w miejsce interfejsów i dziedziczenia.</description>
+    </item>
+    <item>
+      <title>Typ wyliczeniowy TimeUnit w Javie oraz klasa w PHP</title>
+      <link>https://blog.dywicki.pl/2008/12/09/timeunit-enum-in-java-and-class-inphp/</link>
+      <pubDate>Tue, 09 Dec 2008 16:10:00 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/09/timeunit-enum-in-java-and-class-inphp/</guid>
+      <description>Java od wersji 5.0 zawiera możliwość definiowania typów wyliczeniowych. Jednym z praktycznych przykładów zastosowania tego mechanizmu jest &lt;a href=&#34;http://www.docjar.com/docs/api/java/util/concurrent/TimeUnit.html&#34;&gt;TimeUnit&lt;/a&gt;. Enum ten służy do konwertowania jednostek czasu pomiędzy różnymi wielkościami - na przykład z minut na sekundy.</description>
+    </item>
+    <item>
+      <title>EasyMock i IAnswer, recepta na zachowanie metod</title>
+      <link>https://blog.dywicki.pl/2008/12/03/easymock-inaswer-as-method-behaviour-recipe/</link>
+      <pubDate>Wed, 03 Dec 2008 16:06:42 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/03/easymock-inaswer-as-method-behaviour-recipe/</guid>
+      <description>Złym zwyczajem jest modyfikowanie argumentów zamiast zwracania nowej wartości, jakkolwiek trafiają się sytuacje gdy testowany kod powinien weryfikować takie wywołania. W EasyMock mamy do dyspozycji w takim przypadku interfejs IAnswer. Jego użycie jest w miarę proste - dobieramy się do tablicy argumentów i robimy z nią co potrzeba.</description>
+    </item>
+    <item>
+      <title>Testowanie tablic argumentów z EasyMock</title>
+      <link>https://blog.dywicki.pl/2008/11/26/testing-array-parameters-with-easymock/</link>
+      <pubDate>Wed, 26 Nov 2008 06:00:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/26/testing-array-parameters-with-easymock/</guid>
+      <description>Często zdarza się że metody, które piszemy i później testujemy mają argumenty w postaci tablic. EasyMock wówczas potrafi zgłosić wyjątek, że przekazana tablica jest różna od oczekiwanej mimo, że zawartość tablic jest identyczna.</description>
+    </item>
+    <item>
+      <title>Uruchom inny język w Javie</title>
+      <link>https://blog.dywicki.pl/2008/11/24/scripting-inside-java/</link>
+      <pubDate>Mon, 24 Nov 2008 06:00:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/24/scripting-inside-java/</guid>
+      <description>Do Javy 6.0 zostało dołączone API ( &lt;a href=&#34;http://www.jcp.org/en/jsr/detail?id=223&#34;&gt;JSR 223&lt;/a&gt;) umożliwiające wywoływanie różnych języków wewnątrz wirtualnej maszyny. Można w ten sposób przesunąć chociażby moment kompilowania kodu na później bądź od razu podpiąć język interpretowany.</description>
+    </item>
+    <item>
+      <title>Interfejs InitializingBean</title>
+      <link>https://blog.dywicki.pl/2008/11/21/interfejs-initializingbean/</link>
+      <pubDate>Fri, 21 Nov 2008 06:00:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/21/interfejs-initializingbean/</guid>
+      <description>Każdy z obiektów który jest konfigurowany w kontekście Springa ma szansę zweryfikować swój stan tuż po zainicjowaniu wszystkich wartości, które zostały mu przekazane. Wynika to z tego, że czasami obiekty potrafią działać na kilku różnych zasobach i można wstrzyknąć do nich tylko jeden rodzaj tegoż. Czasami po prostu potrzebujemy sprawdzić czy są przekazane wszystkie ustawienia konfiguracyjne bądź zainicjować połączenie do bazy danych na podstawie przekazanych parametrów.</description>
+    </item>
+    <item>
+      <title>Odwołanie do klasy Properties w kontekście springa</title>
+      <link>https://blog.dywicki.pl/2008/11/20/odwolanie-do-klasy-properties-w-kontekscie-springa/</link>
+      <pubDate>Thu, 20 Nov 2008 06:00:46 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/20/odwolanie-do-klasy-properties-w-kontekscie-springa/</guid>
+      <description>&lt;em&gt;Jako, że nie zawsze mam czas pisać dłuższe noty, a nie wszyscy znają Springa postanowiłem publikować krótkie porady, które mogą kiedyś komuś się przydać.&lt;/em&gt;</description>
+    </item>
+    <item>
+      <title>Log4j, przejrzyste komunikaty</title>
+      <link>https://blog.dywicki.pl/2008/10/15/log4j-przejrzyste-komunikaty/</link>
+      <pubDate>Wed, 15 Oct 2008 08:00:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/10/15/log4j-przejrzyste-komunikaty/</guid>
+      <description>&lt;a href=&#34;http://logging.apache.org/log4j/&#34;&gt;Log4j&lt;/a&gt; jest najpopularniejszą biblioteką do logowania dla Javy. Została ona wydana już jakiś czas temu i w chwili obecnej rozwija się znacznie wolniej niż kiedyś, warto jednak nadmienić że społeczność wciąż dostarcza nowych możliwości. Może najpierw o samej strukturze log4j.</description>
+    </item>
+    <item>
+      <title>Spring &#34;Commercial&#34; Source zastępuje Open Source</title>
+      <link>https://blog.dywicki.pl/2008/09/28/spring-commercial-source-replaces-open-source/</link>
+      <pubDate>Sun, 28 Sep 2008 19:59:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/28/spring-commercial-source-replaces-open-source/</guid>
+      <description>&lt;p&gt;Pamiętam, jak jakiś już czas temu, kiedy pracowałem w &lt;a href=&#34;http://pzu.pl&#34;&gt;PZU&lt;/a&gt; dyskutowałem z kolegą na temat &lt;a href=&#34;http://www.springframework.org/&#34;&gt;Springa&lt;/a&gt;. Obaj podziwialiśmy wówczas jego jakość. Chyba wszyscy ludzie którzy mieli styczność z tym narzędziem przyznają, że jest to na prawdę porządnie napisany kawałek kodu. Połączenie bardzo dobrej dokumentacji oraz duża społeczność sprzyjały cały czas Springowi w odnoszeniu kolejnych sukcesów.&lt;/p&gt;
+&lt;p&gt;Do dnia 17 września, kiedy to &lt;a href=&#34;http://springsource.com&#34;&gt;SpringSource&lt;/a&gt; ogłosiło zmianę zasad - i poniekąd &lt;a href=&#34;http://www.springsource.com/node/558&#34;&gt;konieczność wykupywania subskrypcji&lt;/a&gt;. Wiadomość ta zaiste zelektryzowała społeczność.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie klienta usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/09/03/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 03 Sep 2008 07:28:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/03/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;W nawiązaniu do &lt;a href=&#34;http://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/&#34;&gt;poprzedniej noty o CXFie&lt;/a&gt;, którą napisałem jakiś czas temu, gonię aby uzupełnić brak konfiguracji klienta. Sam proces jest bardzo zbliżony do tworzenia klienta w oparciu o XFire. Nie jest wymagana duża ilość kodu Javy, a w zasadzie tylko dwa pliki XML (client.xml, &lt;em&gt;myservice.xml&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Pierwszy z nich odpowiada za wczytanie wymaganych rozszerzeń CXFa oraz definicję bazowej konfiguracji fabryki z interceptorami. W interceptorach możemy skonfigurować logowanie, obsługę załączników czy standardów WS-Security etc. Wszystkie te ustawienia będą dziedziczone, a fabryki docelowych usług będą dodawać tylko adres, do odpytywania. Na koniec bean klienta będzie miał określony &lt;strong&gt;autowire&lt;/strong&gt; by nie przekazywać mu wszystkich własności.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>JUnit. Pragmatyczne testy jednostkowe w Javie</title>
+      <link>https://blog.dywicki.pl/2008/09/02/junit-pragmatyczne-testy-jednostkowe-w-javie/</link>
+      <pubDate>Tue, 02 Sep 2008 16:51:50 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/02/junit-pragmatyczne-testy-jednostkowe-w-javie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2008/09/junit.jpg&#34;&gt;&lt;img alt=&#34;Okładka książki&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2008/09/junit-209x300.jpg&#34;&gt;&lt;/a&gt;
+Temat testów jednostkowych nie pojawiał się na tym blogu tak często jak &lt;a href=&#34;http://blog.dywicki.pl/category/php&#34;&gt;PHP&lt;/a&gt; czy &lt;a href=&#34;http://blog.dywicki.pl/category/jaxb&#34;&gt;JAXB&lt;/a&gt;, jakkolwiek temat ten poruszałem w 2 notach - &lt;a href=&#34;http://blog.dywicki.pl/2007/04/22/testy-jednostkowe/&#34;&gt;o testach&lt;/a&gt; oraz &lt;a href=&#34;http://blog.dywicki.pl/2007/02/01/singleton/&#34;&gt;o singletonie&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tych, którzy chcieliby dowiedzieć się więcej o testach na przykładzie &lt;a href=&#34;http://junit.org&#34;&gt;JUnit&lt;/a&gt; i Javy zapraszam się do zapoznania z bardzo dobrą pozycją na temat testów jednostkowych, z którą miałem przyjemność się zetknąć.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 06:27:55 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Apache ServiceMix, Open Source ESB</title>
+      <link>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</link>
+      <pubDate>Sun, 22 Jun 2008 18:23:35 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/06/22/apache-servicemix-open-source-es/</guid>
+      <description>Jakiś czas temu, jeszcze podczas pracy w poprzedniej firmie przypadło mi zadanie podpięcia się pod magistralę usług opartą o &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt; (SMX). Był to wówczas dla mnie temat zupełnie nowy, ba nawet nie wiedziałem z czym to się je. :) Koniec końców jednak podpięcie pod ESB (Enterprises Service Bus) nie było w ogóle trudne. Po jakimś czasie i drobnych przetasowaniach na płaszczyźnie zawodowej zająłem się SMX-em nie jako klient magistrali a osoba implementująca usługi na szynie a ten wpis jest drobną przeróbką prezentacji, którą przygotowałem w pracy.</description>
+    </item>
+    <item>
+      <title>JAXB 2, zabawy z datą i konwersją typów</title>
+      <link>https://blog.dywicki.pl/2008/05/17/jaxb-2-zabawy-z-data-i-konwersja-typow/</link>
+      <pubDate>Sat, 17 May 2008 09:10:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/05/17/jaxb-2-zabawy-z-data-i-konwersja-typow/</guid>
+      <description>Jedną z bolączek JAXB jest problematyczna obsługa dat i czasów. Przypomnijmy sobie schemat użyty &lt;a href=&#34;http://blog.dywicki.pl/?p=190&#34;&gt;w jednej z wcześniejszych not&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>Adnotacje w Javie i w PHP</title>
+      <link>https://blog.dywicki.pl/2008/01/20/adnotacje-w-javie-i-w-php/</link>
+      <pubDate>Sun, 20 Jan 2008 21:55:28 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/01/20/adnotacje-w-javie-i-w-php/</guid>
+      <description>Parę dni wstecz trafiłem na ciekawe rozszerzenie &lt;a href=&#34;http://pl2.php.net/manual/en/language.oop5.reflection.php&#34;&gt;Reflection API&lt;/a&gt; do PHP. Umożliwia ono używanie tagów &lt;a href=&#34;http://phpdoc.org&#34;&gt;phpdoc&lt;/a&gt; w charakterze adnotacji. Rozwiązanie te jest zbliżone do znanego mi z Javy &lt;a href=&#34;http://xdoclet.sourceforge.net/&#34;&gt;xdocleta&lt;/a&gt;. Drobną, aczkolwiek zauważalną, różnicą jest fakt, że xdoclet był odpalany przed kompilacją kodu ponieważ bytecode nie zawierał adnotacji. Oczywiście po wejściu Javy 5 xdoclet podupadł, jako coś co wyparły właśnie adnotacje. Może dla tych, którzy nie mieli okazji spotkania sie z takim rozwiązaniem drobny przykład kodu w Javie:</description>
+    </item>
+    <item>
+      <title>Przeboje z J2EE</title>
+      <link>https://blog.dywicki.pl/2007/12/29/przeboje-z-j2ee/</link>
+      <pubDate>Sat, 29 Dec 2007 20:52:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/12/29/przeboje-z-j2ee/</guid>
+      <description>&lt;p&gt;Nigdy bym nie pomyślał, że stworzenie nowej aplikacji w oparciu o J2EE będzie tak trudne. A jednak, mimo wszystko, jest!&lt;/p&gt;
+&lt;p&gt;Zachwycony prostotą rozwiązania wbudowanego w standard, mianowicie roli i mapowania adresów, postanowiłem je wykorzystać. JSF mimo całej swej wspaniałości, mechanizmu autoryzacji nie dostarcza.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rozszerzanie JAXB</title>
+      <link>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</link>
+      <pubDate>Wed, 28 Nov 2007 14:12:33 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</guid>
+      <description>Z ostatnich not zebrało mi się kilka obietnic. Jedną z nich było omówienie pluginów w wydaniu JAXB. Jako, że dzisiaj urządziłem sobie wolny dzień postanowiłem wywiązać się przynajmniej z części obowiązków z tym i z tych blogowych.</description>
+    </item>
+    <item>
+      <title>WarsJava</title>
+      <link>https://blog.dywicki.pl/2007/11/20/warsjava/</link>
+      <pubDate>Mon, 19 Nov 2007 23:16:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/20/warsjava/</guid>
+      <description>W sobotę 17 listopada odbyła się &lt;a href=&#34;http://warsjava.pl&#34;&gt;WarsJava&lt;/a&gt;. Seria warsztatów realizowana przez &lt;a href=&#34;http://groups.google.com/group/warszawa-jug&#34;&gt;Warszawski JUG&lt;/a&gt;, a dokładniej przez dwie osoby (kolejność losowa) Jacka Laskowskiego i Łukasza Świerczyńskiego.</description>
+    </item>
+    <item>
+      <title>Nowa wersje db4o</title>
+      <link>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</link>
+      <pubDate>Wed, 14 Nov 2007 23:07:48 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/15/nowa-wersje-db4o/</guid>
+      <description>Wczoraj do mojej skrzynki trafił newsletter z db4o, w którym trafiłem na dwie informacje. Pierwsza głosi, że db4o w wersji 6.4 jest gotowe do zastosowań produkcyjnych. Druga, że dostępna jest beta wersji 7.0 z nowym mechanizmem o nazwie &amp;rsquo;transparent activation&amp;rsquo;. Postanowiłem &lt;a href=&#34;http://developer.db4o.com/blogs/product_news/archive/2007/11/12/the-7th-dimension.aspx&#34;&gt;zajrzeć do szczegółów&lt;/a&gt;, które tyczą się najnowszej wersji. Wynikiem czego jest to dosyć luźne tłumaczenie.</description>
+    </item>
+    <item>
+      <title>Weź do Javy to co chcesz z PHP!</title>
+      <link>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</link>
+      <pubDate>Thu, 08 Nov 2007 23:52:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</guid>
+      <description>Integracja między językami czy też platformami to kwestia poruszana nie od dzisiaj. Na poziomie platform funkcjonuje od dłuższego czasu CORBA i Web Services z trio SOAP + WSDL + XML Schema na czele. Integracja systemów napisanych w tym samym języku sprowadza się zwykle do wykorzystania serializacji, która jest najszybsza i najwygodniejsza. Gorzej jeśli idzie o połączenie dwóch języków - w moim przypadku PHP i Javy.
+Zend ma swój mostek, który umożliwia na zintegrowanie Javy i PHP, jest też dodatkowe rozszerzenie do PHP, które pozwala na wykorzystanie Javy w PHP, jednakże moje oczekiwania nie był aż tak wielkie. Potrzebowałem po prostu odczytać dane specyficzne dla PHP - powiedzmy informacje o jakiejś klasie. Standardowo taka operacja wymagała stworzenia parsera, co jest zadaniem powiedzmy, nie na moje siły i umiejętności.. stąd też postanowiłem sobie nieco uprościć pracę. :)</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JAXB 2, Wprowadzenie</title>
+      <link>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</link>
+      <pubDate>Sun, 14 Oct 2007 17:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</guid>
+      <description>W ramach &lt;a href=&#34;http://groups.google.com/group/warszawa-jug/web/warsjava&#34;&gt;WarsJava&lt;/a&gt;, konferencji/warsztatów organizowanych przez &lt;a href=&#34;http://warszawa.jug.pl/&#34;&gt;Warszawski JUG&lt;/a&gt;, będę miał szansę przedstawić publiczności &lt;a href=&#34;https://jaxb.dev.java.net/&#34;&gt;Java Architecture for XML Binding&lt;/a&gt; w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</description>
+    </item>
+    <item>
+      <title>Form Layout</title>
+      <link>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</link>
+      <pubDate>Thu, 07 Jun 2007 08:58:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</guid>
+      <description>Jakiś czas temu &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; &lt;a href=&#34;http://michalmech.pl/index.php/2007/05/23/manager-layoutu-grouplayout-w-java/&#34;&gt;pisał&lt;/a&gt; o tym jak można rozkładać komponenty w &lt;a href=&#34;http://java.sun.com/docs/books/tutorial/uiswing/index.html&#34;&gt;Swingu&lt;/a&gt; przy pomocy &lt;a href=&#34;http://java.sun.com/javase/6/docs/api/javax/swing/GroupLayout.html&#34;&gt;Group Layoutu&lt;/a&gt;. Dzisiejszego dnia mam zamiar pokazać Wam drugą stronę medalu - mianowicie &lt;a href=&#34;http://help.eclipse.org/help31/nftopic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/layout/FormLayout.html&#34;&gt;Form Layout&lt;/a&gt;, który można wykorzystać przy tworzeniu aplikacji w &lt;a href=&#34;http://eclipse.org/swt/&#34;&gt;SWT&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>O abstrakcji klas i interfejsów</title>
+      <link>https://blog.dywicki.pl/2007/04/04/o-abstrakcji-klas-i-interfejsow/</link>
+      <pubDate>Tue, 03 Apr 2007 22:01:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/04/04/o-abstrakcji-klas-i-interfejsow/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu na &lt;a href=&#34;http://forum.php.pl/&#34;&gt;forum.php.pl&lt;/a&gt; spotykam się z różnymi zdaniami na temat interfejsów i klas abstrakcyjnych. Argumenty, które czasami się trafiają są chybione.&lt;/p&gt;
+&lt;p&gt;Zacznijmy od tego, że trzeba potrafić rozróżnić interfejs od klasy abstrakcyjnej, &lt;strong&gt;to nie to samo&lt;/strong&gt;!
+Interfejs jest najwyższym poziomem abstrakcji, który definiuje nowy, wolny od implementacji typ. Bez jakiejkolwiek linii kodu, tylko sygnatury metod publicznych.
+Klasa abstrakcyjna jest już początkiem konkretnej implementacji, zawiera kod ogólny i wymusza w klasach dziedziczących dorzucenie konkretnych metod, które są specyficzne, inne, różne. Mogą trafić się takie przypadki, że klasa abstrakcyjna zawiera 5 metod, a jej pochodne tylko jedną. Czy jest to uzasadnione? Oczywiście. Ta jedna metoda determinuje nowy typ, który jest jawną specjalizacją.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Singleton</title>
+      <link>https://blog.dywicki.pl/2007/02/01/singleton/</link>
+      <pubDate>Thu, 01 Feb 2007 00:35:33 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/02/01/singleton/</guid>
+      <description>&lt;p&gt;Singleton jest chyba pierwszym z &amp;ldquo;wzorców projektowych&amp;rdquo; jaki wszyscy poznaliśmy. Prosty w implementacji, jeszcze łatwiejszy w użyciu, ale pociągający za sobą stos negatywnych konsekwencji.&lt;/p&gt;
+&lt;p&gt;W poszukiwaniu informacji i zdań o singletonie w polskim internecie trafiłem na &lt;a href=&#34;http://pl.wikipedia.org/wiki/Wzorzec_singletonu&#34;&gt;Wikipedię&lt;/a&gt;, gdzie znalazłem zdanie, które podsumowało to czym jest tenże &amp;ldquo;wzorzec&amp;rdquo;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Singleton jest też uznawany za &lt;a href=&#34;http://pl.wikipedia.org/wiki/Antywzorzec&#34; title=&#34;Antywzorzec&#34;&gt;antywzorzec&lt;/a&gt;, gdyż często jest tylko eufemizmem dla &lt;a href=&#34;http://pl.wikipedia.org/wiki/Zmienna_globalna&#34; title=&#34;Zmienna globalna&#34;&gt;zmiennej globalnej&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;W książce &amp;quot; &lt;a href=&#34;http://helion.pl/ksiazki/refawp.htm&#34;&gt;Refaktoryzacja do wzorców projektowych&lt;/a&gt;&amp;quot; padają kolejne dwa ważne zdania:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>db4o in Action!</title>
+      <link>https://blog.dywicki.pl/2006/03/08/db4o-in-action/</link>
+      <pubDate>Wed, 08 Mar 2006 00:04:59 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/08/db4o-in-action/</guid>
+      <description>&lt;p&gt;Dzisiaj zainspirowany rozmową na ircu i ciekawym zapytaniem postanowiłem zaintersować się db4o. Muszę przyznać, że całość jest dość prosta, właściwie banalna. Wykorzystanie db4o sprowadza się do zaimportowania kilku klas.. i gotowe. Koniec męczenia się z SQLem, z korzystaniem z ORMów i tak dalej.. koniec! :) Wrzucasz obiekt, dostajesz z powrotem obiekt. Jestem zachwycony możliwościami db4o, chociaż odkryłem dopiero ich nieznaczną część.. zachęcam do spojrzenia &lt;a href=&#34;http://jacekolszak.blogspot.com/2005/09/odbms-vs-rdbms-czyli-wydajno-i-wygoda.html&#34;&gt;na notkę z innego bloga&lt;/a&gt;.
+Dla przykładu załączam źródła: &lt;a href=&#34;http://img.dywicki.pl/db4o.zip&#34;&gt;db4o.test&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Troszkę &#34;Inne&#34; MVC</title>
+      <link>https://blog.dywicki.pl/2006/03/02/troszk-inne-mvc/</link>
+      <pubDate>Thu, 02 Mar 2006 01:08:36 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/02/troszk-inne-mvc/</guid>
+      <description>&lt;p&gt;Jakiś czas temu, gdy walczyłem ze swoimi pierwszymi servletami dzięki koledze zetknąłem się ze springiem. Wiedziałem, że ten framework istnieje, ale dopiero z jego pomocą stworzyłem pierwszą akcję. Idea jest bardzo prosta - na podstawie pliku beans.xml kontener IoC dopasowywuje klasę do adresu. Może być też tak, że mapowane są nazwy beanów do adresu - np. &lt;bean id=&#34;/foo.html&#34; /&gt;&amp;gt;.
+To co mnie oczarowało w springu to świetne rozwiązania. Bardzo spodobały mi się zróżnicowane akcje. To już nie jest Cake PHP, gdzie nazwa ApplicationController ma znaczenie bardziej symboliczne niż praktyczne czy Struts ze swoimi biernym akcjami. Przy potencjale jaki oferują kontrolery Springa wiele frameworków wymięka. Poniżej prezentuje diagram klas wykonany w programie Dia obrazujący powiązania kontrolerów we wcześniej zachwalanym frameworku.
+&lt;img alt=&#34;Diagram klas&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/Diagram1.dia.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jak widzę kod?</title>
+      <link>https://blog.dywicki.pl/2006/02/28/jak-widzie-kod/</link>
+      <pubDate>Tue, 28 Feb 2006 00:56:03 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/28/jak-widzie-kod/</guid>
+      <description>&lt;p&gt;Tak pod wpływem natchnienia publikuję przykład diagramu klas reprezentujący kompozycje (zawieranie).
+Diagram wykonany w programie Visual Paradigm. Komentarz usunięty ponieważ zachodził na klasy. :) &lt;img alt=&#34;diagram klas&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/kompozycja.jpg&#34;&gt;
+Kod (PHP):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;php &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; Jablon {     &lt;span style=&#34;color:#f92672&#34;&gt;/**&lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; Jablko owoce znajdujace sie na drzewie      &lt;span style=&#34;color:#f92672&#34;&gt;**/&lt;/span&gt;     protected &lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;owoce &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; array(); } &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; Jablko {     &lt;span style=&#34;color:#f92672&#34;&gt;/**&lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; mixed smak owocu      &lt;span style=&#34;color:#f92672&#34;&gt;**/&lt;/span&gt;     protected &lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;smak; } &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Związek jest określony - jedna instancja klasy Jablon może zawierać wiele owowców, ale może tych owoców nie być wcale. Zapis można sprecyzować: Jablon: 1..n, Jablko 1 oznacza, że jedna instancja klasy Jablko moze znajdowac się tylko w jednym obiekcie Jablon.
+Jeśli się mylę, proszę o sprostowanie. Za jakiś czas kod w wersji dla Javy. ;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

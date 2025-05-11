@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Javascript on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/javascript/</link>
+    <description>Recent content in Javascript on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 24 Nov 2008 06:00:02 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/javascript/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uruchom inny język w Javie</title>
+      <link>https://blog.dywicki.pl/2008/11/24/scripting-inside-java/</link>
+      <pubDate>Mon, 24 Nov 2008 06:00:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/24/scripting-inside-java/</guid>
+      <description>Do Javy 6.0 zostało dołączone API ( &lt;a href=&#34;http://www.jcp.org/en/jsr/detail?id=223&#34;&gt;JSR 223&lt;/a&gt;) umożliwiające wywoływanie różnych języków wewnątrz wirtualnej maszyny. Można w ten sposób przesunąć chociażby moment kompilowania kodu na później bądź od razu podpiąć język interpretowany.</description>
+    </item>
+    <item>
+      <title>Kolorowanie składni w SyntaxHighlighter - Eclipse.</title>
+      <link>https://blog.dywicki.pl/2008/02/09/kolorowanie-skladni-w-syntaxhighlighter-eclipse/</link>
+      <pubDate>Sat, 09 Feb 2008 19:46:43 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/02/09/kolorowanie-skladni-w-syntaxhighlighter-eclipse/</guid>
+      <description>Jakiś czas temu zmieniłem narzędzie do kolorowania składni z &lt;a href=&#34;http://qbnz.com/highlighter/&#34;&gt;GeSHI&lt;/a&gt; na &lt;a href=&#34;http://code.google.com/p/syntaxhighlighter/&#34;&gt;SyntaxHighlighter&lt;/a&gt;. Największa różnica to wykonanie. Starsza biblioteka parsuje wszystko po stronie serwera i pakuje to w HTML, nowsza jest uruchamiana z poziomu przeglądarki i kolorowanie odbywa się tuż po załadowaniu strony.</description>
+    </item>
+    <item>
+      <title>Wykrywanie przeglądarki</title>
+      <link>https://blog.dywicki.pl/2005/06/08/wykrywanie-przegldarki/</link>
+      <pubDate>Wed, 08 Jun 2005 18:29:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/08/wykrywanie-przegldarki/</guid>
+      <description>Diziaj znajomy grafik poprosił mnie o stworzenie skryptu, który ma wykrywać przeglądarkę i w zależności od nazwy przekierowywać na odpowiednią stronę. Nieco rozszeżyłem swoje zadanie tworząc obiekt Java Script, który zwraca zarówno nazwę jak i wersję programu, z którego korzysta internauta. Obiekt wykrywa następujące programy: Internet Exploler, Mozilla / Mozilla Firefox, Opera.
+Całość opiera się na obiekcie &lt;strong&gt;navigator&lt;/strong&gt; dostarczanym przez JS. Zainteresowanych zapraszam do zapoznania się z kodem.</description>
+    </item>
+  </channel>
+</rss>

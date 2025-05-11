@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eclipse on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/eclipse/</link>
+    <description>Recent content in Eclipse on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Dec 2007 23:54:39 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/eclipse/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agavi IDE, prace trwają</title>
+      <link>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</link>
+      <pubDate>Sat, 01 Dec 2007 23:54:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/12/02/agavi-ide-prace-trwaja/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.PNG&#34; title=&#34;Stored agavi project :)&#34;&gt;&lt;img alt=&#34;Stored agavi project :)&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/12/manager.thumbnail.PNG&#34;&gt;&lt;/a&gt; Cały dzisiejszy dzień poświęciłem na zbudowanie szkieletu modelu pod Agavi IDE. W trakcie dnia zaszło kilka nagłych zwrotów akcji na miarę dobrego filmu sensacyjnego ;). Początkowo pragnąłem wykorzystać &lt;a href=&#34;http://www.eclipse.org/modeling/&#34;&gt;Eclipse Modeling Framework&lt;/a&gt; do zarządzania obiektami. Wszystko szło gładko, dopóki nie spróbowałem wygenerować kodu wolnego od zależności EMF. Koniec końców dowiedziałem się, że z EMF nie da się wygenerować zwykłych Java Beanów. Niestety, ale zarządzanie wszystkim poprzez otoczkę EMF niezbyt mi się uśmiechało. Model trzymany w pamięci nie potrzebuje wodotrysków, mogą to być zwykle &lt;a href=&#34;http://en.wikipedia.org/wiki/POJO&#34;&gt;POJO&lt;/a&gt;.
+Przepisałem więc cały kod sam, na nowo. Diagram, który początkowo ilustrował całą strukturę, troszkę się zmienił, nie mniej wersję bazową załączam na obrazku.</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Czy ktoś mówił, że istnieją środowiska idealne?</title>
+      <link>https://blog.dywicki.pl/2007/10/25/czy-ktos-mowil-ze-istnieja-srodowiska-idealne/</link>
+      <pubDate>Thu, 25 Oct 2007 06:32:58 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/25/czy-ktos-mowil-ze-istnieja-srodowiska-idealne/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Internal error^2&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/10/internal-internal.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JAXB 2, Wprowadzenie</title>
+      <link>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</link>
+      <pubDate>Sun, 14 Oct 2007 17:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</guid>
+      <description>W ramach &lt;a href=&#34;http://groups.google.com/group/warszawa-jug/web/warsjava&#34;&gt;WarsJava&lt;/a&gt;, konferencji/warsztatów organizowanych przez &lt;a href=&#34;http://warszawa.jug.pl/&#34;&gt;Warszawski JUG&lt;/a&gt;, będę miał szansę przedstawić publiczności &lt;a href=&#34;https://jaxb.dev.java.net/&#34;&gt;Java Architecture for XML Binding&lt;/a&gt; w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</description>
+    </item>
+    <item>
+      <title>Prezentacja - Eclipse GMF</title>
+      <link>https://blog.dywicki.pl/2007/09/17/prezentacja-eclipse-gmf/</link>
+      <pubDate>Mon, 17 Sep 2007 20:45:29 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/09/17/prezentacja-eclipse-gmf/</guid>
+      <description>&lt;p&gt;Jak stworzyć edytor diagramów z użyciem tandemu technologi &lt;a href=&#34;http://www.eclipse.org/emf/&#34;&gt;EMF&lt;/a&gt; + &lt;a href=&#34;http://www.eclipse.org/gmf/&#34;&gt;GMF&lt;/a&gt;? Otóż bardzo prosto - jak pokazuje prezentacja, którą znalazłem w jednym z kanałów RSS, prowadzącym do &lt;a href=&#34;http://eclipser-blog.blogspot.com/2007/09/nice-gmf-video-for-newcomers.html&#34;&gt;eclipser-blog&lt;/a&gt;. Szkoda, że nie wszystko w praktyce bywa takie proste jak na prezentacjach! ;)
+Bezpośredni &lt;a href=&#34;http://mirrors.ibiblio.org/pub/mirrors/eclipse/technology/phoenix/demos/gmf-orgchart/&#34;&gt;link do prezentacji&lt;/a&gt; (długo się wczytuje).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Ganymede</title>
+      <link>https://blog.dywicki.pl/2007/08/17/eclipse-ganymede/</link>
+      <pubDate>Thu, 16 Aug 2007 22:04:12 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/08/17/eclipse-ganymede/</guid>
+      <description>&lt;p&gt;Znamy już nazwę przyszłej dystrybucji Eclipse, będzie nią &lt;a href=&#34;http://pl.wikipedia.org/wiki/Ganimedes_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Ganimedes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wiadomo, że ten release wyjdzie, podobnie jak Europa, 29 czerwca. Pojawiły się &lt;a href=&#34;http://download.eclipse.org/eclipse/downloads/drops/S-3.4M1-200708091105/eclipse-news-M1.html&#34;&gt;pierwsze zmiany&lt;/a&gt;, które wejdą w skład nowej dystrybucji. Na tą chwilę jeszcze nie wiadomo ile projektów będzie obejmować Ganimedes, póki co &lt;a href=&#34;http://wiki.eclipse.org/index.php/Ganymede_Simultaneous_Release&#34;&gt;jest ich kilka&lt;/a&gt;, miejmy nadzieję, że przynajmniej tyle co Europa!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wygodny edytor do konfiguracji XML</title>
+      <link>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</link>
+      <pubDate>Thu, 02 Aug 2007 21:46:17 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/08/02/wygodny-edytor-do-konfiguracji-xml/</guid>
+      <description>&lt;a href=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.PNG&#34; title=&#34;Zdefiniowany katalog ze schematami XML&#34;&gt;&lt;img alt=&#34;Zdefiniowany katalog ze schematami XML&#34; loading=&#34;lazy&#34; src=&#34;http://blog.dywicki.pl/wp-content/uploads/2007/08/xml-catalog.thumbnail.PNG&#34;&gt;&lt;/a&gt; Konfiguracja w XMLu ma swoje plusy jak i minusy. Nie jest tak banalna w obsłudze jak zapisana w PHP czy w .ini, ale daje dość spore możliwości. Troszkę dywagacji na ten temat było jakiś czas temu w poście pod tytułem &amp;quot; &lt;a href=&#34;http://blog.dywicki.pl/?p=101&#34;&gt;Dlaczego konfiguracja w XML&lt;/a&gt;&amp;quot;.</description>
+    </item>
+    <item>
+      <title>Eclipse Europa, krótki przegląd</title>
+      <link>https://blog.dywicki.pl/2007/07/30/eclipse-europa-review/</link>
+      <pubDate>Mon, 30 Jul 2007 19:53:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/07/30/eclipse-europa-review/</guid>
+      <description>&lt;h2 id=&#34;odyseja-kosmiczna-2007&#34;&gt;Odyseja kosmiczna 2007&lt;/h2&gt;
+&lt;p&gt;Zastanawiałem się kiedyś skąd twórcy Eclipse biorą nazwy dla kolejnych wydań. O ile samo &lt;a href=&#34;http://www.eclipse.org/callisto/&#34;&gt;Callisto&lt;/a&gt; ma wiele znaczeń ( &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28mythology%29&#34;&gt;mitologiczna kochanka Zeusa&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28Xena%29&#34;&gt;postać filmowa&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28moon%29&#34;&gt;księżyc Jowisza&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28comics%29&#34;&gt;komiks&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Cadillac_Allant%C3%A9&#34;&gt;model samochodu&lt;/a&gt; czy też &lt;a href=&#34;http://en.wikipedia.org/wiki/Callisto_%28band%29&#34;&gt;kapela&lt;/a&gt;) o tyle w parze z &lt;a href=&#34;http://www.eclipse.org/europa/&#34;&gt;Europą&lt;/a&gt;, najnowszym wydaniem kwestia staje się jasna. Bez wątpienia chodzi tu o &lt;a href=&#34;http://pl.wikipedia.org/wiki/Galileuszowe_ksi%C4%99%C5%BCyce_Jowisza&#34;&gt;księżyce Jowisza&lt;/a&gt;. Troszkę zadziwiający jest fakt, że dobór nazw nie zbiega się z kolejnością księżyców (największy jest &lt;a href=&#34;http://pl.wikipedia.org/wiki/Ganimedes_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Ganimedes&lt;/a&gt;, następnie &lt;a href=&#34;http://pl.wikipedia.org/wiki/Kallisto_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Callisto&lt;/a&gt;, &lt;a href=&#34;http://pl.wikipedia.org/wiki/Io_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Io&lt;/a&gt; i na samym końcu &lt;a href=&#34;http://pl.wikipedia.org/wiki/Europa_%28ksi%C4%99%C5%BCyc%29&#34;&gt;Europa&lt;/a&gt;). No, może dywagacje na temat nazw i pochodzenia pozostawimy, chociaż &amp;ldquo;astronomiczny&amp;rdquo; akcent Eclipse nas na długo nie opuści, bowiem w notce tej zamierzam przedstawić wcześniej wymienione, najświeższe, wydanie - Europę.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Persistence Services Project</title>
+      <link>https://blog.dywicki.pl/2007/06/13/eclipse-persistence-services-project/</link>
+      <pubDate>Tue, 12 Jun 2007 23:11:19 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/13/eclipse-persistence-services-project/</guid>
+      <description>Dzisiaj (w zasadzie wczoraj) w otchłani skrzynki odbiorczej &lt;a href=&#34;http://rssowl.org/&#34;&gt;RSSOwl&lt;/a&gt; znalazłem &lt;a href=&#34;http://www.eclipse.org/proposals/eclipselink/&#34;&gt;link do propozycji&lt;/a&gt; wspomnianego projektu.</description>
+    </item>
+    <item>
+      <title>Europa nadchodzi..</title>
+      <link>https://blog.dywicki.pl/2007/06/09/europa-nadchodzi/</link>
+      <pubDate>Sat, 09 Jun 2007 08:22:15 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/09/europa-nadchodzi/</guid>
+      <description>Od jakiegoś czasu &lt;a href=&#34;http://eclipse.org&#34;&gt;na stronie Eclipse&lt;/a&gt; możemy spotkać bardzo miły button sygnalizujący nadejście nowego zbiorczego wydania Eclipse i narzędzi zależnych. &lt;a href=&#34;http://www.eclipse.org/europa/&#34;&gt;Europa&lt;/a&gt; to potomek &lt;a href=&#34;http://www.eclipse.org/callisto/&#34;&gt;Callisto&lt;/a&gt;, z jedną drobną różnicą.. Europa obejmuje 21 projektów podczas gdy Callisto obejmowało ich 10.</description>
+    </item>
+    <item>
+      <title>Form Layout</title>
+      <link>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</link>
+      <pubDate>Thu, 07 Jun 2007 08:58:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</guid>
+      <description>Jakiś czas temu &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; &lt;a href=&#34;http://michalmech.pl/index.php/2007/05/23/manager-layoutu-grouplayout-w-java/&#34;&gt;pisał&lt;/a&gt; o tym jak można rozkładać komponenty w &lt;a href=&#34;http://java.sun.com/docs/books/tutorial/uiswing/index.html&#34;&gt;Swingu&lt;/a&gt; przy pomocy &lt;a href=&#34;http://java.sun.com/javase/6/docs/api/javax/swing/GroupLayout.html&#34;&gt;Group Layoutu&lt;/a&gt;. Dzisiejszego dnia mam zamiar pokazać Wam drugą stronę medalu - mianowicie &lt;a href=&#34;http://help.eclipse.org/help31/nftopic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/layout/FormLayout.html&#34;&gt;Form Layout&lt;/a&gt;, który można wykorzystać przy tworzeniu aplikacji w &lt;a href=&#34;http://eclipse.org/swt/&#34;&gt;SWT&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>Eclipse PHP IDE, bez udzialu PHP Eclipse</title>
+      <link>https://blog.dywicki.pl/2006/03/10/eclipse-php-ide-bez-udzialu-php-eclipse/</link>
+      <pubDate>Fri, 10 Mar 2006 23:18:59 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/10/eclipse-php-ide-bez-udzialu-php-eclipse/</guid>
+      <description>&lt;p&gt;Przeczytałem właśnie, że Zend nie dogadał się ze społecznością tworzącą PHP Eclipse i cały projekt będzie rozwijany od nowa. Jak napisał Lester Caine:
+Jedynym powodem dla ktorego PHP Eclipse nie moze stac sie podstawa jest fakt, ze nie mamy czasu ani zasobow by zaglebiac sie w dokumentacje.
+Nie zdołalismy przekonać społeczności PHPEclipse że podejście Zenda bylo lepsze. Powiedzieli, że powinniśmy się dołączyć do ich projektu. Wygląda to bardziej na zagarnięcie niż konstruktywne programowanie.
+Dziękuję Tasmanowi za pomoc w tłumaczeniu. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse PHP IDE</title>
+      <link>https://blog.dywicki.pl/2006/03/09/eclipse-php-ide/</link>
+      <pubDate>Thu, 09 Mar 2006 13:32:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/03/09/eclipse-php-ide/</guid>
+      <description>&lt;p&gt;Warto zaznaczyć, że projekt jest już zatwierdzony, i chyba będzie tworzony w ramach IDE, które miało powstać dla ZF. &lt;strong&gt;Jak niosą wieści&lt;/strong&gt;:
+Jest idea stworzenia open-source&amp;rsquo;owego IDE dla PHP opartego na platformie Eclipse Tools.
+Dalej - PHP zaczęto rozwijać 10 lat temu jako projekt open-source. W ciągu 10 lat PHP zyskało popularność. Obecnie ponad 23 miliony domen korzysta z PHP. Prostota PHP oraz fakt iż jest bezpłatne sprzyja jego adaptowaniu.
+Projekt powinien być rozwijany jako wstępny plugin. Z czasem powinny powstawać kolejne pluginy wykorzystujące API Eclipse by rozszerzać funkcjonalność IDE. Projekt powinien być wpięty w rozszerzenia, docelowa funkcjonalność to tworzenie (developing), rozwijanie (deploying), dokumentowanie, debugging oraz testowanie.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

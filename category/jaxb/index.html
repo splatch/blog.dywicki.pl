@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Jaxb | Splatch&#39;s devblog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/category/jaxb/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/category/jaxb/feed.xml">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/category/jaxb/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/category/jaxb/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Jaxb">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jaxb">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://blog.dywicki.pl/">Home</a>&nbsp;»&nbsp;<a href="https://blog.dywicki.pl/category/">Category</a></div>
+  <h1>
+    Jaxb
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Budowanie usługi sieciowej w oparciu o Apache CXF
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z Apache CXF. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.
+CXF jest połączeniem kilku bibliotek - YOKO, Celtixa oraz XFire. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania “produkcyjnego”, ponieważ niedawno wyszedł z fazy inkubacji. :)
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-07-23 06:27:55 +0000 +0000'>July 23, 2008</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Budowanie usługi sieciowej w oparciu o Apache CXF" href="https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JAXB 2, zabawy z datą i konwersją typów
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Jedną z bolączek JAXB jest problematyczna obsługa dat i czasów. Przypomnijmy sobie schemat użyty w jednej z wcześniejszych not.</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-05-17 09:10:27 +0000 +0000'>May 17, 2008</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to JAXB 2, zabawy z datą i konwersją typów" href="https://blog.dywicki.pl/2008/05/17/jaxb-2-zabawy-z-data-i-konwersja-typow/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rozszerzanie JAXB
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Z ostatnich not zebrało mi się kilka obietnic. Jedną z nich było omówienie pluginów w wydaniu JAXB. Jako, że dzisiaj urządziłem sobie wolny dzień postanowiłem wywiązać się przynajmniej z części obowiązków z tym i z tych blogowych.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-11-28 14:12:33 +0000 +0000'>November 28, 2007</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Rozszerzanie JAXB" href="https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WarsJava
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>W sobotę 17 listopada odbyła się WarsJava. Seria warsztatów realizowana przez Warszawski JUG, a dokładniej przez dwie osoby (kolejność losowa) Jacka Laskowskiego i Łukasza Świerczyńskiego.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-11-19 23:16:47 +0000 +0000'>November 19, 2007</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to WarsJava" href="https://blog.dywicki.pl/2007/11/20/warsjava/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Weź do Javy to co chcesz z PHP!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Integracja między językami czy też platformami to kwestia poruszana nie od dzisiaj. Na poziomie platform funkcjonuje od dłuższego czasu CORBA i Web Services z trio SOAP &#43; WSDL &#43; XML Schema na czele. Integracja systemów napisanych w tym samym języku sprowadza się zwykle do wykorzystania serializacji, która jest najszybsza i najwygodniejsza. Gorzej jeśli idzie o połączenie dwóch języków - w moim przypadku PHP i Javy.
+Zend ma swój mostek, który umożliwia na zintegrowanie Javy i PHP, jest też dodatkowe rozszerzenie do PHP, które pozwala na wykorzystanie Javy w PHP, jednakże moje oczekiwania nie był aż tak wielkie. Potrzebowałem po prostu odczytać dane specyficzne dla PHP - powiedzmy informacje o jakiejś klasie. Standardowo taka operacja wymagała stworzenia parsera, co jest zadaniem powiedzmy, nie na moje siły i umiejętności.. stąd też postanowiłem sobie nieco uprościć pracę. :)</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-11-08 23:52:05 +0000 +0000'>November 8, 2007</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Weź do Javy to co chcesz z PHP!" href="https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mój pierwszy edytor...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse. Kilka informacji co pod spodem:
+SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów JAXB 2 - mapowanie plików XML do odpowiednich klas JFace - table viewer i parę innych dodatków Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-11-06 22:44:39 +0000 +0000'>November 6, 2007</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Mój pierwszy edytor..." href="https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JAXB 2, Wprowadzenie
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>W ramach WarsJava, konferencji/warsztatów organizowanych przez Warszawski JUG, będę miał szansę przedstawić publiczności Java Architecture for XML Binding w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-10-14 17:29:57 +0000 +0000'>October 14, 2007</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to JAXB 2, Wprowadzenie" href="https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/"></a>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

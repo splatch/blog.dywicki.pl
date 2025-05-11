@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Uml on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/uml/</link>
+    <description>Recent content in Uml on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Feb 2006 00:56:03 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/uml/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak widzę kod?</title>
+      <link>https://blog.dywicki.pl/2006/02/28/jak-widzie-kod/</link>
+      <pubDate>Tue, 28 Feb 2006 00:56:03 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/28/jak-widzie-kod/</guid>
+      <description>&lt;p&gt;Tak pod wpływem natchnienia publikuję przykład diagramu klas reprezentujący kompozycje (zawieranie).
+Diagram wykonany w programie Visual Paradigm. Komentarz usunięty ponieważ zachodził na klasy. :) &lt;img alt=&#34;diagram klas&#34; loading=&#34;lazy&#34; src=&#34;http://img.dywicki.pl/kompozycja.jpg&#34;&gt;
+Kod (PHP):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;php &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; Jablon {     &lt;span style=&#34;color:#f92672&#34;&gt;/**&lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; Jablko owoce znajdujace sie na drzewie      &lt;span style=&#34;color:#f92672&#34;&gt;**/&lt;/span&gt;     protected &lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;owoce &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; array(); } &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; Jablko {     &lt;span style=&#34;color:#f92672&#34;&gt;/**&lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; mixed smak owocu      &lt;span style=&#34;color:#f92672&#34;&gt;**/&lt;/span&gt;     protected &lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;smak; } &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Związek jest określony - jedna instancja klasy Jablon może zawierać wiele owowców, ale może tych owoców nie być wcale. Zapis można sprecyzować: Jablon: 1..n, Jablko 1 oznacza, że jedna instancja klasy Jablko moze znajdowac się tylko w jednym obiekcie Jablon.
+Jeśli się mylę, proszę o sprostowanie. Za jakiś czas kod w wersji dla Javy. ;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

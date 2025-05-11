@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jface on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/jface/</link>
+    <description>Recent content in Jface on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 07 Jun 2007 08:58:34 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/jface/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Form Layout</title>
+      <link>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</link>
+      <pubDate>Thu, 07 Jun 2007 08:58:34 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/06/07/swt-jface-form-layout/</guid>
+      <description>Jakiś czas temu &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; &lt;a href=&#34;http://michalmech.pl/index.php/2007/05/23/manager-layoutu-grouplayout-w-java/&#34;&gt;pisał&lt;/a&gt; o tym jak można rozkładać komponenty w &lt;a href=&#34;http://java.sun.com/docs/books/tutorial/uiswing/index.html&#34;&gt;Swingu&lt;/a&gt; przy pomocy &lt;a href=&#34;http://java.sun.com/javase/6/docs/api/javax/swing/GroupLayout.html&#34;&gt;Group Layoutu&lt;/a&gt;. Dzisiejszego dnia mam zamiar pokazać Wam drugą stronę medalu - mianowicie &lt;a href=&#34;http://help.eclipse.org/help31/nftopic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/layout/FormLayout.html&#34;&gt;Form Layout&lt;/a&gt;, który można wykorzystać przy tworzeniu aplikacji w &lt;a href=&#34;http://eclipse.org/swt/&#34;&gt;SWT&lt;/a&gt;.</description>
+    </item>
+  </channel>
+</rss>

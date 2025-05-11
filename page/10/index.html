@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Splatch&#39;s devblog</title>
+
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/feed.xml">
+<link rel="alternate" type="application/json" href="https://blog.dywicki.pl/index.json">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Splatch&#39;s devblog">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Splatch&#39;s devblog">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Splatch's devblog",
+  "url": "https://blog.dywicki.pl/",
+  "description": "Pragmatyzm kontrolowany",
+  "logo": "https://blog.dywicki.pl/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mojavi 4, z bliska.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tak jak obiecałem informacje na temat zmian w Mojavi 4.
+Mojavi jest jednym ze starszych frameworków dla PHP. Swoje korzenie ma jeszcze w PHP4 kiedy to powstała pierwsza (na chwilę obecną), ostatnia stabilna wersja – Mojavi 2.0. Po wejściu PHP5 okazało się, że M2 nie jest kompatybilne z nowym interpreterem. Zaczęło powstawać Mojavi 3. Istnieje również Yuma – Mojavi 2 zgodne z PHP5. W pewnym momencie grupa (a właściwie jedyna osoba) tworząca Mojavi zdecydowała, że projekt jest nienajlepszy. Mimo wszystko była to tylko kontynuacja M2, bez wykorzystania możliwości PHP5, oparta na klasach. M3 zostało wstrzymane a Sean Kerr (na forum illusina) zaczął tworzyć Mojavi 4. M3 utkęło w fazie DEV. Mimo wszystko framework jest bardzo stabilny, sam z niego korzystałem kilka razy i nie było problemów. Wszystko czego potrzeba było to tylko kilka komponentów, które można pobrać z sieci (między innymi SmartyView). Aby praca włożona w M3 nie poszła na daremne projekt przejął Tyler Tompkins. Tak powstało Agavi. Agavi oferuje dodatkową funkcjonalność, usuwa niektóre problemy z Mojavi (min. problem z nazwami klas), oferuje również wbudowane komponenty, których brakowało Mojavi:
+- SmartyView
+- XSLTView
+- CreoleDatabase
+- PropelDatabase
+- AdoDBDatabase
+- PDODatabase
+- ukończony mechanizm logowania
+- zaczątki modelu (na forum Agavi jest do pobrania ActiveRecord rodem z Cake/Rails)
+- ReturnArrayConfigHandler
+- ConsoleController
+- ConsoleRequest
+- HTTPSRequest
+- CreoleStorage
+- wsparcie dla Phinga – taski do tworzenia projektu, modulu, akcji, widoku, unit-testów).
+- bodajże DateValidator
+- FormPHPView (ma być w krótce usunięty).</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-04-25 21:22:08 +0000 +0000'>April 25, 2006</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Mojavi 4, z bliska." href="https://blog.dywicki.pl/2006/04/25/mojavi-4-z-bliska/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Zend Manual.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Manual do Zend Frameworka, zajrzałem tam dopiero dzisiaj, ale dobrze wiedzieć, że jest jakaś biblioteka do PDF, która ma dokumentacje na dobrym poziomie. Jeśli zend będzie prowadził dokumentacje w taki sposób ma spore szanse na to by pobić konkurencje. Manual znajdziecie pod adresem http://framework.zend.com/manual Dokumentacja do Zend_PDF.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-04-24 05:51:09 +0000 +0000'>April 24, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Zend Manual." href="https://blog.dywicki.pl/2006/04/24/zend-manual/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Wracam.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sporo czasu minęło od ostatniej notki typowo technicznej.. mam nadzieję, że zmiana designu na troszkę lżejszy Wam się spodoba. :) Moja nieobecność wynikła poniekąd sama z siebie, blog przez dłuższy czas zszedł na dalszy plan. Nie robiłem również nic wielkiego także nie miałem nawet o czym zbytnio pisać. W najbliższym tygodniu postaram się opublikować sporą notkę na temat Mojavi 4.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-04-23 20:19:14 +0000 +0000'>April 23, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Wracam." href="https://blog.dywicki.pl/2006/04/23/wracam/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Zmieniając siebie na lepsze możemy zmienić świat. Ideał, słowo klucz. Czyż nie jest miłe dążenie do ideałów? Czyż nie jest miła świadomość tego, że możemy kształtować oraz decydować o swoim życiu? Będąc śwadomym tego, że są ideały można się cieszyć miłoścą, wiarą, wiedzą, czy po prostu życiem, po prostu tym, co się ma. Bądź kowalem swojego losu. Bądź sobą. A nawet jeśli nie uda mi się zmienić samego siebie na lepsze to czy nie będze miłe ostatnie z uczuć - spełnienie tym, że walczyłem jak tylko mogłem i jak tylko potrafiłem? Owszem będzie, będzie bardzo miłe.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-04-06 00:57:06 +0000 +0000'>April 6, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to ." href="https://blog.dywicki.pl/2006/04/06/57/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Co sie w tym kraju dzieje?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Trudno mi opisać to, co czuję, ale postaram się. Nie podoba mi się to. Nie podoba mi się sytuacja na polskiej scenie politycznej. Obserwując to, co serwuje mi czasami odbiornik telewizyjny mam wrażenie, że ten kraj zmierza do nikąd, a jeśli nie w tą stronę, to w inną, ale tak samo niebezpieczną - w stronę radykalizmu, ksenofobii czy też szowinizmu. Wiem, że w dużej mierze powtarzam, to co jest faktem, ale chyba mam do tego prawo? Mam prawo do niezadowolenia z tego, że rządzi tym krajem partia, na która nie głosowałem, która robi to źle i kosztem społeczeństwa. W tej chwili jestem już wrogiem mniej więcej 50% polaków. Jak stworzyć sobie taką potęgę (wszak o wielkości człowieka świadczy wielkość jego wrogów, ale ich liczba również ma ogromne znaczenie)? Po prostu - sprzeciwić się woli PiSu. Znowu powtarzam utarty schemat, który wykreowały media.. notabene część układu, ale czyż tak nie jest? Czy PiS na jakąś krytykę zareagował inaczej niźli agresją? Nie podoba mi się to, że dla nich wszędzie jest układ. Układy są - i mniejsze, lokalne i większe jak słoneczny. Ale nie ma ich wszędzie. Nie ma ich pod moim łóżkiem, nie ma ich w mojej pracy, nie spotkałem się też z nimi w urzędach, które odwiedzałem (mimo wieku kilka już odwiedziłem). Czyż nie jest to wystarczający dowód, że miejsca bez skaz są? Dla wielkich, chociaż w zasadzie małych, braci to jest za mało. Uczciwi są Ci, któzy wierzą w to co oni, wyznają zasady te co oni, zgadzają się z tym co mówią tylko oni. A zatem nie jestem ucziwy, ponieważ nie wierzę w to co oni, ani w IV RP, ani w to, że oni zmienią nas na lepsze swoimi spodobami. Nie wyznaję ich zasad. Dla mnie, jeśli ktoś ma inne zdanie nie jest kłamcą, jeśli jest homoseksualistą ma prawo żyć, jest pacyfistą - ma prawo w to wierzyć. W przeciwieństwie do kaczyńskich mogę się mylić w swych przekonaniach. Jestem tego świadom i się tego nie boję. Dobrze mi z tym, ponieważ mam do tego pełne prawo. Wyznaję inne zasady - zasadę równouprawnienia bez względu na wiarę czy jej brak, przekonania polityczne, preferencje seksualne i inne. Wyznaję pluralizm, są inne partie, z którymi się zgadzam, one również powinny mieć udział w parlamencie. Nie jestem również ucziwy ponieważ nie zgadzam się z tym co mówią (to udowadniam pisząc ten tekst). Kiedy kaczyńscy “wyzwalali” sami Polskę, a reszta na nich tylko donosiła bądź się zajmowała czymś mniej poeważnym niż oni nie było mnie na świecie. Niewiele pamiętam z tego co się działo przed 89. Wiem, że kiedyś stałem z mamą w kolejce przed sklepem, gdzie sprzedawano AGD po lodówkę. Pamiętam, że tata pracował w PBRol-ach. Nie pamiętam jak mi się żyło w tedy, ale nie narzekam. O wiele więcej mogę powiedzieć o czasach, kiedy to już byliśmy wyzwoleni. W bogactwie nie żyłem i nie żyję. Nie dlatego, że nie jestem częścią żadnego układu, a dlatego, że moi rodzice pochodzili z biednych rodzin i musieli ciężko pracować na to co teraz mają. Mimo wszystko nie wierzę w to, że bogaci to tylko złodzieje i układy. Wiem, że można dorobić się nie tylko na konszachtach i oszustwach. Nie mam recepty na naprawę tego co się dzieje. Nie ma jej prawdopodobnie większość społeczeństwa. Nie mniej, nie chcę by wyznacznikiem tego, czy mam się z kimś spotykać jest jego stosunek do PiSu, tego czy mogę czytać jakieś czasopismo jest jego stosunek do PiSu, a przede wszystkim nie chcę by o wartości i uczciwości człowieka świadczył jego stosunek do PiSu.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-03-17 00:35:52 +0000 +0000'>March 17, 2006</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Co sie w tym kraju dzieje?" href="https://blog.dywicki.pl/2006/03/17/co-sie-w-tym-kraju-dzieje/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Eclipse PHP IDE, bez udzialu PHP Eclipse
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Przeczytałem właśnie, że Zend nie dogadał się ze społecznością tworzącą PHP Eclipse i cały projekt będzie rozwijany od nowa. Jak napisał Lester Caine: Jedynym powodem dla ktorego PHP Eclipse nie moze stac sie podstawa jest fakt, ze nie mamy czasu ani zasobow by zaglebiac sie w dokumentacje. Nie zdołalismy przekonać społeczności PHPEclipse że podejście Zenda bylo lepsze. Powiedzieli, że powinniśmy się dołączyć do ich projektu. Wygląda to bardziej na zagarnięcie niż konstruktywne programowanie. Dziękuję Tasmanowi za pomoc w tłumaczeniu. :)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-03-10 23:18:59 +0000 +0000'>March 10, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Eclipse PHP IDE, bez udzialu PHP Eclipse" href="https://blog.dywicki.pl/2006/03/10/eclipse-php-ide-bez-udzialu-php-eclipse/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Eclipse PHP IDE
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Warto zaznaczyć, że projekt jest już zatwierdzony, i chyba będzie tworzony w ramach IDE, które miało powstać dla ZF. Jak niosą wieści: Jest idea stworzenia open-source’owego IDE dla PHP opartego na platformie Eclipse Tools. Dalej - PHP zaczęto rozwijać 10 lat temu jako projekt open-source. W ciągu 10 lat PHP zyskało popularność. Obecnie ponad 23 miliony domen korzysta z PHP. Prostota PHP oraz fakt iż jest bezpłatne sprzyja jego adaptowaniu. Projekt powinien być rozwijany jako wstępny plugin. Z czasem powinny powstawać kolejne pluginy wykorzystujące API Eclipse by rozszerzać funkcjonalność IDE. Projekt powinien być wpięty w rozszerzenia, docelowa funkcjonalność to tworzenie (developing), rozwijanie (deploying), dokumentowanie, debugging oraz testowanie.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-03-09 13:32:34 +0000 +0000'>March 9, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Eclipse PHP IDE" href="https://blog.dywicki.pl/2006/03/09/eclipse-php-ide/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">db4o in Action!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiaj zainspirowany rozmową na ircu i ciekawym zapytaniem postanowiłem zaintersować się db4o. Muszę przyznać, że całość jest dość prosta, właściwie banalna. Wykorzystanie db4o sprowadza się do zaimportowania kilku klas.. i gotowe. Koniec męczenia się z SQLem, z korzystaniem z ORMów i tak dalej.. koniec! :) Wrzucasz obiekt, dostajesz z powrotem obiekt. Jestem zachwycony możliwościami db4o, chociaż odkryłem dopiero ich nieznaczną część.. zachęcam do spojrzenia na notkę z innego bloga. Dla przykładu załączam źródła: db4o.test
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-03-08 00:04:59 +0000 +0000'>March 8, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to db4o in Action!" href="https://blog.dywicki.pl/2006/03/08/db4o-in-action/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Troszkę &#34;Inne&#34; MVC
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Jakiś czas temu, gdy walczyłem ze swoimi pierwszymi servletami dzięki koledze zetknąłem się ze springiem. Wiedziałem, że ten framework istnieje, ale dopiero z jego pomocą stworzyłem pierwszą akcję. Idea jest bardzo prosta - na podstawie pliku beans.xml kontener IoC dopasowywuje klasę do adresu. Może być też tak, że mapowane są nazwy beanów do adresu - np. &gt;. To co mnie oczarowało w springu to świetne rozwiązania. Bardzo spodobały mi się zróżnicowane akcje. To już nie jest Cake PHP, gdzie nazwa ApplicationController ma znaczenie bardziej symboliczne niż praktyczne czy Struts ze swoimi biernym akcjami. Przy potencjale jaki oferują kontrolery Springa wiele frameworków wymięka. Poniżej prezentuje diagram klas wykonany w programie Dia obrazujący powiązania kontrolerów we wcześniej zachwalanym frameworku. ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-03-02 01:08:36 +0000 +0000'>March 2, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Troszkę &#34;Inne&#34; MVC" href="https://blog.dywicki.pl/2006/03/02/troszk-inne-mvc/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Jak widzę kod?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tak pod wpływem natchnienia publikuję przykład diagramu klas reprezentujący kompozycje (zawieranie). Diagram wykonany w programie Visual Paradigm. Komentarz usunięty ponieważ zachodził na klasy. :) Kod (PHP):
+&lt;php class Jablon { /** *@var Jablko owoce znajdujace sie na drzewie **/ protected $owoce = array(); } class Jablko { /** *@var mixed smak owocu **/ protected $smak; } &gt; Związek jest określony - jedna instancja klasy Jablon może zawierać wiele owowców, ale może tych owoców nie być wcale. Zapis można sprecyzować: Jablon: 1..n, Jablko 1 oznacza, że jedna instancja klasy Jablko moze znajdowac się tylko w jednym obiekcie Jablon. Jeśli się mylę, proszę o sprostowanie. Za jakiś czas kod w wersji dla Javy. ;)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-28 00:56:03 +0000 +0000'>February 28, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Jak widzę kod?" href="https://blog.dywicki.pl/2006/02/28/jak-widzie-kod/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://blog.dywicki.pl/page/9/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://blog.dywicki.pl/page/11/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

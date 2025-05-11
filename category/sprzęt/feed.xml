@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sprzęt on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/sprz%C4%99t/</link>
+    <description>Recent content in Sprzęt on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 02 Feb 2008 20:34:20 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/sprz%C4%99t/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktualizacja sterowników dla kart ATI</title>
+      <link>https://blog.dywicki.pl/2008/02/02/aktualizacja-sterownikow-dla-kart-ati/</link>
+      <pubDate>Sat, 02 Feb 2008 20:34:20 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/02/02/aktualizacja-sterownikow-dla-kart-ati/</guid>
+      <description>Jakiś czas temu nieszczęśliwym zbiegiem okoliczności straciłem możliwość uruchomienia swojego systemu (XP). Winny całej sytuacji był partition magick, który nie poradził sobie z przeskalowaniem partycji. Koniec końców spod suse zrobiłem backup danych i postanowiłem zainstalować XP raz jeszcze. Niestety płytka, na której był nagrany (wersja z MSDNAA), nie podnosiła się. Byłem zmuszony do skorzystania z instalki Visty. Kosztowała mnie ona 30 zł i to w cale nie na, zamkniętym już wtedy, stadionie dziesięciolecia! Asus organizował coś takiego jak Visa upgrade i rozdawał płytki za darmo. Swoją dostałem w maju.
+Koniec końców nowe dziecko MS wylądowało na moim twardym dysku. Kolorki kolorkami, zasoby zasobami, ale najgorsze było to, że straciłem możliwość grania w Enemy Territory. Ta stara gra chodziła mi na XP bardzo płynnie, niestety na Viście nie osiągałem więcej niż 30 fps. Zrozpaczony tym zrezygnowałem z pogrywania. Jakiś czas później naszła mnie chęć na aktualizację sterowników do karty graficznej, ponieważ wszystko co było oparte o OpenGL chodziło tak jak by chciało a nie mogło. Udałem się na stronę &lt;a href=&#34;http://ati.amd.com/&#34;&gt;ATI&lt;/a&gt; by pobrać sterowniki. Jakież było moje zdziwienie, gdy producent oznajmił, że do kart OEM sterowniki powinni zapewnić ich producenci. W tym momencie praktycznie wszystkie układy zbudowane w oparciu o kości Radeon montowane w laptopach zatrzymują się na wersji sprzed roku, jeśli nie starszej.
+Zaintrygowany tym zacząłem szperać i znalazłem rozwiązanie. :)</description>
+    </item>
+    <item>
+      <title>home@with.net</title>
+      <link>https://blog.dywicki.pl/2005/11/06/homewithnet/</link>
+      <pubDate>Sun, 06 Nov 2005 01:18:35 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/11/06/homewithnet/</guid>
+      <description>&lt;p&gt;Nareszcie jest internet w domu. :) Po 4 miesiącach życia na płytach (CD) wreszcie usłyszałem odgłos przychodzącej wiadomości z PSI, odebrałem pocztę. Ten mały sukces będzie spektakularny jeśli uda mi się zbudować sieć lokalną razem z innymi lokatorami, bo póki co internetem cieszę się tylko ja. No, ale mam nadzieję, że się uda skombinować jakiś AP z routerem i czteroportowym switchem. Jedyny mankament to opłata instalacyjna (200 zł) plus koszt AP (kolejne 200 zł). Ale pokrywamy je wspólnie, więc powinno być ok. :) Abonament 89 zł brutto + 25 zł za zewnętrzny IP. Przepustowość 260/130 kbps. Dziwi mnie jedno - dzierżawiona karta, która ma niby kosztować 300 zł, kiedy podobne na komputroniku są za mniej niż 150 zł.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>256&#43;512 = 756?</title>
+      <link>https://blog.dywicki.pl/2005/05/20/256512-756/</link>
+      <pubDate>Fri, 20 May 2005 15:09:21 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/20/256512-756/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Wilk Electronics ;)&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/ram.jpg&#34;&gt;Drugim nabytkiem jest pamięć. Byłem bardzo zawiedzony gdy nawet na najniższych detalach SWAT 4 perfidnie rwał. Nie pozostało nic innego jak dokupić ramu. Do obecnej kości Kingstone’a 256 MB / 400 MHz doszła kolejna, już nie markowa, 512 MB. Łączenie 768. SWAT od tej pory chodzi płynnie tak, że można spokojnie grać. Nie mogę się doczekać aż dostanę w swoje łapska Undergrounda 2. Jedyne, co mnie smuci to, to że system dalej uruchamia się bardzo wolno. Najwyraźniej nie pozostaje mi nic innego jak ponowna instalacja. Ale z tym chyba poczekam, ponieważ nie chce mi się na nowo instalować tego wszystkiego.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nagrywarka DVD</title>
+      <link>https://blog.dywicki.pl/2005/05/12/nagrywarka-dvd/</link>
+      <pubDate>Thu, 12 May 2005 14:38:58 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/12/nagrywarka-dvd/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Nowa nagrywarka&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/dvd.jpg&#34;&gt;Całkiem niedawno kupiłem sobie nowy napęd. Stary CD-ROM sprzedałem razem z komputerem kuzyna tak, że przez ponad dwa miesiące nie miałem możliwości zainstalowania czegokolwiek z płyty. Jako, że udało mi się zarobić parę groszy zainwestowałem w nowy napęd … DVD+/-RW. Pierwsze co zrobiłem gdy już go zainstalowałem to było nagranie filmów, które zajmują zbyt wiele miejsca. Do tego parę plików ISO pobranych z sieci i na dysku przybyło 10 GB wolnego miejsca. Nagrałem też na krążek dvd obraz Half Life’a 2, zajmujący ponad 3 GB. Z napędu jestem bardzo zadowolony. Fakt, że najszybszy nie jest (maksymalna prędkość nagrywania CD to 40x, a DVD 12x) i nie przegrywa szybciej niż Gołota, ale nie zależy mi aż tak bardzo na czasie. Zapłaciłem za ten napęd w sumie 250 zł, ale przy okazji odwiedzin w zaprzyjaźnionym sklepie nabyłem kilkanaście płyt CD i dwie DVD.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nowa myszka</title>
+      <link>https://blog.dywicki.pl/2005/05/06/nowa-myszka/</link>
+      <pubDate>Fri, 06 May 2005 15:04:37 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/06/nowa-myszka/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Mysz w ujęciu pierwszym&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/mysz.jpg&#34;&gt;Po bardzo długim czasie użytkowania myszy bez rolki zatrzymałem sobie staruszkę kuzyna (moja myszka powędrowała za 2 zł do kolegi).&lt;/p&gt;
+&lt;p&gt;Mysz sprawowała się dość dobrze, ale miała jedną wadę. Czasami gdy kursor stał chwilkę w miejscu zaczynał drgać. Wierzcie mi gdy się pisze na klawiaturze to drgający kursor bardzo przykuwa uwagę.&lt;br&gt;
+&lt;img alt=&#34;Zadanie-znajdź PPM&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/mysz2.jpg&#34;&gt;Po pewnym czasie podczas odwiedzin zaprzyjaźnionego sklepu komputerowego dowiedziałem się, że w zamian za wprowadzone niegdyś modyfikację w Os Commerce otrzymam mysz. Jak to mówi przysłowie lepszy rydz niż nic. Po kilku dniach zostałem wezwany do zaprzyjaźnionego sklepu. Czekała tam na mnie nowiutka mysz. Model był mi znany nie tylko z widzenia, ponieważ używałem identycznego podczas pracy na komputerze kuzyna. Dość spora bryła leży dobrze w dłoni. Optyka też się dobrze sprawuje dlatego też stara podkładka powędrowała do szuflady (nie wyrzuciłem jej ze względu na sentyment).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

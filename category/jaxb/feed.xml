@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jaxb on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/jaxb/</link>
+    <description>Recent content in Jaxb on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 23 Jul 2008 06:27:55 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/jaxb/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budowanie usługi sieciowej w oparciu o Apache CXF</title>
+      <link>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</link>
+      <pubDate>Wed, 23 Jul 2008 06:27:55 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/07/23/budowanie-uslugi-sieciowej-w-oparciu-o-apache-cxf/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu w pracy do tworzenia usług sieciowych korzystam z &lt;a href=&#34;http://cxf.apache.org&#34;&gt;Apache CXF&lt;/a&gt;. Jako że biblioteka jest stosunkowo nowa i nie najlepiej udokumentowana postanowiłem przedstawić na blogu jak wygląda proces tworzenia.&lt;/p&gt;
+&lt;p&gt;CXF jest połączeniem kilku bibliotek - &lt;a href=&#34;http://cwiki.apache.org/YOKO/&#34;&gt;YOKO&lt;/a&gt;, &lt;a href=&#34;http://celtix.objectweb.org/&#34;&gt;Celtixa&lt;/a&gt; oraz &lt;a href=&#34;http://xfire.codehaus.org/&#34;&gt;XFire&lt;/a&gt;. Każda z nich wcześniej realizowała pewien fragment obecnej funkcjonalności CXF - YOKO obsługuje Corbę a XFire usługi sieciowe. Obecne CXF jest gotowy do używania &amp;ldquo;produkcyjnego&amp;rdquo;, ponieważ niedawno wyszedł z fazy inkubacji. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>JAXB 2, zabawy z datą i konwersją typów</title>
+      <link>https://blog.dywicki.pl/2008/05/17/jaxb-2-zabawy-z-data-i-konwersja-typow/</link>
+      <pubDate>Sat, 17 May 2008 09:10:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/05/17/jaxb-2-zabawy-z-data-i-konwersja-typow/</guid>
+      <description>Jedną z bolączek JAXB jest problematyczna obsługa dat i czasów. Przypomnijmy sobie schemat użyty &lt;a href=&#34;http://blog.dywicki.pl/?p=190&#34;&gt;w jednej z wcześniejszych not&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>Rozszerzanie JAXB</title>
+      <link>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</link>
+      <pubDate>Wed, 28 Nov 2007 14:12:33 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/28/rozszezanie-jaxb/</guid>
+      <description>Z ostatnich not zebrało mi się kilka obietnic. Jedną z nich było omówienie pluginów w wydaniu JAXB. Jako, że dzisiaj urządziłem sobie wolny dzień postanowiłem wywiązać się przynajmniej z części obowiązków z tym i z tych blogowych.</description>
+    </item>
+    <item>
+      <title>WarsJava</title>
+      <link>https://blog.dywicki.pl/2007/11/20/warsjava/</link>
+      <pubDate>Mon, 19 Nov 2007 23:16:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/20/warsjava/</guid>
+      <description>W sobotę 17 listopada odbyła się &lt;a href=&#34;http://warsjava.pl&#34;&gt;WarsJava&lt;/a&gt;. Seria warsztatów realizowana przez &lt;a href=&#34;http://groups.google.com/group/warszawa-jug&#34;&gt;Warszawski JUG&lt;/a&gt;, a dokładniej przez dwie osoby (kolejność losowa) Jacka Laskowskiego i Łukasza Świerczyńskiego.</description>
+    </item>
+    <item>
+      <title>Weź do Javy to co chcesz z PHP!</title>
+      <link>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</link>
+      <pubDate>Thu, 08 Nov 2007 23:52:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/09/wez-do-javy-to-co-chcesz-z-php/</guid>
+      <description>Integracja między językami czy też platformami to kwestia poruszana nie od dzisiaj. Na poziomie platform funkcjonuje od dłuższego czasu CORBA i Web Services z trio SOAP + WSDL + XML Schema na czele. Integracja systemów napisanych w tym samym języku sprowadza się zwykle do wykorzystania serializacji, która jest najszybsza i najwygodniejsza. Gorzej jeśli idzie o połączenie dwóch języków - w moim przypadku PHP i Javy.
+Zend ma swój mostek, który umożliwia na zintegrowanie Javy i PHP, jest też dodatkowe rozszerzenie do PHP, które pozwala na wykorzystanie Javy w PHP, jednakże moje oczekiwania nie był aż tak wielkie. Potrzebowałem po prostu odczytać dane specyficzne dla PHP - powiedzmy informacje o jakiejś klasie. Standardowo taka operacja wymagała stworzenia parsera, co jest zadaniem powiedzmy, nie na moje siły i umiejętności.. stąd też postanowiłem sobie nieco uprościć pracę. :)</description>
+    </item>
+    <item>
+      <title>Mój pierwszy edytor...</title>
+      <link>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</link>
+      <pubDate>Tue, 06 Nov 2007 22:44:39 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/07/moj-pierwszy-edytor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.JPG&#34; title=&#34;Agavi module configuration editor&#34;&gt;&lt;img alt=&#34;Agavi module configuration editor&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/wp-content/uploads/2007/11/agavi-editor.thumbnail.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Czas jakiś temu udało mi się stworzyć pierwszy działający edytor w oparciu o Eclipse.
+Kilka informacji co pod spodem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SharedHeaderFormEditor - ładny tekstowy nagłówek oraz możliwość dodawania zakładek&lt;/li&gt;
+&lt;li&gt;FormPage i FormToolkit - użyte do stworzenia układu, który widać na załączonym obrazku&lt;/li&gt;
+&lt;li&gt;JFace Databinding - zapewnia propagowanie zmian z formularza do obiektów&lt;/li&gt;
+&lt;li&gt;JAXB 2 - mapowanie plików XML do odpowiednich klas&lt;/li&gt;
+&lt;li&gt;JFace - table viewer i parę innych dodatków&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Całość ogólnie jest prosta niczym konstrukcja cepa, w działaniu sprawia się dobrze. Jak tylko ogarnę kod postaram się opisać krok po kroku jak można coś podobnego stworzyć na własny użytek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JAXB 2, Wprowadzenie</title>
+      <link>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</link>
+      <pubDate>Sun, 14 Oct 2007 17:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</guid>
+      <description>W ramach &lt;a href=&#34;http://groups.google.com/group/warszawa-jug/web/warsjava&#34;&gt;WarsJava&lt;/a&gt;, konferencji/warsztatów organizowanych przez &lt;a href=&#34;http://warszawa.jug.pl/&#34;&gt;Warszawski JUG&lt;/a&gt;, będę miał szansę przedstawić publiczności &lt;a href=&#34;https://jaxb.dev.java.net/&#34;&gt;Java Architecture for XML Binding&lt;/a&gt; w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</description>
+    </item>
+  </channel>
+</rss>

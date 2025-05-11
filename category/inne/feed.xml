@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Inne on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/inne/</link>
+    <description>Recent content in Inne on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 19 Nov 2008 09:22:43 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/inne/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeśli coś nie jest komercyjne nie jest też profesjonalne</title>
+      <link>https://blog.dywicki.pl/2008/11/19/jesli-cos-nie-jest-komercyjne-nie-jest-tez-profesjonalne/</link>
+      <pubDate>Wed, 19 Nov 2008 09:22:43 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/11/19/jesli-cos-nie-jest-komercyjne-nie-jest-tez-profesjonalne/</guid>
+      <description>&lt;p&gt;Ostatnimi czasy odbyłem kilka spotkań w większych i mniejszych firmach. To co mnie zastanowiło po jednej z ostatniej rozmów to zdanie:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Korzystamy z profesjonalnych narzędzi takich jak &lt;a href=&#34;http://www.tibco.com/&#34;&gt;Tibco&lt;/a&gt;, &lt;a href=&#34;http://www.softwareag.com/Corporate/products/wm/default.asp&#34;&gt;WebMethods&lt;/a&gt;, czasami &lt;a href=&#34;http://www.bea.com/framework.jsp?CNT=index.htm&amp;amp;FP=/content/products/aqualogic/service_bus/&#34;&gt;Bea&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Co łączy wymienione produkty? Otóż wszystkie są rozwiązaniami z klasy EAI i &amp;hellip; są płatne. Zdanie to usłyszałem w odniesieniu do &lt;a href=&#34;http://servicemix.apache.org&#34;&gt;Apache Service Mix&lt;/a&gt;, którym się interesuję. Wniosek z tej wypowiedzi jaki udało mi się wysnuć od razu stał się tematem tej noty, czyli jeśli coś nie jest komercyjne nie jest też profesjonalne. Tak jakby OSS był gorszym rozwiązaniem od kupienia licencji na pudełkowe rozwiązanie od jakiegoś producenta.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Spring &#34;Commercial&#34; Source zastępuje Open Source</title>
+      <link>https://blog.dywicki.pl/2008/09/28/spring-commercial-source-replaces-open-source/</link>
+      <pubDate>Sun, 28 Sep 2008 19:59:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/09/28/spring-commercial-source-replaces-open-source/</guid>
+      <description>&lt;p&gt;Pamiętam, jak jakiś już czas temu, kiedy pracowałem w &lt;a href=&#34;http://pzu.pl&#34;&gt;PZU&lt;/a&gt; dyskutowałem z kolegą na temat &lt;a href=&#34;http://www.springframework.org/&#34;&gt;Springa&lt;/a&gt;. Obaj podziwialiśmy wówczas jego jakość. Chyba wszyscy ludzie którzy mieli styczność z tym narzędziem przyznają, że jest to na prawdę porządnie napisany kawałek kodu. Połączenie bardzo dobrej dokumentacji oraz duża społeczność sprzyjały cały czas Springowi w odnoszeniu kolejnych sukcesów.&lt;/p&gt;
+&lt;p&gt;Do dnia 17 września, kiedy to &lt;a href=&#34;http://springsource.com&#34;&gt;SpringSource&lt;/a&gt; ogłosiło zmianę zasad - i poniekąd &lt;a href=&#34;http://www.springsource.com/node/558&#34;&gt;konieczność wykupywania subskrypcji&lt;/a&gt;. Wiadomość ta zaiste zelektryzowała społeczność.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Kolorowanie składni w SyntaxHighlighter - Eclipse.</title>
+      <link>https://blog.dywicki.pl/2008/02/09/kolorowanie-skladni-w-syntaxhighlighter-eclipse/</link>
+      <pubDate>Sat, 09 Feb 2008 19:46:43 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/02/09/kolorowanie-skladni-w-syntaxhighlighter-eclipse/</guid>
+      <description>Jakiś czas temu zmieniłem narzędzie do kolorowania składni z &lt;a href=&#34;http://qbnz.com/highlighter/&#34;&gt;GeSHI&lt;/a&gt; na &lt;a href=&#34;http://code.google.com/p/syntaxhighlighter/&#34;&gt;SyntaxHighlighter&lt;/a&gt;. Największa różnica to wykonanie. Starsza biblioteka parsuje wszystko po stronie serwera i pakuje to w HTML, nowsza jest uruchamiana z poziomu przeglądarki i kolorowanie odbywa się tuż po załadowaniu strony.</description>
+    </item>
+    <item>
+      <title>Agavi IDE, db4o 7.0, ObjectNotStorableException i Ant :)</title>
+      <link>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</link>
+      <pubDate>Thu, 29 Nov 2007 23:21:25 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/11/30/agavi-ide-db4o-70-objectnotstorableexception-i-ant/</guid>
+      <description>&lt;p&gt;Dnia dzisiejszego zmobilizowałem się by nieco popracować nad modelem dla Agavi IDE. Jest to podstawa bez której ciężko budować kolejne edytory. Trzeba w końcu wiedzieć jakie akcje, widoki etc są w projekcie by sugerować użytkownikowi poprawne wartości.
+Jak donosi &lt;a href=&#34;http://michalmech.pl&#34;&gt;Michał Mech&lt;/a&gt; na &lt;a href=&#34;http://michalmech.pl/index.php/2007/11/29/symfoclipse-wsparcie-dla-symfony-na-platformie-eclipse/&#34;&gt;swoim blogu&lt;/a&gt;, konkurencja nie śpi i wszczęła prace nad integracją Eclipse i Symfony - tak też narodziło się &lt;a href=&#34;http://&#34;&gt;Symfoclipse&lt;/a&gt;. Stąd straciłem już palmę pierwszeństwa i pozostaje mi walczyć na polu jakości i funkcjonalności. &lt;a href=&#34;http://zend.com&#34;&gt;Zend&lt;/a&gt; również serwuje wsparcie dla &lt;a href=&#34;http://framework.zend.com/&#34;&gt;Zend Framework&lt;/a&gt;, aczkolwiek po &lt;a href=&#34;http://www.zend.com/webinar/studio/EN_11_Zend_Studio_Neon_Zend_Framework_Support/&#34;&gt;prezentacji&lt;/a&gt; miałem mieszane uczucia. Przede wszystkim lektor mówiący z paskudnym angielskim akcentem. Nie wiem, może jestem wyczulony, ale gdy słyszę te fonetyczne wygibasy to mnie to mierzi, może dla jednych to plus, ale dla mnie lepszym sprzedawcą produktu jest ktoś kto mówi o swoim projekcie chociażby z francuskim akcentem niż wynajęty lektor, który ma pomnożyć wrażenie &amp;ldquo;powagi&amp;rdquo; przedsięwzięcia. Na drugim miejscu jakość &amp;ldquo;wsparcia&amp;rdquo;, bo inaczej jak w cudzysłowach tego nie mogę określić, jest po prostu żenująca. Czy mi się wydaje czy oni każą sobie płacić za dodanie kreatora (wizzarda)? ;) Coś mi się wydaje, że załoga &lt;a href=&#34;http://phpeclipse.de/&#34;&gt;PHP Eclipse&lt;/a&gt; dobrze robi ponownie zwierając szyki!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP Unit 3 i Mock Objects</title>
+      <link>https://blog.dywicki.pl/2006/09/27/php-unit-3-i-mock-objects-2/</link>
+      <pubDate>Wed, 27 Sep 2006 21:05:41 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/27/php-unit-3-i-mock-objects-2/</guid>
+      <description>&lt;p&gt;Dzisiejszego dnia skończyłem opisywać implementację techniki &lt;a href=&#34;http://en.wikipedia.org/wiki/Mock_object&#34;&gt;Mock Objects&lt;/a&gt; przy użyciu &lt;a href=&#34;http://phpunit.de&#34;&gt;PHP Unit&lt;/a&gt;. Zapraszam do zapoznania się z &lt;a href=&#34;http://code-house.net/PHPUnit3MockObjects&#34;&gt;tekstem&lt;/a&gt; i wyrażania opinii na jego temat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache w Smarty</title>
+      <link>https://blog.dywicki.pl/2006/09/24/cache-w-smarty/</link>
+      <pubDate>Sat, 23 Sep 2006 22:01:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/24/cache-w-smarty/</guid>
+      <description>&lt;p&gt;Wiem, że Smarty ma równie wielu przeciwników co zwolenników, ale odcinając się od dyskusji postanowiłem polecić zarówno tym pierwszym jak i drugim artykuł na temat obsługi &lt;a href=&#34;http://www.mao.pl/art-cache-smarty.php&#34;&gt;cache w Smarty&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - przyśpieszamy</title>
+      <link>https://blog.dywicki.pl/2006/09/23/propel-12-przyspieszamy/</link>
+      <pubDate>Fri, 22 Sep 2006 22:38:27 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/23/propel-12-przyspieszamy/</guid>
+      <description>&lt;p&gt;Zachęcony &lt;a href=&#34;https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/#comment-1094&#34;&gt;komentarzem&lt;/a&gt; do &lt;a href=&#34;https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy&#34;&gt;poprzedniego posta&lt;/a&gt; postanowiłem zoptymalizować cały builder dla Propela. Zasada działania jest taka sama jak wcześniej - usunięcie zbędnych iteracji. Kod generowany przez moje poprawki nie należy do najszybszych, ale z &lt;a href=&#34;http://www.phpfi.com/155990&#34;&gt;moich testów&lt;/a&gt; wynika jednoznacznie - jest szybszy.
+Szybki sposób instalacji &lt;a href=&#34;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&#34;&gt;FasterPHP5ComplexPeerBuilder.php&lt;/a&gt;:
+pobrać plik &lt;a href=&#34;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&#34;&gt;http://delta.dywicki.pl/propel/FasterPHP5ComplexPeerBuilder.php&lt;/a&gt;
+skopiować do folderu propel/engine/builder/om/php5.
+w build.properties dla projektu ustawić dyrektywę:
+[code]propel.builder.peer.class = propel.engine.builder.om.php5.FasterPHP5ComplexPeerBuilder[/code]
+Wskazuje ona na nazwę klasy której obiekt będzie odpowiedzialny za wygenerowanie kodu dla klasy tabeli (*Peer).
+Po tym wszystkim odpalamy generator z targetem om poleceniem:
+[code]propel-gen katlog-projektu om[/code]
+bądź
+[code]phing -Dproject=nazwa -Dtarget=om[/code].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Propel 1.2 - przyśpiesz go nawet do 2 razy!</title>
+      <link>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</link>
+      <pubDate>Thu, 21 Sep 2006 18:16:02 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/09/21/propel-12-przyspiesz-go-nawet-do-2-razy/</guid>
+      <description>&lt;p&gt;Jak wiadomo szybkość nie jest domeną Propela. Dzisiejszego popołudnia na oficjalnym kanale Propela odbyłem rozmowę z osobą która twierdziła, że można przyśpieszyć propela o 3 razy (a przymajmniej metodę doSelectJoinAll). Nie zdziwcie się - miała ona rację! :)&lt;/p&gt;
+&lt;p&gt;Problem w doSelectJoinAll polega na tym, że są wykonywane zbędne iteracje mające na celu sprawdzenie czy element zawiera obiekt dołączanej encji. Można je z powodzeniem zastąpić odpowiednią mapą, która zawiera identyfikatory tych encji, które już są dodane do obiektu. Osoba, która to twierdziła miała odpowiedni kod, który zgadnijcie - zadziałał.
+Aby zamiana była uniwersalna - zmieniłem co trzeba w generatorze. Sama metoda działa dwa i pół raza szybciej! Dla zainteresowanych - plik zmieniony przeze mnie - &lt;a href=&#34;http://delta.dywicki.pl/propel/PHP5ComplexPeerBuilder.php&#34;&gt;PHP5ComplexPeerBuilder.php&lt;/a&gt;. Sprawdź czy Twoje doSelectJoinAll przyśpieszy. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exception? Just log it!</title>
+      <link>https://blog.dywicki.pl/2006/07/31/exception-just-log-it/</link>
+      <pubDate>Mon, 31 Jul 2006 21:19:18 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/07/31/exception-just-log-it/</guid>
+      <description>&lt;p&gt;Zgodnie z tym, co &lt;a href=&#34;http://forum.php.pl/index.php?showtopic=50887&#34;&gt;napisałem na forum php.pl&lt;/a&gt; zapraszam do ocen, bądź w temacie bądź tu, w zależności od sympatii. ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Polska, dziwny kraj</title>
+      <link>https://blog.dywicki.pl/2006/06/26/polska-dziwny-kraj/</link>
+      <pubDate>Mon, 26 Jun 2006 21:21:52 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/26/polska-dziwny-kraj/</guid>
+      <description>&lt;p&gt;Nie da się ukryć, że żyjemy w dziwnym kraju. Nie chcę już pić do tego kto nami rządzi bo to świadomy wybór tej większości, która przeważyła w wyborach, ale do tego jak wyglądają u nas zarobki.&lt;/p&gt;
+&lt;p&gt;Prawda jest taka, że jeśli chcesz pracować a masz pecha to pozostają 3 wyjścia:
+- pracujesz na umowę o dzieło i pracodawca ewentualnie płaci Twoją zaliczkę na podatek dochodowy
+- pracujesz po zaniżonych kosztach - to znaczy, masz umowę na 1/4 etatu, zarabiasz 700 zł a resztę otrzymujesz pod stołem.
+- pracujesz na czarno i modlisz się o to by nic Ci się nie stało oraz by stosunki z pracodawcą były zawsze jak najlepsze&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zgadnij jaki to język</title>
+      <link>https://blog.dywicki.pl/2006/06/16/zgadnij-jaki-to-jezyk/</link>
+      <pubDate>Fri, 16 Jun 2006 19:59:24 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/06/16/zgadnij-jaki-to-jezyk/</guid>
+      <description>&lt;p&gt;Kilka listingów. W czym to jest napisane?&lt;/p&gt;
+&lt;p&gt;[code]list = [1: &amp;ldquo;a&amp;rdquo;, 2: &amp;ldquo;b&amp;rdquo;, 3: &amp;ldquo;C&amp;rdquo;, 6: &amp;ldquo;asdf&amp;rdquo;]&lt;/p&gt;
+&lt;p&gt;list.each() {
+key, value | println &amp;ldquo;${key} = ${value}&amp;rdquo;
+}[/code]&lt;/p&gt;
+&lt;p&gt;[code]add = { x -&amp;gt; { y -&amp;gt; x + y }}
+println add(2)(4)[/code]&lt;/p&gt;
+&lt;p&gt;[code]def power(n) {
+{ base -&amp;gt; base**n }
+}&lt;/p&gt;
+&lt;p&gt;square = power(2)
+cube = power(3)&lt;/p&gt;
+&lt;p&gt;a = square(4)
+println a // =&amp;gt; 16[/code]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHPOutOfRangeException</title>
+      <link>https://blog.dywicki.pl/2006/02/20/phpoutofrangeexception/</link>
+      <pubDate>Mon, 20 Feb 2006 18:41:10 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/02/20/phpoutofrangeexception/</guid>
+      <description>&lt;p&gt;Po dłuższym zastanowieniu - zdecydowałem się na zrezygnowanie z prowadzonych do tej pory projektów, także framework i draft templatów można uznać za zawieszone na czas nieokreślony.
+Chcę spróbować czegoś nowego, czegoś lepszego - biorę się za javę.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Repozytorium SVN</title>
+      <link>https://blog.dywicki.pl/2005/12/23/repozytorium-svn/</link>
+      <pubDate>Fri, 23 Dec 2005 14:57:38 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/12/23/repozytorium-svn/</guid>
+      <description>&lt;p&gt;Framework, który usiłuję pisać można pobrać z &lt;strong&gt;svn://ivpro.net/PSF&lt;/strong&gt;. Kod jest przepisywany na nowo, ponieważ zmieniła się nieco koncepcja :).
+Lista zmian:
+- Przesunięcie tablicy z mapą ConfigManager::$map do oddzielnej klasy ConfigMapper (dziedziczącej klasy abstrakcyjnej Mapper, pakiet Mapper) opartej na singletonie.
+- Dodanie nowej klasy konkretnej - ConfigProperties, która parsuje config przy pomocy &lt;strong&gt;parse_ini_file&lt;/strong&gt;. Zastosowanie w sam raz do tworzenia plików językowych. Z tego rodzaju configu nie można uzyskać struktury takiej jak w pliku XML.
+- Przesunięcie funkcji do obsługi tablic do klasy ArrayUtil w pakiecie Util.
+- Zlikwidowanie pakietu AutoLoad i przeniesienie go częściowo do pakietu Util (część AutoLoad powędrowała do pl.splatch.BuildTool jako task Phinga).
+- Nowy pakiet - Dispatcher (jak narazie bez wyraźnego podziału na klasy do obsługi widoku, requestu) służący do wykonywania forwardów jak i redirectów.
+- Dodanie &amp;ldquo;warstwy usług&amp;rdquo; - nowy pakiet - Service (jeśli zajdzie potrzeba powstanie również Service.Activator).
+- Wprowadzenie większej liczby interfejsów w miejsce dziedziczenia z klas abstrakcyjnych.
+I jeszcze pare innych kosmetycznych poprawek&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Piąte zdanie</title>
+      <link>https://blog.dywicki.pl/2005/06/12/piate-zdanie/</link>
+      <pubDate>Sun, 12 Jun 2005 18:38:22 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/06/12/piate-zdanie/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Złap najbliższą książkę.&lt;/li&gt;
+&lt;li&gt;Otwórz ją na 123 stronie.&lt;/li&gt;
+&lt;li&gt;Znajdź piąte zdanie.&lt;/li&gt;
+&lt;li&gt;Opublikuj je na swoim blogu razem z tą instrukcją.&lt;/li&gt;
+&lt;li&gt;Nie szukaj najfajniejszej książki jaką można znaleźć. Użyj tej, która faktycznie leży najbliżej Ciebie.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Najbliżej mnie leży książka &lt;strong&gt;Programowanie zorientowane obiektowo. Wzorce projektowe&lt;/strong&gt; autorstwa Alana Shalloway&amp;rsquo;a oraz Jamesa Trotta. Piąte zdanie na 123 stronie wygląda tak:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wzorzec mostu pozwala mi rozumieć przez implementację wszystko to, co istnieje &amp;ldquo;na zewnątrz&amp;rdquo; moich obiektów i jest przez &lt;em&gt;nie używane&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pythonowe potyczki</title>
+      <link>https://blog.dywicki.pl/2005/04/08/pythonowe-potyczki/</link>
+      <pubDate>Fri, 08 Apr 2005 14:42:22 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/04/08/pythonowe-potyczki/</guid>
+      <description>&lt;p&gt;W dalszej części posta kod bota napisanego przeze mnie w pythonie (wspomagałem się kodem beli).
+[python]import sys
+import socket
+import string
+import time
+import re #wyrazenia regularne! ;)&lt;/p&gt;
+&lt;p&gt;#ustawienia :)
+class MyIrcConfig:
+server = ‘ircnet.pl‘
+port = 6667
+nick = ‘tete‘
+ident = ‘MyIrc‘
+realname = ‘bot‘
+channel = ‘splatch‘&lt;/p&gt;
+&lt;p&gt;#klasa do wyswietlania tekstow #TODO: mozliwosc blokowania komunikatow (tryb cichy)&lt;/p&gt;
+&lt;p&gt;class Output:
+def __init__(self):
+self.printer(’Test wyjscia . . .‘)&lt;/p&gt;
+&lt;p&gt;def printer(self,x):
+print x #klasa do komunikacji bot&amp;lt;&amp;gt;irc&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

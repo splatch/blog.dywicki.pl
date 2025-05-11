@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tlumaczenia on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/tlumaczenia/</link>
+    <description>Recent content in Tlumaczenia on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Dec 2008 10:35:47 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/tlumaczenia/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Servlet API 3.0</title>
+      <link>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</link>
+      <pubDate>Mon, 22 Dec 2008 10:35:47 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2008/12/22/java-servlet-api-3/</guid>
+      <description>Dnia wczorajszego na &lt;a href=&#34;http://infoq.com&#34;&gt;InfoQ&lt;/a&gt; o tym, że został udostępniony &lt;a href=&#34;http://www.infoq.com/news/2008/12/servlet3_debate&#34;&gt;szkic specyfikacji&lt;/a&gt; Servlet API 3.0. Największe nowości to&amp;hellip; adnotacje, które będą mogły być użyte w miejsce interfejsów i dziedziczenia.</description>
+    </item>
+    <item>
+      <title>JAXB 2, Wprowadzenie</title>
+      <link>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</link>
+      <pubDate>Sun, 14 Oct 2007 17:29:57 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2007/10/14/jaxb-2-wprowadzenie/</guid>
+      <description>W ramach &lt;a href=&#34;http://groups.google.com/group/warszawa-jug/web/warsjava&#34;&gt;WarsJava&lt;/a&gt;, konferencji/warsztatów organizowanych przez &lt;a href=&#34;http://warszawa.jug.pl/&#34;&gt;Warszawski JUG&lt;/a&gt;, będę miał szansę przedstawić publiczności &lt;a href=&#34;https://jaxb.dev.java.net/&#34;&gt;Java Architecture for XML Binding&lt;/a&gt; w wersji drugiej. Swoje boje z JAXB postanowiłem opisać na blogu, być może dla kogoś temat wyda się interesujący.. :)</description>
+    </item>
+    <item>
+      <title>Pierwsze kroki z Mojavi 4</title>
+      <link>https://blog.dywicki.pl/2006/05/07/pierwsze-kroki-z-mojavi-4/</link>
+      <pubDate>Sun, 07 May 2006 21:49:14 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/07/pierwsze-kroki-z-mojavi-4/</guid>
+      <description>&lt;h3 id=&#34;pierwsze-kroki-z-mojavi-4&#34;&gt;Pierwsze kroki z Mojavi 4&lt;/h3&gt;
+&lt;p&gt;Tradycyjnie już Mojavi jest dość trudnym frameworkiem do opanowania dla początkujących. Wiele razy, podczas rozwiązywania zawiłych problemów które pojawiają się na samym początku padają przekleństwa. By tego uniknąć powstał ten oto artykuł który zakłada, że znasz MVC oraz podstawy Mojavi (wiesz czym jest web framework).&lt;/p&gt;
+&lt;h3 id=&#34;wchodzimy-wprowadzenie&#34;&gt;Wchodzimy, wprowadzenie&lt;/h3&gt;
+&lt;p&gt;By zacząć pisać aplikacje przy użyciu Mojavi 4 będziesz potrzebował komputer z zainstalowanym &lt;a href=&#34;http://httpd.apache.org/&#34;&gt;serverem http&lt;/a&gt; oraz &lt;a href=&#34;http://php.net/&#34;&gt;PHP5&lt;/a&gt;. Jeśli masz już działający serwer, będziesz potrzebował &lt;a href=&#34;http://subversion.tigris.org/&#34;&gt;subversion&lt;/a&gt;, by pobrać przy jego pomocy kopię Mojavi na swój serwer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Osiągi i marzenia</title>
+      <link>https://blog.dywicki.pl/2006/05/06/osiagi-i-marzenia/</link>
+      <pubDate>Sat, 06 May 2006 00:44:08 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/06/osiagi-i-marzenia/</guid>
+      <description>&lt;p&gt;Mojavi 4 przeszło długą drogę - od &lt;a href=&#34;http://forum.mojavi.org/index.php?showtopic=1236&#34;&gt;początkowych diagramów uml&lt;/a&gt;. Obecnie oferuje pełną oraz elastyczną konfigurację XML, modularną architekturę, komponenty, buforowanie, obsługę datasource&amp;rsquo;ów, wstrzykiwanie zależności, walidację oraz wiele, wiele innych. Wszystko to przechodzi na końcu przez lekkie &lt;a href=&#34;http://www.lastcraft.com/simple_test.php&#34;&gt;TDD (test driven design)&lt;/a&gt; testy sprawdzające. Wsród innych zamiarów bądź zaimplementowanych możliwości/podstawowych aspektów Mojavi 4 jest:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/MVC&#34;&gt;Model View Controller&lt;/a&gt; - Najważniejsza część architektury, podstawa poprzednich frameworków Mojavi.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Mutliproject&#34;&gt;Multi-project support&lt;/a&gt; - Posiadanie różnych projektów działających na tym samym kodzie bazowym.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/EndUserFilters&#34;&gt;End-user controlled filters&lt;/a&gt; - Zawiera konfigurowalną obsługę wyjątków.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/GlobalAndForwardFilters&#34;&gt;Global and Forward Filters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/ApplicationControllers&#34;&gt;Application Controllers&lt;/a&gt; - Używane do obsługi wielu następujących po sobie stron do skomplikowanych formularzy bądź wizzardów &lt;em&gt;(kreatorów)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Autoloader&#34;&gt;Sophisticated autoload support&lt;/a&gt; - bardzo, bardzo przydatny mechanizm do automatczynego dołączania klas/interfejsów, również z Twoich własnych bibliotek!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Validators&#34;&gt;Easy Validation?&lt;/a&gt; - Walidacja zawsze jest trudnym elementem do wprowadzenia w aplikacji. Myślimy, że mamy za sobą pracę, która sprawia, że ten częsty i niemiły element staje się łatwy do oprogramowania.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Helpers&#34;&gt;Helpers&lt;/a&gt; - Pomocnicy są zbiorem szybkich bibliotek do użytku w całym frameworku (częston ich użycie oczyszcza logikę aplikacji).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Renderers&#34;&gt;Renderers?&lt;/a&gt; - Wspólny interfejs dla silników szablonów. Renderery umożliwiają zmiany pomiędzy silnikami w prosty sposób.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Logging&#34;&gt;Logger?&lt;/a&gt; - Tak jak wszystko, aplikacje w Mojavi potrzebują logowania!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Datastructures&#34;&gt;Datastructures?&lt;/a&gt; - Średniej wielkości zbiór klas, które dostarczają implementacji wspólnych wzorców struktór danych, takich jak stack &lt;em&gt;stos&lt;/em&gt;, queue &lt;em&gt;kolejka&lt;/em&gt; lub &lt;em&gt;chain&lt;/em&gt; łańcuch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/ServiceLocator&#34;&gt;Service Locator&lt;/a&gt; - Wstrzykiwanie zależności jest gorącym tematem. W skrócie, domyślny Service Locator z Mojavi 4 jest stworzony na bazie wstrzykiwania zależności. Można z niego korzystać w całej aplikacji bez żadnych zobowiązań w kodzie.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Containers&#34;&gt;Containers&lt;/a&gt; - Wszyscy potrzebujemy kontenerów. &lt;em&gt;;)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Module&#34;&gt;Modules?&lt;/a&gt; - the Module series classes provide a programmic way to interface with the various pieces of your application. &lt;em&gt;tego nie jestem w stanie przetłumaczyć.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/Layouts&#34;&gt;Easy Layouts?&lt;/a&gt; - layouty umożliwiają stworzenie wspólnego wyglądu i wykorzystanie go na wielu stronach &lt;em&gt;w wielu widokach&lt;/em&gt; bez kopiowania kodu.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://trac.mojavi.org/wiki/Mojavi4/i18n&#34;&gt;Internationalization&lt;/a&gt; - Internationalization, otherwise known as i18n, or l10n, is a term used to refer to a process revolving around the end goal of creating an application which can be easily ported to a new audience in terms of content language and data formatting. &lt;em&gt;tego również nie jestem w stanie przetłumaczyć.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Oryginał &lt;a href=&#34;http://trac.mojavi.org/wiki/&#34;&gt;http://trac.mojavi.org/wiki/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Czym będzie Mojavi 4</title>
+      <link>https://blog.dywicki.pl/2006/05/06/czy-bedzie-mojavi-4/</link>
+      <pubDate>Fri, 05 May 2006 23:23:45 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2006/05/06/czy-bedzie-mojavi-4/</guid>
+      <description>&lt;p&gt;Mojavi 4 jest najnowszą generacją tego projektu, wiodącego frameworka MVC w PHP przez wiele lat. Wydanie te następuje po długiej histori frameworków pisanych wyłącznie przez &lt;a href=&#34;http://trac.mojavi.org/wiki/People/SeanKerr&#34;&gt;Seana Kerra&lt;/a&gt;. Pod koniec 2005 Sean zrezygnował z prowadzenia Mojavi przekazując swoją dotychczasową funkcję &lt;a href=&#34;http://trac.mojavi.org/wiki/People/TylerTompkins&#34;&gt;Tylerowi Tompkinsowi&lt;/a&gt;, który został głównym architektem Mojavi 4.&lt;/p&gt;
+&lt;p&gt;Mojavi 4 jest bardzo ambitnym projektem, który ma na celu stworzenie dla PHP odpowiednika tego czym jest jądro linuksa przy tworzeniu systemów operacyjnych. Maksymlna elastyczność, zastosowania lekkie bądź ciężke, delikatne oraz trwałe dzięki zastosowanemu frameworkowi. Domyślnie Mojavi 4 powinno być spójnym frameworkiem który nie zawiera warstwy dostępu do danych (data access layer) , chociaż oczywiście będzie obsługiwać rzeczy takie jak połączenia z bazą, ftp i tym podobne. &lt;em&gt;Czyt&lt;/em&gt;
+&lt;em&gt;aj - twórcy Mojavi nie zamierzają tworzyć kolejnego Ado DB tudzież Creole.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

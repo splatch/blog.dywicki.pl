@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.147.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Splatch&#39;s devblog</title>
+
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/feed.xml">
+<link rel="alternate" type="application/json" href="https://blog.dywicki.pl/index.json">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Splatch&#39;s devblog">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Splatch&#39;s devblog">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Splatch's devblog",
+  "url": "https://blog.dywicki.pl/",
+  "description": "Pragmatyzm kontrolowany",
+  "logo": "https://blog.dywicki.pl/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">O::ptimization
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Jako, że prace nad frameworkiem troszkę się posunęły (doszło uruchamianie akcji) postanowiłem sprawdzić ile czasu zajmuje jedno ządanie. Jakież było moje zaskoczenie, gdy mym oczom ukazał się czas ponad 1 sekundy. Szybko sobie jednak przypomiałem, że autoloader jest do wymiany. Przebudowałem stary tak, aby współpracował z tokenizerem beli. Zmiana – względem poprzedniego czasu – znaczna. Czas spadł do około 0.2 s. Kilka poprawek i zszedłem poniżej – teraz czas jednego rządania wynosi od 0.12 do 0.15 s. Stwierdziłem, że to strasznie długo tym bardziej, że nie ma jeszcze obsługi kilku istotnych rzeczy (FilterChain, Validator, View, ActionForms). Wniosek? Błędy w projekcie. Oto porównanie z innymi skryptami, które udało mi się odanleść na dysku:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-22 10:48:04 +0000 +0000'>September 22, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to O::ptimization" href="https://blog.dywicki.pl/2005/09/22/optimization/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dylematy.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Tak to już jest, że coraz większość problemów pojawia się przy detalach… Również i w przypadku tego, co piszę obecnie pojawiła się garść problemów.
+Pierwszy problem to zrezygnowanie z buforowania plików konfiguracyjnych. Do operowania na XMLu wykorzystuję XPatha, a ten jest dostępny poprzez DOM bądź SimpleXML. Podejrzewam, że tak czy owak SimpleXML przerzuca swój obiekt do obiektu DOM, żeby wykonać xpath_eval, ale nie jestem w stanie tego udowodnić. Jak wielkie spowolnienie z tego wyniknie? Nie jestem w stanie powiedzieć. Bez buforu konfiguracji jedno żądanie zajmuje około 0.05s. Gdy tworzona jest mapa klas czas ten wzrasta ponad dziesięciokrotnie.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-14 11:09:09 +0000 +0000'>September 14, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Dylematy." href="https://blog.dywicki.pl/2005/09/14/dylematy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Komentarz na helion.pl
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Odnośnie książki prezentowanej niżej… :)</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-09 08:04:53 +0000 +0000'>September 9, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Komentarz na helion.pl" href="https://blog.dywicki.pl/2005/09/09/komentarz-na-helionpl/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Po prostu. XML
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Chciałem Was ostrzec przed nabywaniem czy nawet zbliżaniem się do tego tytułu. Książka zaczyna od omówienia XMLa, którego nie czytałem, bo jak XML wygląda to wiem. Pożyczając tą książkę chciałem lepiej poznać DTD oraz XSD. Pomimo szczerych chęci nie udało się.{{ double-space-with-newline }} Autorka tak pokrętnie wyjaśnia wszytko, że nie sposób to zrozumieć. Z wielkimi trudami przyswoiłem wiadomości o DTD, podobnie jak o XSL, ale XSD to męka.. nie wiem, może to zmęczenie po pracy działa na mnie tak otępiająco? Chyba nie, bo komentarze na helionie też nie są zbyt pochlebne. W każdym razie, czekam na kolejną pozycję o XMLu którą, będę miał pożyczoną - mianowicie “XML. Na poważnie”, która zapowiada się świetnie. Jutro to zweryfikuję. Tym czasem powracam do bojów z Propelem i PHPUnit.{{ double-space-with-newline }} // właśnie mam przed sobą XML na poważnie, za gruba to ona nie jest, ale zobaczymy co ciekawego piszą o XMLu :)
+Linki do plików:{{ double-space-with-newline }}config.xml{{ double-space-with-newline }}test.dtd{{ double-space-with-newline }}test.xsl
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-08 09:46:53 +0000 +0000'>September 8, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Po prostu. XML" href="https://blog.dywicki.pl/2005/09/08/po-prostu-xml/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Garść informacji ;)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Planowałem to zrobić wcześniej, ale dopiero świadectwo Beli mnie ostatecznie zmotywowało :). Byłem pozytywnie zakoczony tym, że jeszcze ktoś mnie odwiedza…
+Obok prezentuję struktóre katalogów. Myślę, że jest ona dośćprzejrzysta, można powiedzieć zapożyczona z Mojavi.
+Troszkę może Was dziwić tak wielkie rozbicie konfiguracji, ale jest to zamierzone, moim zdaniem łatwiej się pracuje w takim rozdrobnieniu, ponieważ każdy moduł posiada oddzielnąkonfigurację i może mieć zgoła inne parametry. W kataloguWebApp znajdują się ustawienia globalne takie jak dostęp do bazy danych oraz zdefiniowane moduły &#43; pluginy, czyli klasy które można zastąpić (rozwiązanie Beli z Odina).
+WebApp/Config.php zawiera definicje ścieżek.
+WebApp/Modules/Default/config.xml to definicja akcji, jakie znajdują się w module oraz obsługę błędów (404,403,500);
+WebApp/Modules/Config/ActionName.xml zawiera szczegółowe dane takie jak używane filtry i akcje odpalane w stosie (można to nazwać blokami). Zastanawiam się czy implementować coś takiego jak Bela – fallbacki, dla tych akcji które zwróciły fałsz.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-09-01 11:34:40 +0000 +0000'>September 1, 2005</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Garść informacji ;)" href="https://blog.dywicki.pl/2005/09/01/gar-informacji/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pomysł
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>W głowie mej pojawił się nowy pomysł. :) W krótce więcej detali. Jak na razie powiem tyle, że chodzi o “coś” co załatwi problem walidacji danych i jednocześnie generowania formularzy. Nie jest to kolejna kopia PEAR::QuickForm, tylko coś innego, w sensie działającego w zgoła inny sposób..
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-08-23 18:12:58 +0000 +0000'>August 23, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Pomysł" href="https://blog.dywicki.pl/2005/08/23/pomys/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Zafascynowanie
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Znowu ponad dwutygodniowa przerwa w notach.. Nic dziwnego, że liczba odwiedzin od czerwca ma tendencję spadkową. Dla zainteresowanych (na oko) czerwiec 413, lipiec 387, sierpień 285. Ale wracając do spraw związanych z programowaniem i od razu na wstępie tłumacząc tytuł notki - zafascynowanie narzędziami z Javy. Moje szczególne uznanie zdobył Struts oraz Hibernate. Jedno i drugie ma swój odpowiednik w PHP - Studs oraz Propel. Co do pierwszego: nic ciekawego, bo pod PHP 4, odnośnie drugiego - dopiero poznaję. :] Z tego co widziałem w pracy Hibernate do niektórych zastosowań jest znakomity, jak wypadnie Propel - to się okaże. Jedno co mnie martwi to brak wsparcia dla PDO i brak konkretnej odpowiedzi czy w końcu się ono pojawi. Mam nadzieję, że w końcu zostanie to wymuszone.. Ze Strutsa najbardziej mi się widzi walidacja formularzy poprzez configi, stosunkowo łatwa internacjonalizacja oraz beany. Mam jakieś ebooki odnośnie budowania aplikacji w nim, ale mószę jeszcze raz wrócić do nauki Javy, ponieważ wcześniej czytałem tą książkę bez dostępu do komputera, a wiadomo każdy przykład trzeba sprawdzić. ;) Najgorsze jest to, że wcześniej przerabiając TiJ miałem pomysły/koncepcje rozwiązania niektórych zadań, a teraz mam w głowie same pytajniki - “o co tam chodziło???”. W pracy, można powiedzieć, zaaklimatyzowałem się, pojawiają się dyskusje odnośnie przeglądarek itp.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-08-22 16:23:20 +0000 +0000'>August 22, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Zafascynowanie" href="https://blog.dywicki.pl/2005/08/22/zafascynowanie/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Thor omówienie diagramu sekwencji
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Za jakość diagramu przepraszam :)
+Na przedstawionym diagramie widać 4 węzły. Pierwszy to użytkownik, który będzie wywoływał zdarzenia. Myślę, że jego zadań nie trzeba opisywać ;). Celowo operuję na ogólnikach aby nie zawężać Wam jak i sobie pola widzenia.
+Pierwszy element dostarczany przez Thora to komponent. Każdy komponent posiada obiekt JavaScript, który komunikuje się z obserwatorem. Komponent przekazuje informacje o rodzaju zdarzenia. Jako parametr jest przekazywana zdefiniowana wcześniej wartość. Np. OnClick=”KliknietoMnie();” zostaje przekształcone na OnClick=IDentyfikator.call( onClick, KliknietoMnie()) powoduje to, że do obserwatora wędruje OnClick oraz KliknietoMnie.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-08-02 09:33:38 +0000 +0000'>August 2, 2005</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Thor omówienie diagramu sekwencji" href="https://blog.dywicki.pl/2005/08/02/thor-omowienie-diagramu-sekwencji/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Nota zbiorcza
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Witam po sporej przerwie :).
+Piszę to o 23:23, tuż po ustawieniu budzika na 6:20, wiadomo - kto rano wstaje temu Pan Bóg daje. Wstałem dzisiaj po 5 i jak przystało na rasowego programistę czytałem w autobusie “Thinking in Java” w wydaniu trzecim. Po kilku dniach spędzonych z tą książką czuję się zagubiony. Przykładów jest sporo, a nie miałem okazji ich nawet uruchomić. Jak na razie nie miałem trudów z przyswojeniem wiadomości, okaże się jak zrozumiałem treść kiedy zacznę robić ćwiczenia. Tak czy siak tak łatwo się nie poddam. :)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-07-19 14:55:59 +0000 +0000'>July 19, 2005</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Nota zbiorcza" href="https://blog.dywicki.pl/2005/07/19/nota-zbiorcza/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Praca
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Właśnie jestem w pracy. Jest ok, podoba mi się tutaj. Wczoraj pospacerowałem sobie po Bydgoszczy (od PKSu do Czyżówka), kto wie jaki to jest odcinek ten ma wyobrażenie jak bardzo się błąkałem. ;) Znalazłem pokój na poddaszu, normalnie super, prawie jak w domu. Niestety problem jest z netem, bo ulica przy której mieszkam to póki co gruntówka i nie ma jak podciągnąć kabla. Pozostaje mi chyba radiówka… ale na to trzeba poczekać. Póki co mam internet na miejscu (czyt. w biurze).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-06-30 09:05:23 +0000 +0000'>June 30, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Praca" href="https://blog.dywicki.pl/2005/06/30/praca/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://blog.dywicki.pl/page/12/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://blog.dywicki.pl/page/14/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

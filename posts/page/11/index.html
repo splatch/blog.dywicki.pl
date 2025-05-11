@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | Splatch&#39;s devblog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Splatch&#39;s devblog">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/posts/feed.xml">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/posts/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://blog.dywicki.pl/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://blog.dywicki.pl/">Home</a></div>
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tworzenie nowej instancji klasy...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Nie wiem jak Wy, ale ja kilka razy spotkałem się z sytuacją, że chciałem przekazać do konstuktora kilka argumentów, ale niestety urocze call_user_func_array nie daje takiej możliwości. Dlatego też w PSF musiałem wynaleść takie coś jak interfejs LazyService by móc tworzyć usługi doiero w chwili ich wywołania. Sam sposób nie jest najleszy.
+Teraz, po niewczasie znalazłem sosób na to, sposób bardzo prosty, który nie wymusza użycie eval - swoją drogą kolejny dowód na to, że bez eval da się żyć :) - oto on:
+$r = new ReflectionClass(&#39;ClassName&#39;); $r-&gt;newInstance(1,2,3);
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-27 00:56:08 +0000 +0000'>February 27, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Tworzenie nowej instancji klasy..." href="https://blog.dywicki.pl/2006/02/27/tworzenie-nowej-instancji-klasy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Why not Zend Framework?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Patrząc na to co się dzieje wokół ZFa odnoszę bardzo negatywne wrażenie. Dlaczego? Dlatego, że jest to powielanie tego, co już powstało dla PHP. Nie widzę w tym, co proponuje Zend nowości, świerzości. Wiem, że trudno o to przy implementacji MVC, ale ZF nic nie wnosi do tematu, do tego bardzo skromne informacje jakie są na temat ZF nie napawają optymizmem.
+Powody dla których Zend tworzy kolejnego frameworka:
+zachowanie konkurencyjności względem innych języków i platform .NET, J2EE, Ruby brak prostego frameworka dla PHP swobodne użycie dla zastosowań e-commerce pełne wykorzystanie możliwości PHP5 wsparcie dla nowoczesnych technologii - Web Services, RSS, wsparcie dla AJAXa Moje uwagi
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-23 00:40:14 +0000 +0000'>February 23, 2006</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Why not Zend Framework?" href="https://blog.dywicki.pl/2006/02/23/why-not-zend-framework/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">mod_rewrite plus zmienne z GET
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiaj miałem nietypowy problem - chciałem stworzyć sobie obsługę mod_rewrite ale nie babrać się z wyciąganiem zmiennych które był w żądanym adresie, dlatego też udałem się do google.pl w poszukiwaniu dodatkowych flag, które można ustawiać. Znalazłem bardzo fajną stronkę z kartą podręczną do mod_rewrite - http://www.ilovejackdaniels.com/cheat-sheets/mod_rewrite-cheat-sheet/ jest ich tam więcej - css, php, javascript, html, mysql. A moje rozwiązanie wygląda w następujący sposób: RewriteEngine On
+RewriteBase /z-tego-adresu/ RewriteCond %{REQUEST_URI} !^.*\.(css|png|gif|jpe?g|php|js)$ RewriteRule ^.*$ /z-tego-adresu/index.php?%{REQUEST_URI} [QSA,L] Oczywiście wymaga dotarcia i obsługi w kodzie, ale GET jest bez zmian.. i to najważniejsze :)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-21 13:26:56 +0000 +0000'>February 21, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to mod_rewrite plus zmienne z GET" href="https://blog.dywicki.pl/2006/02/21/mod_rewrite-plus-zmienne-z-get/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">PHPOutOfRangeException
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Po dłuższym zastanowieniu - zdecydowałem się na zrezygnowanie z prowadzonych do tej pory projektów, także framework i draft templatów można uznać za zawieszone na czas nieokreślony. Chcę spróbować czegoś nowego, czegoś lepszego - biorę się za javę.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-20 18:41:10 +0000 +0000'>February 20, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to PHPOutOfRangeException" href="https://blog.dywicki.pl/2006/02/20/phpoutofrangeexception/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">WACT żyje!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiaj postanowiłem przyjrzeć się bliżej szablonom z WACTa. Pamiętam, że jakiś czas temu przyglądałem się kompilatorowi, ale.. było to kilka tygodni temu. Aby nie być w tyle postanowiłem zaciągnąć zmiany z CVSa. Jakież było moje zdziwienie kiedy zobaczyłem w kodzie interfejsy! Od razu powędrowałem do webloga. Byłem ogromnie zaskoczony tym, co się dzieje z WACTem, byłem święcie przekonany, że ten projekt jest martwy - tym bardziej, że są pliki i katalogi nie ruszane od 2 lat. Najnowsze zmiany jakie udało mi się znaleść są sprzed dwóch dni.. WACT ze względu na świetne, komponentowe szablony to dla mnie obok Mojavi jeden z lepszych frameworków. Panowie, czyżby WACT miał odżyć? :)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-19 14:47:39 +0000 +0000'>February 19, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to WACT żyje!" href="https://blog.dywicki.pl/2006/02/19/wact-yje/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Proste testy:
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Rozmawiałem wczoraj z Zyxem na temat testów czasowych i dowiedziałem się, że korzysta on do tego celu z apache benchmark - nie zwlekając również wykonałem testy…
+Pomiary wykonane przy użyciu apache benchmark (apache 2.0.53, php 5.1.1) dla 500 requestów. Odczyt pliku 70 KB file&#43;implode: 5.640589 s file_get_contents: 2.562484 s
+Frameworki: CakePHP (z warrningiem dot. połączenia mysql): 76.421385 s Mojavi 3.0-dev (debug_mode = off): 63.155846 s Agavi 0.10-stable (debug_mode = off): 51.187172 s PSF: 46.390328 s (bez cache configa etc) Prado 2.0.1 (też Hangman): 169.14543 s Prado 3.0-alpha (Samples.Hangman.Home): 196.279994 s Odin: 28.499818 s Phiend: 11.359303 s (gołe hello world) Daeron: 1.156242 s Pinky: 53.843750 s
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-02-14 01:26:54 +0000 +0000'>February 14, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Proste testy:" href="https://blog.dywicki.pl/2006/02/14/proste-testy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pustka
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tak.. minął miesiąc od ostatniego wpisu. Jak ten czas leci. Już 1/12 roku za nami.. Czym jest spowodowany brak notek na blogu od miesiąca? Rozterkami. Mam poważny dylemat czy dalej skupić się na PHP czy przejść na javę? PSF stoi w miejscu, no może nie - rozgrzebałem kod próbując zaimplementować akcje jako ApplicationController-y i mechanizm View Resolverów (obydwie idee zaczerpnięte ze springa, acz uproszczone na potrzeby PHP). W chwili obecnej wiszę w próżni niepewności szarpany uczuciami - miłością do pierwszego języka i porządaniem możliwości jakie daje Java. Które z nich zwycięży? Co do PSF - powiem tak. Nie piszę go tylko dla siebie, chcę by to był nie za duży, szybki framework do małych, ewentualnie średnich zastosowań i dlatego zwracam się z prośbą do osób, które to miejsce odwiedzają a chciałby wspomóc przy tworzeniu projektu (PSF = Personal Site Framework). Mam do dyspozycji repozytorium SVN, Traca oraz konto na którym można zaparkować domenę (tą z kolei skłonny jestem zakupić..). Po prostu - szukam osób które chcą się dołączyć do projektu i stworzyć na prawdę dobry kawałek kodu. Jeśli ktoś jest zainteresowany współpracą mój numer gg to “8 5 6.3,4.2:4” (zostaw same cyfry) a jid splatch@wafel.com. Mail “lukasz@d y w i c k i . pl”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-01-23 22:55:58 +0000 +0000'>January 23, 2006</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Pustka" href="https://blog.dywicki.pl/2006/01/23/pustka/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Repozytorium SVN
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Framework, który usiłuję pisać można pobrać z svn://ivpro.net/PSF. Kod jest przepisywany na nowo, ponieważ zmieniła się nieco koncepcja :). Lista zmian: - Przesunięcie tablicy z mapą ConfigManager::$map do oddzielnej klasy ConfigMapper (dziedziczącej klasy abstrakcyjnej Mapper, pakiet Mapper) opartej na singletonie. - Dodanie nowej klasy konkretnej - ConfigProperties, która parsuje config przy pomocy parse_ini_file. Zastosowanie w sam raz do tworzenia plików językowych. Z tego rodzaju configu nie można uzyskać struktury takiej jak w pliku XML. - Przesunięcie funkcji do obsługi tablic do klasy ArrayUtil w pakiecie Util. - Zlikwidowanie pakietu AutoLoad i przeniesienie go częściowo do pakietu Util (część AutoLoad powędrowała do pl.splatch.BuildTool jako task Phinga). - Nowy pakiet - Dispatcher (jak narazie bez wyraźnego podziału na klasy do obsługi widoku, requestu) służący do wykonywania forwardów jak i redirectów. - Dodanie “warstwy usług” - nowy pakiet - Service (jeśli zajdzie potrzeba powstanie również Service.Activator). - Wprowadzenie większej liczby interfejsów w miejsce dziedziczenia z klas abstrakcyjnych. I jeszcze pare innych kosmetycznych poprawek…
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-23 14:57:38 +0000 +0000'>December 23, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Repozytorium SVN" href="https://blog.dywicki.pl/2005/12/23/repozytorium-svn/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">PHP6 bo miały być wielkie zmiany ...
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Oto co zrozumiałem z http://www.php.net/~derick/meeting-notes.html. Nie jest to tłumaczenie a moja interpretacja, a jako, że znam angielski gorzej niż źle błędów może być bardzo wiele. W sumie bardzo nawet bym tego chciał, bo z tego co przeczytałem zmian jest na prawde mniej niż można by było się spodziewać.</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-20 00:38:07 +0000 +0000'>December 20, 2005</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to PHP6 bo miały być wielkie zmiany ..." href="https://blog.dywicki.pl/2005/12/20/php6-bo-mialy-byc-wielkie-zmiany/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">PHP6 - krok 1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>No… rozpoczynamy testowanie ….
+… i kończymy, bo namespace {} powoduje parse error…
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2005-12-13 22:31:11 +0000 +0000'>December 13, 2005</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to PHP6 - krok 1" href="https://blog.dywicki.pl/2005/12/13/php6-krok-1/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://blog.dywicki.pl/posts/page/10/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://blog.dywicki.pl/posts/page/12/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

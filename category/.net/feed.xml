@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.Net on Splatch&#39;s devblog</title>
+    <link>https://blog.dywicki.pl/category/.net/</link>
+    <description>Recent content in .Net on Splatch&#39;s devblog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 30 May 2005 21:22:43 +0000</lastBuildDate>
+    <atom:link href="https://blog.dywicki.pl/category/.net/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Studio - pierwsze aplikacje</title>
+      <link>https://blog.dywicki.pl/2005/05/30/visual-studio-pierwsze-aplikacje/</link>
+      <pubDate>Mon, 30 May 2005 21:22:43 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/30/visual-studio-pierwsze-aplikacje/</guid>
+      <description>&lt;p&gt;Nadszedł ten czas - pierwsze &amp;ldquo;poważne&amp;rdquo; boje ze studiem. Postanowiłem zacząć od aplikacji konsolowych, ponieważ jest przy nich najmniej problemów, nie ma otoczki graficznej, formularzy, zasobów, jest tylko sam kod. Z resztą trzy miesiące temu udało mi się ściągnąć VS 2005 C# Express i troszkę się nim nacieszyłem (czyt. do formatu). Wtedy to właśnie udało mi się napisać (a bardziej zrobić) program okienkowy który ładował dane do XMLa. Nie było to nic ambitnego, ponieważ wszytko odbywało się poprzez (poniekąd) ręczne wpisanie kodu do pliku (czyli +&amp;ldquo;zmienna+&amp;rdquo; i tak dalej). Słowem nic specjalnego, zakręcony formularz i zero funkcjonalności.&lt;/p&gt;
+&lt;p&gt;Tym razem moje ambicje sięgały wyżej niż witaj świecie. Chciałem napisać witaj łukaszu! :) Ten jakże odległy szczyt udało mi się osiągnąć dwiema podobnymi drogami - przy pomocy J# i C#. Podstawy Javy mam (nikłe bo nikłe ale są), jak wyżej pisałem C# to też dla mnie nie pierwszyzna ;) poszło dość szybko. Niestety nie dałem rady zrobić tego w VB i C++, ale jest czas.&lt;/p&gt;
+&lt;p&gt;Zacząłem od C#. Pamiętałem, żeby nie używać strzałeczek bo to nie php. Trzeba było się przesiąść na kropeczki. Pamiętałem że interesująca mnie klasa (?) to &lt;strong&gt;System.Console&lt;/strong&gt;. No trudno byłoby zapomnieć - już na samym początku została dołączona. Stąd było już blisko ReadLine, Write i znowu Read. W najbliższym czasie w programie nauczania C# liczenie pola i obwodu prostokąta.&lt;/p&gt;
+&lt;p&gt;Z J# poszło mi szybciej niż myślałem. Nazewnictwo metod identyczne, jedyna różnica to początek programu. W dalszej części do oglądnięcia kody programów.&lt;/p&gt;
+&lt;p&gt;Książkę do ASP mam.. tylko, że ASP Kompendium to nie jest tytuł pierwszej świeżości. Będzie trzeba odłożyć na jakiś porządny tytuł (ostatnie pieniądze poszły na świętowanie z okazji zdania matury).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Visual Studio</title>
+      <link>https://blog.dywicki.pl/2005/05/24/visual-studio/</link>
+      <pubDate>Tue, 24 May 2005 13:52:05 +0000</pubDate>
+      <guid>https://blog.dywicki.pl/2005/05/24/visual-studio/</guid>
+      <description>&lt;p&gt;Jakiś czas temu postanowiłem zamówić Visual Studio. Nie musiałem długo czekać aby je dostać.&lt;/p&gt;
+&lt;p&gt;Muszę przyznać, że byłem mile zaskoczony. Kurier dostarcza przesyłkę prosto do domu, wszystko co trzeba zrobić to (najpierw) się zarejestrować a potem podpisać potwierdzenie odbioru.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Pudełko jakie otrzymałem :)&#34; loading=&#34;lazy&#34; src=&#34;https://blog.dywicki.pl/images/vs2k5.jpg&#34;&gt;Wewnątrz koperty znalazłem bardzo ładne pudełko. Muszę przyznać, że wywiera ono bardzo dobre wrażenie. Ciemna zieleń mile się komponuje z białym napisem &lt;strong&gt;Visual Studio 2005 Beta 2&lt;/strong&gt;. W środku znajdują się 4 krążki DVD, które już tak estetyczne nie są. Srebrne z czarnymi napisami i zielonymi puzzlami. Srebrne z czarnymi napisami i zielonymi puzzlami. Za to na pocieszenie estetów dodano dwie ulotki w kolorze okładki (w tym jedna ze świetną larwą). Krążki zawierają kolejno &lt;strong&gt;Visual Studio Team Suite&lt;/strong&gt;, &lt;strong&gt;Visual Studio Team Fundation Server&lt;/strong&gt; oraz &lt;strong&gt;SQL Server 2005 Developer Edition&lt;/strong&gt; (dla Windows Server 2003). Ostatni z wymienionych krążków jest najbrzydszy - białe, przechodzące w szare tło i czarne napisy. Fuj! Dodatkowo w pudełku jest jeszcze jedno DVD zatytułowane &lt;strong&gt;wefly247.net&lt;/strong&gt;. Nadruk na płytce głosi, że znajduje się na niej &amp;ldquo;Wszystko czek potrzebuje developer do tworzenia aplikacji w Visual Studio&amp;rdquo; (możliwe że skłamałem bo to moje tłumaczenie).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

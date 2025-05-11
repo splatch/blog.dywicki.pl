@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Framework | Splatch&#39;s devblog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Pragmatyzm kontrolowany">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.dywicki.pl/category/framework/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.dywicki.pl/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.dywicki.pl/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.dywicki.pl/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.dywicki.pl/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.dywicki.pl/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.dywicki.pl/category/framework/feed.xml">
+<link rel="alternate" hreflang="en" href="https://blog.dywicki.pl/category/framework/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.dywicki.pl/category/framework/">
+  <meta property="og:site_name" content="Splatch&#39;s devblog">
+  <meta property="og:title" content="Framework">
+  <meta property="og:description" content="Pragmatyzm kontrolowany">
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Framework">
+<meta name="twitter:description" content="Pragmatyzm kontrolowany">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.dywicki.pl/" accesskey="h" title="Splatch&#39;s devblog (Alt + H)">Splatch&#39;s devblog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://blog.dywicki.pl/">Home</a>&nbsp;»&nbsp;<a href="https://blog.dywicki.pl/category/">Category</a></div>
+  <h1>
+    Framework
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Log4j, przejrzyste komunikaty
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Log4j jest najpopularniejszą biblioteką do logowania dla Javy. Została ona wydana już jakiś czas temu i w chwili obecnej rozwija się znacznie wolniej niż kiedyś, warto jednak nadmienić że społeczność wciąż dostarcza nowych możliwości. Może najpierw o samej strukturze log4j.</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-10-15 08:00:10 +0000 +0000'>October 15, 2008</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Log4j, przejrzyste komunikaty" href="https://blog.dywicki.pl/2008/10/15/log4j-przejrzyste-komunikaty/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Budowanie klienta usługi sieciowej w oparciu o Apache CXF
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>W nawiązaniu do poprzedniej noty o CXFie, którą napisałem jakiś czas temu, gonię aby uzupełnić brak konfiguracji klienta. Sam proces jest bardzo zbliżony do tworzenia klienta w oparciu o XFire. Nie jest wymagana duża ilość kodu Javy, a w zasadzie tylko dwa pliki XML (client.xml, myservice.xml).
+Pierwszy z nich odpowiada za wczytanie wymaganych rozszerzeń CXFa oraz definicję bazowej konfiguracji fabryki z interceptorami. W interceptorach możemy skonfigurować logowanie, obsługę załączników czy standardów WS-Security etc. Wszystkie te ustawienia będą dziedziczone, a fabryki docelowych usług będą dodawać tylko adres, do odpytywania. Na koniec bean klienta będzie miał określony autowire by nie przekazywać mu wszystkich własności.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-09-03 07:28:27 +0000 +0000'>September 3, 2008</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Budowanie klienta usługi sieciowej w oparciu o Apache CXF" href="https://blog.dywicki.pl/2008/09/03/budowanie-klienta-uslugi-sieciowej-w-oparciu-o-apache-cxf/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JUnit. Pragmatyczne testy jednostkowe w Javie
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Temat testów jednostkowych nie pojawiał się na tym blogu tak często jak PHP czy JAXB, jakkolwiek temat ten poruszałem w 2 notach - o testach oraz o singletonie.
+Tych, którzy chcieliby dowiedzieć się więcej o testach na przykładzie JUnit i Javy zapraszam się do zapoznania z bardzo dobrą pozycją na temat testów jednostkowych, z którą miałem przyjemność się zetknąć.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2008-09-02 16:51:50 +0000 +0000'>September 2, 2008</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to JUnit. Pragmatyczne testy jednostkowe w Javie" href="https://blog.dywicki.pl/2008/09/02/junit-pragmatyczne-testy-jednostkowe-w-javie/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Agavi 0.11 RC5
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiaj rano światło dzienne ukazało się Agavi 0.11 RC5, oprócz poprawek błędów z wersji RC4 doszło parę nowości:</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-06-18 21:41:11 +0000 +0000'>June 18, 2007</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Agavi 0.11 RC5" href="https://blog.dywicki.pl/2007/06/18/agavi-011-rc5/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Eclipse Persistence Services Project
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiaj (w zasadzie wczoraj) w otchłani skrzynki odbiorczej RSSOwl znalazłem link do propozycji wspomnianego projektu.</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-06-12 23:11:19 +0000 +0000'>June 12, 2007</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Eclipse Persistence Services Project" href="https://blog.dywicki.pl/2007/06/13/eclipse-persistence-services-project/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Agavi 0.11 RC3, flow
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Mam niebywałą przyjemność oznajmić, że dnia 23 lutego zostało wydane, jak sam tytuł posta wskazuje, Agavi 0.11 RC3. Do pierwszej, w pełni stabilnej wersji jest już coraz bliżej. Zgodnie z rozkładem jazdy został otwarty jeden ticket, którego realizacja została odsunięta na sam koniec. Mianowicie, opis migracji z wersji 0.10 do 0.11. Ogrom zmian, które przetaczały się przez trunk repozytorium mógł przyprawić o zawrót głowy. Zmiany z rewizji na rewizję potrafiły w jednym momencie zniszczyć skrzętnie budowane narzędzia, które opierały się na zmieniających się wciąż mechanizmach. Co zyskało Agavi o wersji 0.10? Przede wszystkim developerzy uwolnili projekt od niezręcznej i nieporęcznej konfiguracji w plikach INI, która poza łatwością odczytu nastręczała przede wszystkim problemów… a to brak hierarchiczności, brak możliwości łączenia konfiguracji, w końcu brak narzędzia do walidacji zapisanych danych. W poście &#34; Dlaczego konfiguracja w XML&#34; porównywałem XML również do YAMLa. Sporą zmianą, naturalnie, na lepsze było zrezygnowanie z tradycyjnego flowu Mojavi 3. Do tej pory wyglądało to w ten sposób, że każda akcja miała metodę getRequestMethods, która zwracała informacje o tym w jaki sposób dostępna jest akcja. Czy to GET, POST, bądź cokolwiek (odpowiednie stałę w klasie Request - GET, POST, NONE). Teraz o sposób dostępu do akcji determinuje nazw akcji. Akcja o nazwie executeRead będzie wykonana w chwili żądania typu GET. Metoda o nazwie executeWrite będzie wykonana w chwili gdy otrzymamy formularz via POST. Metoda execute będzie wykonywana zawsze (o ile walidacja przebiegnie bez zakłuceń). Zysk z tego jest taki, że implementacja różnych kontrolerów nie wpływa na kształt akcji. W chwili gdy wiązały się z tym stałe GET/POST implementacja wywołań z poziomu konsoli była ciężka. W zapowiedziach pojawia się ConsoleRequest, ponieważ z Agavi 0.11 wyleciały kontrolery zależne od kontekstu. Jest jeden Controller, różne są implementacje requestu vide ConsoleRequest (jeszcze niegotowy, będzie w 1.0), WebRequest oraz SecureWebRequest. W międzyczasie pożegnaliśmy również stałe View::SUCCESS, ERROR, INPUT, ALERT, a metoda getDefaultViewName każdej akcji zwraca po prostu suffix do nazwy widoku (np. metoda akcji “Cart” zwraca wartość “Product”, stąd klasa widoku to CartProductView). Co więcej w połączeniu z innym mechanizmem Agavi, Output types, zmiany formatu widoku oraz języka nie wiążą się z implementacją bądź powielaniem logiki biznesowej. Implementujemy tylko logikę związaną z widokiem. Warto również wspomnieć, że od tej chwili metoda Controller::forward(module, action) jak i samo używanie powiązanych akcji jest odradzane, jako źródło potencjalnych problemów (dlaczego widok nie jest uruchamiany) tym bardziej, że tworzenie widoków i akcji załatwia samo Agavi przez taski dla Phinga. W chwili, gdy chcemy użyć innego widoku, spoza tych, które dostarcza sama akca po prostu zwracamy array(module, view name, parameters). Zniknęła również możliwości zrobienia forwarda z widoku (ogólnie problemy z request methods, to co było post-only nie szło przy fowardzie przy żądaniu otrzymanym via get), co wydaje się jak najbardziej uzasadnione. Widok nie jest organem decyzyjnym, który powinien wskazywać na wykonanie logiki biznesowej. Nie mniej jest możliwość przekierowania do widoku innej akcji.. poprzez redirect bądź poprzez zwrócenie array(module, view name, parameters).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-02-23 22:48:53 +0000 +0000'>February 23, 2007</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Agavi 0.11 RC3, flow" href="https://blog.dywicki.pl/2007/02/24/agavi-011-rc3-flow/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Agavi, Output types
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Jedną z nowości jaką niesie Agavi w wersji &gt; 0.10 jest mechanizm output types. Jest to bardzo proste rozwiązanie, które umożliwia uniknięcie gimnastyki z tworzeniem widoków w różnych technologiach, z którymi wiąże się różna logika. Banalny przykład. Te same dane prezentujemy w postaci HTML jak i PDF a do tego możemy je pobierać przez XmlHttpRequest. Dane są praktycznie identyczne, różny jest format wynikowy i proces jego tworzenia. Dla zwykłej strony wskazujemy szablon, dorzucamy dane i koniec, dla XmlHttp zwracamy JSONa. Stworzenie outputu w formacie PDF nie będzie tak proste jak pozostałych, ponieważ konieczne będzie stworzenie układu strony, dorzucenie fontów etc. Ogólnie w żaden sposób nie da się połączyć tych formatów w jednym widoku bez sporej ilości warunków i “protez”. By uniknąć zakopania się w tym wszystkim zwykle tworzy się dodatkową akcję, która w sporej części pokrywała się z pierwotną a różni się tylko widokiem i szablonami. Począwszy od Agavi 0.11 problem przestaje istnieć.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2007-02-22 20:41:37 +0000 +0000'>February 22, 2007</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Agavi, Output types" href="https://blog.dywicki.pl/2007/02/22/agavi-output-types/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Zend Framework i inni
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Zend od jakiegoś czasu rozwija z powodzeniem swój framework. Szturmuje on rynek dzięki wsparciu firmy i dobrej dokumentacji. Zastanawia mnie jednak, dlaczego inni zaczęli kopiować to co w ZF jest. Rozumiem konwencję nazewniczą, ok - to może komuś się podobać, rozumiem strukturę katalogów, może ktoś uzna ją za logiczną.. Nie mniej nazewnictwo i struktura prawdę mówiąc nie różni się niczym od tego co było standardem w PEAR.
+Co więcej, niektórzy po prostu przepisują spore fragmenty kodu, które są w ZF na swoje. Zapytam po co? Skoro jest coś podobnego w Zendzie to jaki sens jest w powielaniu praktycznie tego samego (Zend::loadClass, ZendRegistry, Zend_Router_Rewrite itp.)? Pomijam fakt, że Zend jest otwarty w tej chwili i na pomysły i na ludzi i zapytam, czy to ma jakiś sens?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-10-03 18:54:39 +0000 +0000'>October 3, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Zend Framework i inni" href="https://blog.dywicki.pl/2006/10/03/zend-framework-and-others/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mojavi 4. Dlaczego nie?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Od publikacji ostatniej noty parę osób proponowało mi podjęcie prac nad Mojavi 4. Chcę wyjaśnić, dlaczego Mojavi 4 nie będę się zajmował.
+1. Nie ma nikogo kto byłby w stanie pomóc mi przy projekcie. Obaj byli developerzy zakończyli swoją przygodę z PHP. Nie ma również żadnej społeczności, która jest w stanie zająć się forum, wyłapywaniem błędów - jednym słowem - to by było to samo co robiłem wcześniej przy własnym frameworku.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-08-30 21:14:57 +0000 +0000'>August 30, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Mojavi 4. Dlaczego nie?" href="https://blog.dywicki.pl/2006/08/30/mojavi-4-dlaczego-nie/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Pożegnanie.
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dzisiejszego dnia chciałem napisać coś o Creole by pokazać, że ten sterownik oferuje ciekawą funkcjonalność, ale nie będzie o tym.
+To co zmieniło moje zamiary to rozmowa z Tylerem Tomphinsem, osobą prowadzącą od dłuższego czasu projekt Mojavi.
+Kontakt z Tylerem jest ciężki, ponieważ on mieszka po drugiej stronie globu. Nasze rozmowy do tej pory wyglądały inaczej, niestety ta, którą zakończyłem przed chwilą zmienia wszystko.
+Dowiedziałem się, że Mojavi 4 zostaje zawieszone. Framework, w którym pokładałem ogromne nadzieje, który miał szanse zmienić nieco oblicze aplikacji pisanych w PHP umiera. Można powiedzieć, że historia się powtórzyła, jest to samo co z trójką (mike_mech wykrakał), która została zawieszona dawno, dawno temu. Ówczesny lider projektu - Sean Kerr zrezygnował z jego prowadzenia na rzecz Tylera..
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2006-08-27 21:14:42 +0000 +0000'>August 27, 2006</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;splatch</footer>
+  <a class="entry-link" aria-label="post link to Pożegnanie." href="https://blog.dywicki.pl/2006/08/27/pozegnanie/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://blog.dywicki.pl/category/framework/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
