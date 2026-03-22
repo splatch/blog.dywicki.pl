@@ -1,0 +1,53 @@
+baseURL: https://blog.dywicki.pl
+languageCode: en-US
+title: Splatch's devblog
+theme: PaperMod
+taxonomies:
+  category: category
+  tag: tag
+
+params:
+  description: Pragmatyzm kontrolowany
+  defaultTheme: auto
+  disableThemeToggle: false
+  showShareButtons: true
+  showReadingTime: true
+  showToc: false
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  ShowPostNavLinks: true
+  comments: true
+  hideFooter: true
+  assets:
+    favicon: /favicon.ico
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: feed
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Categories
+      url: category/
+      weight: 5
+    - name: Tags
+      url: tag/
+      weight: 5
+    - name: About me
+      url: /about-me
+    - name: O mnie
+      url: /o-mnie
